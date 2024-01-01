@@ -1,5 +1,5 @@
 <p align="center">
-  <a href="#"><img src="https://cdn.discordapp.com/attachments/1117616249984258109/1191061130303520859/web-logo.gif"></a>
+  <a href="#"><img src="https://cdn.discordapp.com/attachments/1117616249984258109/1191351722514321428/web-logo.png"></a>
 </p>
 
 ---
@@ -15,3 +15,17 @@
 
 ## ⚠ Disclaimer
 - **If you are a professional web developer, then please drop your valuable suggestion for me at : md.sabbiralmamon@gmail.com
+
+---
+## ✨ What I have Learned and did 1st January?
+- I have Learned basic HTML Tags today.
+- Then tried to make a HTML page using my knowledge that I had learned.
+- Here is the screenshot of today's complete project by clicking on the image you will redirect to my github upload:
+<p align="center">
+  <a href="https://github.com/mdsabbiralmamon/myJourneyFor2024/blob/main/Web_day1%20_html/travelBlog.html"><img src="https://cdn.discordapp.com/attachments/1117616249984258109/1191352030963433634/image.png"></a>
+  <a href="https://github.com/mdsabbiralmamon/myJourneyFor2024/blob/main/Web_day1%20_html/travelBlog.html"><img src="https://cdn.discordapp.com/attachments/1117616249984258109/1191352122969698444/image.png?"></a>
+  <a href="https://github.com/mdsabbiralmamon/myJourneyFor2024/blob/main/Web_day1%20_html/travelBlog.html"><img src="https://cdn.discordapp.com/attachments/1117616249984258109/1191352213809938473/image.png"></a>
+  <a href="https://github.com/mdsabbiralmamon/myJourneyFor2024/blob/main/Web_day1%20_html/travelBlog.html"><img src="https://cdn.discordapp.com/attachments/1117616249984258109/1191352278997811270/image.png"></a>
+</p>
+
+---
