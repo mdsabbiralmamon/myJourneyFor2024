@@ -1,0 +1,50 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+h2{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: 800;
+    color: darkslateblue;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 300px;
+    background-image: url(../images/coxs.jpg);
+    background-position-x: center;
+    background-position: center;
+}
+
+#img1{
+    width: 150px;
+    margin: 10px;
+}
+
+.articleWithImage{
+    background-color:aqua ;
+}
+
+#p2, #p3, #p4{
+    margin: 10px;
+    text-align: justify;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    color: blueviolet;
+}
+
+#p1{
+    background-image: url(../images/thumbnail.webp);
+    height: 300px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+header p{
+    background-image: url(../images/airplane.png);
+    height: 250px;
+}
+
+
+
