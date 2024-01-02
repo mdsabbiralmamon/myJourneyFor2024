@@ -83,5 +83,33 @@ nav a:hover{
     background: none;
     color: white;
     text-decoration: none;
-    
+}
+
+section h2{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    text-align: center;
+    padding: 20px;
+    color: aliceblue;
+}
+
+section span{
+    border: 10px solid rgb(133, 35, 133);
+    border-radius: 40px;
+    background-color: rgb(133, 35, 133);
+
+}
+
+.socialdiv{
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+}
+
+.socialinks{
+    text-align: center;
+    align-items: center;
+}
+
+.socialinks img{
+    height: 60px;
 }
