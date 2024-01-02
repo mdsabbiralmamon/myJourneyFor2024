@@ -1,0 +1,52 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+header{
+    height: 60px;
+    display: flex;
+    background-color: #817771;
+}
+
+header img{
+    height: 50px;
+}
+
+header h2{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 50px;
+    color: #d1d1d1;
+}
+
+.logo{
+    display: flex;
+    align-items: center;
+    gap: 15px;
+    padding: 5px;
+}
+
+nav{
+    height: 30px;
+    display: flex;
+    align-items: center;
+    background-color: #2c2b2a;
+}
+
+nav ul{
+    display: flex;
+    gap: 20px;
+    list-style: none;
+    padding: 5px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+nav a{
+    text-decoration: none;
+    color: #d1d1d1;
+    font-weight: bold;
+}
+
+nav a:hover{
+    color: aliceblue;
+}
