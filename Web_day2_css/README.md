@@ -2,7 +2,7 @@
 
 ### 🧨What is CSS?
 - Cascading style sheet. Used for styling html sites
-- change colo, position, add animations etc.
+- change color, position, add animations etc.
 
 ### 🧨rules for css:
 - selector, declaration, property, value etc... 
@@ -12,21 +12,21 @@
 - Internal css(embeded)
 - External CSS
 
-<h1>Module 2-2 Text CSS</h1>
-<h3>inline css:</h3>
-<p>tag + style= "rule: value;"</p> 
-<p><strong>problem of inline CSS:</strong></p>
-<ol>
-    <li>can't re-use</li>
-    <li></li>
-</ol>
-<p>for solving re-using problem embeded form of css introduced. inside `head` tag use `style` tag to embed the css file.</p>
-<h3>CSS Units:</h3>
-<ol>
-    <li>px</li>
-    <li>pt</li>
-    <li>pc....etc</li>
-</ol>
+## 👨‍🏫 Module 2-2 CSS Text: Text Color, Text Alignment,Text Decoration,Font Size, Font Family, Font-Style
+
+### 🧨inline css:
+- tag + style= "rule: value;"
+
+### 🧨problem of inline CSS:
+- can't re-use
+
+`for solving re-using problem embedded form of css introduced. inside `head` tag use `style` tag to embed the css file.`
+
+### 🧨CSS Units:
+- px
+- pt
+- pc....etc
+- See all units : <a href ="https://www.w3schools.com/cssref/css_units.php"> Learn more about CSS Units </a>
 
 <h1>Module 2-3 CSS Selectors (Basic)</h1>
 <h3>Css Selector:</h3>
