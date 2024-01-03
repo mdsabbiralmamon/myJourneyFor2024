@@ -28,16 +28,16 @@
 - pc....etc
 - See all units : <a href ="https://www.w3schools.com/cssref/css_units.php"> Learn more about CSS Units </a>
 
-<h1>Module 2-3 CSS Selectors (Basic)</h1>
-<h3>Css Selector:</h3>
-<ol>
-    <li>without any prefix selects tag/element</li>
-    <li>with `#` prefix selects `id` attribute example : id = "name"</li>
-    <li>with `.` prefix selects `class` attribute example : class = "name"</li>
-    <li>with `*` prefix selects `everything`</li>
-    <li>grouping selector : we can use multiple tag divided by comma for a group selection</li>
-    <li>attribute selector....</li>
-</ol>
+## 👨‍🏫 Module 2-3 CSS Selectors (Basic): Id, Class, Universal, Tags, Grouping, Attribute, Id Vs Class
+
+### 🧨Css Selector:
+- without any prefix selects tag/element
+- with `#` prefix selects `id` attribute example : id = "name"
+- with `.` prefix selects `class` attribute example : class = "name"
+- with `*` prefix selects `everything`
+- grouping selector : we can use multiple tag divided by comma for a group selection
+- attribute selector....
+
 
 <h1>Module 2-4 Mixed Selectors Multiple Classes, Combined Selectors, Attribute, Div, Span</h1>
 <h3>VS code short key for duplication same line `alt + shift + down arrow`</h3>
