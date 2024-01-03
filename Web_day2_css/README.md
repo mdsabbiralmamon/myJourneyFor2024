@@ -82,7 +82,7 @@ keeps all side same
 - width & Height
 
 
-## 👨‍🏫 Module 2-6 CSS Box Model Padding, Border, Content, Height, Width
+## 👨‍🏫 Module 2-7 CSS Display None, Hidden, Inline, Block, Inline-Block, Box-Shadow
 
 ### 🧨Linking external css.
 - create a file with the .css extension
@@ -99,17 +99,15 @@ keeps all side same
 - Height will not work
 
 
-<h1>2-8 CSS Background Color, Image, Repeat, Position, Size, Relative Image Path</h1>
-<h3>Background image:repeat & size</h3>
-<ol>
-    <li>repeat</li>
-    <li>repeat-x</li>
-    <li>repeat-y</li>
-    <li>cover : ratio stable</li>
-    <li>contain : </li>
-    <li>width & Height</li>
+## 👨‍🏫 Module 2-8 CSS Background Color, Image, Repeat, Position, Size, Relative Image Path
 
-</ol>
+### 🧨Background image:repeat & size
+- repeat 
+- repeat-x 
+- repeat-y 
+- cover : ratio stable 
+- contain :  
+- width & Height 
 
 <h1>2-9 CSS Overview Module Summary And Practice Task</h1>
 
