@@ -39,15 +39,16 @@
 - attribute selector....
 
 
-<h1>Module 2-4 Mixed Selectors Multiple Classes, Combined Selectors, Attribute, Div, Span</h1>
-<h3>VS code short key for duplication same line `alt + shift + down arrow`</h3>
-<ol>
-    <li>element/ tag selector no prefix</li>
-    <li>id selector prefix `#`</li>
-    <li>class selector prefix `.`</li>
-    <li>attribute selector tagName[type="attributeName"]</li>
-    <li>for selecting portion of items select with span with class then use class selector</li>
-</ol>
+## 👨‍🏫 Module 2-4 Mixed Selectors Multiple Classes, Combined Selectors, Attribute, Div, Span
+
+VS code short key for duplication same line `alt + shift + down arrow`
+
+### 🧨CSS Selectors:
+- element/ tag selector no prefix
+- id selector prefix `#`
+- class selector prefix `.`
+- attribute selector tagName[type="attributeName"]
+- for selecting portion of items select with span with class then use class selector
 
 
 <h1>2-5 CSS Borders Border, Border-Radius, Margin, Different Ways To Set Margin</h1>
