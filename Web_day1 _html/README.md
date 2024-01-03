@@ -48,19 +48,22 @@
 
 ---
 
-Module : 1-3>
-VS code’s sidebar hide unhide : Ctrl+b
-Extensions Install : 
->>Live Server
->>Code Spell Checker
-Learned Tags : 
->> Paragraph : Writing Paragraph <p></p>
->> Strong : Making something Important by making bold text <strong></strong>
->> Heading : 6 types maximum to minimum <h1></h1> <h2></h2> <h3></h3>... … …
->> Small : create comparatively small text : <small></small>
->> em : emphasized text : <em></em>
->> 
-Inline : keeps each element in the same line.
+## 👨‍🏫 Module 1-3 HTML Text: Headings, Small, And Inline Vs Block (Div, Span)
+
+`VS code’s sidebar hide unhide : Ctrl+b`
+
+### 🧨 Important Extensions Install : 
+- Live Server
+- Code Spell Checker
+
+### 🧨Learned Tags : 
+- Paragraph : Writing Paragraph `<p></p>`
+- Strong : Making something Important by making bold text `<strong></strong>`
+- Heading : 6 types maximum to minimum `<h1></h1> <h2></h2> <h3></h3> <h4></h4> <h5></h5> <h6></h6>`
+- Small : create comparatively small text : `<small></small>`
+- em : emphasized text : `<em></em>`
+
+`Inline : keeps each element in the same line.`
 
 Module : 1-4>
 Learned Tags : 
