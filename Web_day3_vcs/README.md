@@ -1,6 +1,6 @@
 ## ✨ Module 3-1 What Is Version Control System, Git Vs GitHub
 
-<h1>What is version control system?</h1>
+# What is version control system?
 <p>A version control system (VCS) is a software tool that helps manage changes to source code or any set of files. It allows multiple developers to work collaboratively on a project, keeping track of changes, and coordinating updates. The primary goals of version control are to:</p>
 <ol>
 <li>Track Changes: A VCS keeps a record of every change made to the code or files over time. This includes who made the change, when it was made, and what specific changes were implemented.</li>
@@ -14,7 +14,7 @@
 <li>Traceability: VCS provides a detailed history of changes, making it easier to understand how a project has evolved. This is useful for debugging, auditing, and tracking down issues.</li>
 </ol>
 
-<h2>There are two main types of version control systems:<h2>
+# There are two main types of version control systems:
 
 <ol>
 <li>Centralized Version Control Systems (CVCS): In a CVCS, there is a central server that stores the repository, and developers check out files from this central repository. Examples include CVS (Concurrent Versions System) and SVN (Apache Subversion).</li>
@@ -23,11 +23,11 @@
 
 <p>Git is one of the most widely used version control systems. It's a distributed system known for its speed, flexibility, and popularity in open-source projects.</p>
 
-<h1>Why version control system is needed?</h1>
+# Why version control system is needed?
 
 <p>collaboration, storing versions, re storing previous versions, backup, </p>
 
-<h1>What is GIT?</h1>
+# What is GIT?
 <p>Git is a distributed version control system (DVCS) widely used for tracking changes in source code during software development. It was created by Linus Torvalds in 2005 and has become the standard for version control in many development projects. Git is known for its speed, flexibility, and efficiency, making it a popular choice for both small and large-scale software projects.</p>
 
 <p>Key features and concepts of Git include:</p>
@@ -42,7 +42,7 @@
 
 <li>GitHub, GitLab, and Bitbucket: These are web-based platforms that host Git repositories and provide additional collaboration features. Developers often use these platforms to share code, collaborate, and manage issues and projects.</li>
 </ol>
-<h3>Git Commands:</h3>
+# Git Commands: 
 
 - git init: Initializes a new Git repository.
 - git clone: Creates a copy of a remote repository on the local machine.
@@ -52,15 +52,16 @@
 - git pull: Fetches changes from a remote repository and merges them into the local branch.
 - git merge: Combines changes from different branches.
 - git branch: Lists, creates, or deletes branches.
+
 <p>Git has become a fundamental tool in modern software development due to its efficiency, flexibility, and the collaborative workflows it supports. It is widely used in open-source projects and by development teams in various industries. </p>
 
-<h1>How git works:</h1>
+# How git works:
 
 <p align="center">
   <a href="#"><img src="https://cdn.discordapp.com/attachments/1117616249984258109/1191777016836522024/image.png"></a>
 </p>
 
-<h1>Git vs Github:</h1>
+# Git vs Github:
 
 <p align="center">
   <a href="#"><img src="https://cdn.discordapp.com/attachments/1117616249984258109/1191777781357482104/image.png"></a>
