@@ -101,8 +101,8 @@
 
 ### 🧨Learned Tags : 
 - Image Tags: 
-	=> Void Tags `<img></img>`
-	=> Self Closing Tags `<img/>`
+	- => Void Tags `<img></img>`
+	- => Self Closing Tags `<img/>`
 
 ---
 
