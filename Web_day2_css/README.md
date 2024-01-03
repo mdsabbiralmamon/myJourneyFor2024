@@ -109,39 +109,31 @@ keeps all side same
 - contain :  
 - width & Height 
 
-<h1>2-9 CSS Overview Module Summary And Practice Task</h1>
+## 👨‍🏫 Module 2-9 CSS Overview Module Summary And Practice Task
 
-<h3>Practice task 1:</h3>
-<ol>
-    <li>create a html file with 3 paragraph</li>
-    <li>use 3 different css styling in three different paragraph : inline, Internal and external</li>
-    <li></li>
-</ol>
-<h3>Practice task 2:</h3>
-<ol>
-    <li>design a webpage with heading, paragraph and list</li>
-    <li>apply the css styles to change the text color, text alignment, font size, font family, and font styles for different elements</li>
-</ol>
-<h3>Practice task 3:</h3>
-<ol>
-    <li>create a HTML page with various elements including heading, paragraph and divs</li>
-    <li>use id, class, universal selector.... to change the styles</li>
-</ol>
-<h3>Practice task 4:</h3>
-<ol>
-    <li>create a web page using multiple sections and divs</li>
-    <li>use background color, images, repeat, positions, and size for each sections</li>
-</ol>
-<h3>Practice task 5:</h3>
-<ol>
-    <li>create a web page using multiple divs, paragraphs and images</li>
-    <li>use color, border, width, box shadow, etc</li>
-</ol>
-<h3>Practice task 6:</h3>
-<ol>
-    <li>create a web page using multiple images, paragraphs,heading, buttons</li>
-    <li>use display property: none, hidden, inline, block and inline block </li>
-</ol>
+### 🧨Practice task 1:
+- create a html file with 3 paragraph.
+- use 3 different css styling in three different paragraph : inline, Internal and external.
+
+### 🧨Practice task 2:
+- design a webpage with heading, paragraph and list.
+- apply the css styles to change the text color, text alignment, font size, font family, and font styles for different elements.
+
+### 🧨Practice task 3:
+- create a HTML page with various elements including heading, paragraph and divs.
+- use id, class, universal selector.... to change the styles.
+
+### 🧨Practice task 4:
+- create a web page using multiple sections and divs.
+- use background color, images, repeat, positions, and size for each sections.
+
+- Practice task 5:</h3>
+- create a web page using multiple divs, paragraphs and images.
+- use color, border, width, box shadow, etc.
+
+### 🧨Practice task 6:
+- create a web page using multiple images, paragraphs,heading, buttons.
+- use display property: none, hidden, inline, block and inline block .
 
 ---
 
