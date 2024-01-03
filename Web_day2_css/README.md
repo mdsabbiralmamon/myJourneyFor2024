@@ -20,7 +20,7 @@
 ### 🧨problem of inline CSS:
 - can't re-use
 
-`for solving re-using problem embedded form of css introduced. inside `head` tag use `style` tag to embed the css file.`
+`for solving re-using problem embedded form of css introduced. inside <head> tag use <style> tag to embed the css file.`
 
 ### 🧨CSS Units:
 - px
