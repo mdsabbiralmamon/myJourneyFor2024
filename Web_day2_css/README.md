@@ -129,3 +129,14 @@
     <li>use display property: none, hidden, inline, block and inline block </li>
 </ol>
 
+---
+
+## ✨ What I have Learned and did 2nd January?
+- I have Learned basic CSS Tags today.
+- Then tried to make a HTML page using my knowledge that I had learned.
+- Here is the screenshot of today's complete project by clicking on the image you will redirect to my github upload:
+<p align="center">
+  <a href="https://github.com/mdsabbiralmamon/myJourneyFor2024/blob/main/Web_day2_css/practicepage.html"><img src="https://cdn.discordapp.com/attachments/1117616249984258109/1191802546424135811/image.png"></a>
+  <a href="https://github.com/mdsabbiralmamon/myJourneyFor2024/blob/main/Web_day2_css/practicepage.html"><img src="https://cdn.discordapp.com/attachments/1117616249984258109/1191802894056427580/image.png"></a>
+</p>
+

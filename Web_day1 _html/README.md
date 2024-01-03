@@ -1,12 +1,3 @@
-## 👨‍🏫 Module 1-0 [Precap] Roadmap Of Milestone-1
-
-### 🧨What I am trying to learn this year:
-- Module 1 : Learn and explore HTML
-- Module 2 : Explore CSS
-- Module 3 : Version Control System VCS (Git/Github)
-- Module 4 : Thinking...
-
----
 ## 👨‍🏫 Module 1-1 [HTML]: Explore VSCode And What Is HTML
 
 ### 🧨What is HTML?
@@ -169,3 +160,16 @@
 ### 🧨Practice task 6 :
 - Create `a link` to your favourite song you listened to while traveling using the `anchor tag` and add the `href` and `target` attributes to it. `Hint:` Copy link from youtube.
 - use `br` tag if necessary.
+
+---
+
+## ✨ What I have Learned and did 1st January?
+- I have Learned basic HTML Tags today.
+- Then tried to make a HTML page using my knowledge that I had learned.
+- Here is the screenshot of today's complete project by clicking on the image you will redirect to my github upload:
+<p align="center">
+  <a href="https://github.com/mdsabbiralmamon/myJourneyFor2024/blob/main/Web_day1%20_html/travelBlog.html"><img src="https://cdn.discordapp.com/attachments/1117616249984258109/1191352030963433634/image.png"></a>
+  <a href="https://github.com/mdsabbiralmamon/myJourneyFor2024/blob/main/Web_day1%20_html/travelBlog.html"><img src="https://cdn.discordapp.com/attachments/1117616249984258109/1191352122969698444/image.png?"></a>
+  <a href="https://github.com/mdsabbiralmamon/myJourneyFor2024/blob/main/Web_day1%20_html/travelBlog.html"><img src="https://cdn.discordapp.com/attachments/1117616249984258109/1191352213809938473/image.png"></a>
+  <a href="https://github.com/mdsabbiralmamon/myJourneyFor2024/blob/main/Web_day1%20_html/travelBlog.html"><img src="https://cdn.discordapp.com/attachments/1117616249984258109/1191352278997811270/image.png"></a>
+</p>
