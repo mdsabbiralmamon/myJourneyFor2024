@@ -106,16 +106,18 @@
 
 ---
 
-Module : 1-7>
-Learned Tags : 
->> Input Tag <input>
->> Select Tag : 
-	<select>
+## 👨‍🏫 Module 1-7 HTML Form: Input Types, Buttons, Select, Option, Login Form
+
+### 🧨Learned Tags : 
+- Form Tag : `<form>`
+- Input Tag : `<input>`
+- Select Tag : 
+	`<select>
 		<option value =””></option>
 		<option value =””></option>
-	</select>
->> Form Tag <form></form>
->> 
+	</select>`
+
+---
 
 Module : 1-8>
 Html Structure : 
