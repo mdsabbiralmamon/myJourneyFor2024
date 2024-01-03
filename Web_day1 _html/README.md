@@ -111,45 +111,35 @@
 ### 🧨Learned Tags : 
 - Form Tag : `<form>`
 - Input Tag : `<input>`
-- Select Tag : 
-	`<select>
-		<option value =””></option>
-		<option value =””></option>
-	</select>`
+- Select Tag : `<select>`
 
 ---
 
-Module : 1-8>
-Html Structure : 
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-</head>
-<body>
-   
-</body>
-</html>
-Learned tags :
->> Html : <html></html>
->> Head : <head></head>
->> Title : <title></title>
->> Fav Icon :  <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
->> Footer Tag : <footer> </footer>
+## 👨‍🏫 Module 1-8 HTML Structure: Doctype, Html, Head, Meta, Title, Body
+
+### 🧨Html Structure : 
+- See : <a href="https://www.w3schools.com/html/html_basic.asp"> HTML Structure </a>
+
+### 🧨Learned Tags : 
+- Html : `<html></html>`
+- Head : `<head></head>`
+- Title : `<title></title>`
+- Fav Icon :  `<link rel="shortcut icon" href="favicon.ico" type="image/x-icon">`
+- Footer Tag : `<footer> </footer>`
+
+---
 
 Module : 1-9>
 What is Html?
 HTML Structure.
 HTML Structure Definitions : 
->>Doctype : Inform Browser about document type and version
->>HTML : Container for all html elements except doctype
->>HEAD : Container for metadata stays in the middle of <html> and <body>
->>META : Defines metadata, metadata contains information of a document
->>TITLE : Defines title of a document
->>BODY : Contains all the contents of a html page
->>COMMENT : Not processed by browser used for understanding for a developer
+-Doctype : Inform Browser about document type and version
+-HTML : Container for all html elements except doctype
+-HEAD : Container for metadata stays in the middle of <html> and <body>
+-META : Defines metadata, metadata contains information of a document
+-TITLE : Defines title of a document
+-BODY : Contains all the contents of a html page
+-COMMENT : Not processed by browser used for understanding for a developer
 Block VS inline elements  
 
 -->
