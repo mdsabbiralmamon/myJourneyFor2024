@@ -60,21 +60,27 @@ VS code short key for duplication same line `alt + shift + down arrow`
 ### 🧨Margin:....
 
 
-<h1>2-6 CSS Box Model Padding, Border, Content, Height, Width</h1>
-<h3> Margin:</h3>
-<p> margin stays outside</p>
-<h3> Padding:</h3>
-<p> padding stays inside</p>
-<h3>Text align justify</h3>
-<p>keeps all side same</p>
-<h3>CSS box model:</h3>
-<ol>
-    <li>Content</li>
-    <li>border</li>
-    <li>margin</li>
-    <li>padding</li>
-    <li>width & Height</li>
-</ol>
+## 👨‍🏫 Module 2-6 CSS Box Model Padding, Border, Content, Height, Width
+
+### 🧨Margin:
+
+margin stays outside
+
+### 🧨Padding:
+
+padding stays inside
+
+### 🧨Text align justify:
+
+keeps all side same
+
+### 🧨CSS box model:
+- Content
+- border
+- margin
+- padding
+- width & Height
+
 
 <h1>2-7 CSS Display None, Hidden, Inline, Block, Inline-Block, Box-Shadow</h1>
 <h3>Linking external css.</h3>
