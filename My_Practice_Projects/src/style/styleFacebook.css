@@ -1,0 +1,25 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.body{
+    border: 2px solid red;
+    height: 280px;
+}
+
+.leftSection{
+    border: 2px solid brown;
+}
+
+.leftLogo{
+    border: 2px solid blue;
+}
+
+.leftLogo img{
+    height: 120px;
+}
+
+.rightSection{
+    border: 2px solid pink;
+}
