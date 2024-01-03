@@ -65,15 +65,19 @@
 
 `Inline : keeps each element in the same line.`
 
-Module : 1-4>
-Learned Tags : 
-*>> List Item <li></li>
->> Unordered List (Container Tag) <ul> </ul>
->> Ordered List <ol></ol>
->> Division Tag (Container Tag) <div></div>
->> Line Break <br>
->> Button Tag <button></button>
-Nested Tag : using multiple tags inside other tags
+---
+
+## 👨‍🏫 Module 1-4 HTML List: Container Tag, List Tags (Ol, Ul, Li), Line Break, Button
+
+### 🧨Learned Tags : 
+- List Item `<li></li>`
+- Unordered List (Container Tag) `<ul> </ul>`
+- Ordered List `<ol></ol>`
+- Division Tag (Container Tag) `<div></div>`
+- Line Break `<br>`
+- Button Tag `<button></button>`
+
+`Nested Tag : using multiple tags inside other tags`
 
 Module : 1-5>
 HyperText : Links> creating links with pages texts … … …
