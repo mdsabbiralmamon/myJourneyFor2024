@@ -1,12 +1,16 @@
-<h1>Module 2-1 CSS intro</h1>
-<h3>What is CSS?</h3>
-<p>Cascading style sheet. Used for styling html sites</p>
-<h3>What can css do?</h3>
-<p>change colo, position, add animations etc.</p>
-<h3>rules for css:</h3>
-<p>selector, declaration, property, value etc... </p>
-<h3>Types of CSS</h3>
-<p>Inline css, Internal css(embeded), External CSS</p>
+## 👨‍🏫 Module 2-1 Introduction To CSS And CSS Types (Inline, Internal, External)
+
+### 🧨What is CSS?
+- Cascading style sheet. Used for styling html sites
+- change colo, position, add animations etc.
+
+### 🧨rules for css:
+- selector, declaration, property, value etc... 
+
+### 🧨Types of CSS
+- Inline css
+- Internal css(embeded)
+- External CSS
 
 <h1>Module 2-2 Text CSS</h1>
 <h3>inline css:</h3>
