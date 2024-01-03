@@ -82,19 +82,21 @@ keeps all side same
 - width & Height
 
 
-<h1>2-7 CSS Display None, Hidden, Inline, Block, Inline-Block, Box-Shadow</h1>
-<h3>Linking external css.</h3>
-<ol>
-    <li>create a file with the .css extension</li>
-    <li>inside `head` tag use `link rel="stylesheet" href="style.css"`</li>
-</ol>
-<h3>Display None & Visibility Hidden:</h3>
-<ol>
-    <li>display None: removes all traces</li>
-    <li>Visibility none : just make invisible but makes gap</li>
-</ol>
-<h3>Display block : Height will work</h3>
-<h3>Display flex : Height will not work</h3>
+## 👨‍🏫 Module 2-6 CSS Box Model Padding, Border, Content, Height, Width
+
+### 🧨Linking external css.
+- create a file with the .css extension
+- inside `head` tag use `link rel="stylesheet" href="style.css"`
+
+### 🧨Display None & Visibility Hidden:
+- display None: removes all traces
+- Visibility none : just make invisible but makes gap
+
+### 🧨Display block : 
+- Height will work
+
+### 🧨Display flex : 
+- Height will not work
 
 
 <h1>2-8 CSS Background Color, Image, Repeat, Position, Size, Relative Image Path</h1>
