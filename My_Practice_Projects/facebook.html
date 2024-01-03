@@ -11,21 +11,29 @@
     <section class="body">
         <div class="leftSection">
             <div class="leftLogo">
-                <img src="../My_Practice_Projects/src/images/facebook_logo.svg" alt="">
-                <p>Facebook helps you connect and share with the people in your life.</p>
+                <div class="logoPlaceholder">
+                    <img src="../My_Practice_Projects/src/images/facebook_logo.svg" alt="">
+                    <p>Facebook helps you connect and <br> share with the people in your life.</p>
+                </div>
             </div>
         </div>
         <div class="rightSection">
-            <form action="" class="signIn">
-                <input type="text" placeholder="Email address or phone number">
-                <input type="text" placeholder="Password">
-                <button>Log in</button>
-                <p>Forgotten password?</p>
-                <hr>
-                <button>Create new account</button>
-            </form>
-            <div class="formDownText">
-                <p><a href="#">Create a Page</a> for a celebrity, brand or business.</p>
+            <div class="formSignIn">
+                <form action="" class="signIn">
+                    <input type="text" placeholder="Email address or phone number">
+                    <br>
+                    <input type="text" placeholder="Password">
+                    <br>
+                    <button id="loginButton">Log in</button>
+                    <p id="forgotPass"><a href="#">Forgotten password?</a></p>
+                    <div class="hrContainer">
+                        <hr>
+                    </div>
+                    <button id="newAccount">Create new account</button>
+                </form>
+                <div class="formDownText">
+                    <p><a href="#">Create a Page</a> for a celebrity, brand or business.</p>
+                </div>
             </div>
         </div>
     </section>
