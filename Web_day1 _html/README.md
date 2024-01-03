@@ -4,6 +4,7 @@
 - Module 1 : Learn and explore HTML
 - Module 2 : Explore CSS
 - Module 3 : Version Control System VCS (Git/Github)
+- Module 4 : Thinking...
 
 ---
 ## 👨‍🏫 Module 1-1 [HTML]: Explore VSCode And What Is HTML
@@ -79,20 +80,32 @@
 
 `Nested Tag : using multiple tags inside other tags`
 
-Module : 1-5>
-HyperText : Links> creating links with pages texts … … …
-Learned Tags : 
->> Anchor Tag <a href=”#”></a>
->> 
-Attribute
+---
 
-Module : 1-6>
-Website is a combination of text and images
-Learned Tags:
->> Image Tags
-	>>Void Tags <img></img>
-	>>Self Closing Tags <img/>
->>
+## 👨‍🏫 Module 1-5 HTML Link: Creating Links With The Anchor Tag And Its Attributes (Href, Target)
+
+`HyperText : Links> creating links with pages texts … … …`
+
+### 🧨Learned Tags : 
+- Anchor Tag `<a href=”#”></a>`
+
+### 🧨Need to know :
+
+`Attribute` : An attribute in HTML provides additional information about an HTML element and is always included in the opening tag. Attributes are made up of a name and a value, separated by an equals sign (=), and the entire attribute is enclosed in double or single quotes.
+
+---
+
+## 👨‍🏫 Module 1-6 HTML Image: Display Online Image, Local Image, Folder Image
+
+`Website is a combination of text and images`
+
+### 🧨Learned Tags : 
+- Image Tags: 
+	=> Void Tags `<img></img>`
+	=> Self Closing Tags `<img/>`
+
+---
+
 Module : 1-7>
 Learned Tags : 
 >> Input Tag <input>
