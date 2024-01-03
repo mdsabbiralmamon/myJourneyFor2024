@@ -1,6 +1,6 @@
 ## 👨‍🏫 Module 1-0 [Precap] Roadmap Of Milestone-1
 
->> What I am trying to learn this year:
+### 🧨What I am trying to learn this year:
 - Module 1 : Learn and explore HTML
 - Module 2 : Explore CSS
 - Module 3 : Version Control System VCS (Git/Github)
@@ -8,17 +8,17 @@
 ---
 ## 👨‍🏫 Module 1-1 [HTML]: Explore VSCode And What Is HTML
 
->> What is HTML?
+### 🧨What is HTML?
 - Hyper Text Markup Language : Used for web development.
 
->> Essential Downloads:
+### 🧨Essential Downloads:
 - VS Code
 - Node
 - Git
 
->> Start Learning:
+### 🧨Start Learning:
 
-> Create a folder and open with VS code:
+#### Create a folder and open with VS code:
 - Create a folder with desired name
 - Open VS code
 - Click file from top left corner of VS code
