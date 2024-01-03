@@ -51,10 +51,13 @@ VS code short key for duplication same line `alt + shift + down arrow`
 - for selecting portion of items select with span with class then use class selector
 
 
-<h1>2-5 CSS Borders Border, Border-Radius, Margin, Different Ways To Set Margin</h1>
-<h3>Commenting css `forward slash with star then ending will be star with forward slash such as /* comment */`</h3>
-<h2>Border:....</h2>
-<h2>Margin:....</h2>
+## 👨‍🏫 Module 2-5 CSS Borders Border, Border-Radius, Margin, Different Ways To Set Margin
+
+`Commenting css : forward slash with star then ending will be star with forward slash such as /* comment */`
+
+### 🧨Border:....
+
+### 🧨Margin:....
 
 
 <h1>2-6 CSS Box Model Padding, Border, Content, Height, Width</h1>
