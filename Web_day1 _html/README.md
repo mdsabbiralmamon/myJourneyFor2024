@@ -28,12 +28,25 @@
 
 ---
 
-## 👨‍🏫 Module 1-1 [HTML]: Explore VSCode And What Is HTML
+## 👨‍🏫 Module 1-2 HTML Text: Creating Paragraphs, Text Formatting (B,I, Strong, Em)
 
->> All tags:
+### 🧨Creating Paragraphs and formatting:
+- See : <a href="https://www.w3schools.com/html/html_paragraphs.asp"> Paragraphs and formatting </a>
+
+### 🧨All tags:
 - See : <a href="https://www.w3schools.com/tags/ref_byfunc.asp"> HTML Tags by Category </a>
-strong,em > meaningful > Semantic Tags
-(b)old, (i)talic > no meaning
+
+### 🧨Need to know:
+
+#### <b> & <strong> : 
+- <b> (Bold): The <b> tag is used to apply bold formatting to text. However, it does not carry any specific semantic meaning. It is purely presentational, and its use is typically discouraged in favor of more semantically meaningful tags like <strong>. 
+- <strong> (Strong Importance): The <strong> tag, on the other hand, is used to indicate that the enclosed text has strong importance or significance. It is a semantic tag, and browsers typically render the text as bold. The use of <strong> is recommended when you want to convey importance rather than just applying bold styling.
+
+#### - <i> & <em> : 
+- In HTML, the <em> (emphasis) tag is used to define emphasized text, and it is typically rendered as italicized text by browsers. However, it's important to note that the <em> tag is semantic, meaning it indicates the importance or emphasis of the enclosed text rather than specifying its presentation. 
+- On the other hand, you can also use the <i> (italic) tag to explicitly define text that should be italicized. Unlike <em>, <i> is presentational and doesn't carry the same semantic meaning.
+
+---
 
 Module : 1-3>
 VS code’s sidebar hide unhide : Ctrl+b
