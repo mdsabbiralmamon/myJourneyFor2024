@@ -286,3 +286,23 @@ By using these semantic tags, you can create well-structured HTML documents that
 #### 🎃hover:
 
 ---
+
+## ✨ 4-7 Explore HTML Tags All The Html Tags You Need To Know
+
+### 🧨Practice HTML 5 tags:
+
+See this : <a href="https://www.tutorialrepublic.com/html-reference/html5-tags.php"> Important HTML 5 tags </a>
+
+#### 🎃Form:
+
+#### 🎃Input:
+
+#### 🎃Table:
+
+#### 🎃Label:
+
+#### 🎃Textarea:
+
+#### 🎃Select:
+
+---
