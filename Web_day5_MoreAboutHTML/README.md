@@ -203,3 +203,14 @@ By using these semantic tags, you can create well-structured HTML documents that
 
 ### 🧨Practice HTML 5 tags:
 
+#### 🎃Section:
+
+#### 🎃Form:
+
+#### 🎃Label:
+
+#### 🎃Fieldset:
+
+#### 🎃Legend:
+
+---
