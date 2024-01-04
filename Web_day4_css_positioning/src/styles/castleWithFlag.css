@@ -5,10 +5,19 @@
 }
 
 .baseCastle{
-    width: 100vh;
+    width: 100%;
     height: 30px;
     background-color: darkgrey;
     position: relative;
     top: 800px;
 }
 
+.mainSquare{
+    width: 500px;
+    height: 500px;
+    background-color: darkgrey;
+    position: absolute;
+    left: 50%;
+    bottom: 50%;
+    transform: translate(-50%);
+}
