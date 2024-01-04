@@ -318,3 +318,13 @@ See this : <a href="https://www.w3schools.com/tags/ref_attributes.asp"> Importan
 See this : <a href="https://docs.emmet.io/cheat-sheet/"> Emmet cheat sheet </a>
 
 ---
+
+## ✨ Module 4-9 HTML Overview Summary, Practice Task
+
+### 🧨Practice Tasks:
+
+<p align="center">
+  <a href="#"><img src="https://cdn.discordapp.com/attachments/1117616249984258109/1192473605011951646/image.png"></a>
+  <a href="#"><img src="https://cdn.discordapp.com/attachments/1117616249984258109/1192474320316936352/image.png"></a>
+  <a href="#"><img src="https://cdn.discordapp.com/attachments/1117616249984258109/1192474643706163250/image.png"></a>
+</p>
