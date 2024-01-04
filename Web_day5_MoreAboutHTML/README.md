@@ -270,3 +270,19 @@ By using these semantic tags, you can create well-structured HTML documents that
 #### 🎃nav li:hover
 
 ---
+
+## ✨ 4-6 (Optional) Nested Mega Menu Dropdown Option On Mouseover
+
+### 🧨Practice HTML 5 tags:
+
+#### 🎃nav
+
+#### 🎃nested nav
+
+### 🧨Practice CSS3 Attributes:
+
+`parent > child` : Immediate child of parent
+
+#### 🎃hover:
+
+---
