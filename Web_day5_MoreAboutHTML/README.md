@@ -214,3 +214,33 @@ By using these semantic tags, you can create well-structured HTML documents that
 #### 🎃Legend:
 
 ---
+
+## ✨ 4-4 HTML Table Table, Tr, Th, Td, Caption, Colspan, Thead, Tbody, Tfoot
+
+### 🧨Practice HTML 5 tags:
+
+#### 🎃Table:
+
+#### 🎃THead:
+
+#### 🎃TBody:
+
+#### 🎃TFoot:
+
+#### 🎃TH:
+
+#### 🎃TR:
+
+#### 🎃TD:
+
+#### 🎃colspan(attribute):
+
+#### 🎃Caption:
+
+### 🧨Practice CSS3 Attributes:
+
+#### 🎃Border Collapse:
+
+#### 🎃Border:
+
+---
