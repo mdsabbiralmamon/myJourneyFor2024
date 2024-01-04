@@ -23,21 +23,51 @@
 }
 
 .minarLeft{
-    width: 90px;
-    height: 500px;
-    background-color: darkgrey;
-    position: absolute;
-    left: 10%;
-    bottom: 50%;
-    transform: translate(-50%);
-}
-
-.minarRight{
-    width: 90px;
-    height: 500px;
+    width: 200px;
+    height: 400px;
     background-color: darkgrey;
     position: absolute;
     left: 90%;
     bottom: 50%;
     transform: translate(-50%);
 }
+
+.minarLeftDome{
+    width: 200px;
+    height: 200px;
+    background-color: darkgrey;
+    position: absolute;
+    bottom: 75%;
+    border-radius: 100%;
+}
+
+.minarRight{
+    width: 200px;
+    height: 400px;
+    background-color: darkgrey;
+    position: absolute;
+    right: 80%;
+    bottom: 50%;
+    transform: translate(-50%);
+}
+
+.minarRightDome{
+    width: 200px;
+    height: 200px;
+    background-color: darkgrey;
+    position: absolute;
+    bottom: 75%;
+    border-radius: 100%;
+}
+
+.mainDome{
+    width: 500px;
+    height: 500px;
+    background-color: darkgrey;
+    position: absolute;
+    left: 50%;
+    bottom: 50%;
+    transform: translate(-50%, -50%);
+    border-radius: 100%;
+}
+
