@@ -1,0 +1,14 @@
+*{
+    margin: 0;
+    padding: 0;
+    background-color: antiquewhite;
+}
+
+.baseCastle{
+    width: 100vh;
+    height: 30px;
+    background-color: darkgrey;
+    position: relative;
+    top: 800px;
+}
+
