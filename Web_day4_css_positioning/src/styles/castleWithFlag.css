@@ -21,3 +21,23 @@
     bottom: 50%;
     transform: translate(-50%);
 }
+
+.minarLeft{
+    width: 90px;
+    height: 500px;
+    background-color: darkgrey;
+    position: absolute;
+    left: 10%;
+    bottom: 50%;
+    transform: translate(-50%);
+}
+
+.minarRight{
+    width: 90px;
+    height: 500px;
+    background-color: darkgrey;
+    position: absolute;
+    left: 90%;
+    bottom: 50%;
+    transform: translate(-50%);
+}
