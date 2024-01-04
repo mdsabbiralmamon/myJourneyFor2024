@@ -244,3 +244,29 @@ By using these semantic tags, you can create well-structured HTML documents that
 #### 🎃Border:
 
 ---
+
+## ✨ 4-5 Navigation Simple Navbar And Internal Navigation Among Files
+
+### 🧨Practice HTML 5 tags:
+
+#### 🎃Header:
+
+#### 🎃Nav:
+
+#### 🎃Ul:
+
+#### 🎃Li:
+
+### 🧨Practice CSS3 Attributes:
+
+#### 🎃Display:flex
+
+#### 🎃List-Style: none
+
+#### 🎃Margin
+
+#### 🎃text-decoration:none
+
+#### 🎃nav li:hover
+
+---
