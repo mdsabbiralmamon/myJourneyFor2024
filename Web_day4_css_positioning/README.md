@@ -42,3 +42,10 @@ Understanding and using CSS positioning is crucial for creating complex layouts,
 - if i do changes with margin it can be shown different based on different screen size.
 - but using CSS positioning we can make responsive design it will show the same way we designed if the user views it in a large or small display.
 
+## ✨ What I have Learned and did 4th January?
+- I have Learned CSS Positioning Basics today.
+- Then tried to make a flag of bangladesh with css positioning tags that I had learned.
+- Here is the screenshot of today's complete project by clicking on the image you will redirect to my github upload:
+<p align="center">
+  <a href="https://github.com/mdsabbiralmamon/myJourneyFor2024/blob/main/Web_day4_css_positioning/README.md"><img src="https://cdn.discordapp.com/attachments/1117616249984258109/1192367919519244409/image.png"></a>
+</p>
