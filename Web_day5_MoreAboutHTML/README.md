@@ -199,7 +199,7 @@ By using these semantic tags, you can create well-structured HTML documents that
 
 ---
 
-## ✨ 4-3 HTML Form Label Fieldset Legend Radio Checkbox Textarea Reset Submit
+## ✨ Module 4-3 HTML Form Label Fieldset Legend Radio Checkbox Textarea Reset Submit
 
 ### 🧨Practice HTML 5 tags:
 
@@ -215,7 +215,7 @@ By using these semantic tags, you can create well-structured HTML documents that
 
 ---
 
-## ✨ 4-4 HTML Table Table, Tr, Th, Td, Caption, Colspan, Thead, Tbody, Tfoot
+## ✨ Module 4-4 HTML Table Table, Tr, Th, Td, Caption, Colspan, Thead, Tbody, Tfoot
 
 ### 🧨Practice HTML 5 tags:
 
@@ -245,7 +245,7 @@ By using these semantic tags, you can create well-structured HTML documents that
 
 ---
 
-## ✨ 4-5 Navigation Simple Navbar And Internal Navigation Among Files
+## ✨ Module 4-5 Navigation Simple Navbar And Internal Navigation Among Files
 
 ### 🧨Practice HTML 5 tags:
 
@@ -271,7 +271,7 @@ By using these semantic tags, you can create well-structured HTML documents that
 
 ---
 
-## ✨ 4-6 (Optional) Nested Mega Menu Dropdown Option On Mouseover
+## ✨ Module 4-6 (Optional) Nested Mega Menu Dropdown Option On Mouseover
 
 ### 🧨Practice HTML 5 tags:
 
@@ -287,7 +287,7 @@ By using these semantic tags, you can create well-structured HTML documents that
 
 ---
 
-## ✨ 4-7 Explore HTML Tags All The Html Tags You Need To Know
+## ✨ Module 4-7 Explore HTML Tags All The Html Tags You Need To Know
 
 ### 🧨Practice HTML 5 tags:
 
@@ -304,5 +304,17 @@ See this : <a href="https://www.tutorialrepublic.com/html-reference/html5-tags.p
 #### 🎃Textarea:
 
 #### 🎃Select:
+
+---
+
+## ✨ Module 4-8 Explore HTML Attributes All The Html Attributes And Emmet Cheatsheet
+
+### 🧨Practice HTML 5 Attributes:
+
+See this : <a href="https://www.w3schools.com/tags/ref_attributes.asp"> Important HTML 5 Attributes </a>
+
+### 🧨Emmet cheat sheet:
+
+See this : <a href="https://docs.emmet.io/cheat-sheet/"> Emmet cheat sheet </a>
 
 ---
