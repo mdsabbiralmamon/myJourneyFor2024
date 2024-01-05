@@ -64,3 +64,14 @@ Before starting any project we need to create a github repo then connect with ou
 - 
 
 ---
+
+## ✨Module 5-4 Simple Image Background, And About Section
+
+### 🧨Learned HTML Tags:
+- 
+
+### 🧨Learned CSS Tags:
+- maximum-width: Xpx
+- margin: auto;
+
+---
