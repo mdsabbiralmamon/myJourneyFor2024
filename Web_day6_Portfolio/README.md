@@ -19,3 +19,21 @@ Before starting any project we need to create a github repo then connect with ou
 -- git push -u origin main
 
 ---
+
+## ✨5-2 Set Google Fonts And Set Navbar And Primary Color
+
+### 🧨Learned HTML Tags:
+- nav
+- ul
+- li
+- button
+
+### 🧨Learned CSS Tags:
+
+#### 🎇Navigation related css:
+- list flexing
+- font family [importing google fonts]
+
+`VS CODE Text Formatting short key : alt+shift+f`
+
+---
