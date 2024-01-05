@@ -344,10 +344,18 @@ See this : <a href="https://docs.emmet.io/cheat-sheet/"> Emmet cheat sheet </a>
 
 ---
 
-### 🧨Practice Task2 :
+### 🧨Practice Task 2 :
 
 <p align="center">
   <a href="https://github.com/mdsabbiralmamon/myJourneyFor2024/blob/main/Web_day5_MoreAboutHTML/task2.html"><img src="https://cdn.discordapp.com/attachments/1117616249984258109/1192763580571988028/image.png"></a>
+</p>
+
+---
+
+### 🧨Practice Task 3 :
+
+<p align="center">
+  <a href="https://github.com/mdsabbiralmamon/myJourneyFor2024/blob/main/Web_day5_MoreAboutHTML/task3.html"><img src="https://cdn.discordapp.com/attachments/1117616249984258109/1192770806208532530/image.png"></a>
 </p>
 
 ---
