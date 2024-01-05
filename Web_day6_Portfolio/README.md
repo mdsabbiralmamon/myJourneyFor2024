@@ -1,4 +1,4 @@
-## ✨5-1 Module Introduction, Project Overview And Git Setup
+## ✨Module 5-1 Module Introduction, Project Overview And Git Setup
 
 ### 🧨Git setup locally and remotely:
 
@@ -20,7 +20,7 @@ Before starting any project we need to create a github repo then connect with ou
 
 ---
 
-## ✨5-2 Set Google Fonts And Set Navbar And Primary Color
+## ✨Module 5-2 Set Google Fonts And Set Navbar And Primary Color
 
 ### 🧨Learned HTML Tags:
 - nav
@@ -35,5 +35,14 @@ Before starting any project we need to create a github repo then connect with ou
 - font family [importing google fonts]
 
 `VS CODE Text Formatting short key : alt+shift+f`
+
+---
+
+## ✨Module 5-3 Banner Content And Portfolio Image Using Flex
+
+### 🧨Learned HTML Tags:
+
+
+### 🧨Learned CSS Tags:
 
 ---
