@@ -328,3 +328,18 @@ See this : <a href="https://docs.emmet.io/cheat-sheet/"> Emmet cheat sheet </a>
   <a href="#"><img src="https://cdn.discordapp.com/attachments/1117616249984258109/1192474320316936352/image.png"></a>
   <a href="#"><img src="https://cdn.discordapp.com/attachments/1117616249984258109/1192474643706163250/image.png"></a>
 </p>
+
+---
+
+## ✨ What I have Learned and did 5th January?
+- I have Learned HTML 5 Tags today.
+- Then tried to Solve this tasks with what I had learned.
+- Here is the screenshot of today's completed tasks by clicking on the image you will redirect to my github upload:
+
+### 🧨Practice Task1 :
+
+<p align="center">
+  <a href="https://github.com/mdsabbiralmamon/myJourneyFor2024/blob/main/Web_day5_MoreAboutHTML/task1.html"><img src="https://cdn.discordapp.com/attachments/1117616249984258109/1192706426892726283/image.png"></a>
+</p>
+
+---
