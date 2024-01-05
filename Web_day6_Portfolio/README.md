@@ -152,3 +152,15 @@ It may take a few minutes for changes to be reflected after you push new updates
 - see <a href="https://fontawesome.com/docs"> documentation </a>
 
 ---
+
+## ✨Module 5-10 Practice Task New Year New Me
+
+### 🧨Practice Tasks:
+
+#### 🎆Practice Tasks 1:
+- clone and design : https://github.com/ProgrammingHero1/developer-portfolio.git
+
+#### 🎆Practice Tasks 2:
+- clone and design : https://github.com/ProgrammingHero1/new-year-new-me.git
+
+---
