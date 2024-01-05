@@ -41,8 +41,13 @@ Before starting any project we need to create a github repo then connect with ou
 ## ✨Module 5-3 Banner Content And Portfolio Image Using Flex
 
 ### 🧨Learned HTML Tags:
-
+- header
+- 
 
 ### 🧨Learned CSS Tags:
+- justify content
+- flex
+- align items
+- background color
 
 ---
