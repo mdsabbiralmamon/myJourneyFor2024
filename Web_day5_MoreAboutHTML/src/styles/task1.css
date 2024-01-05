@@ -32,6 +32,10 @@ main{
     margin: 10px 0px;
 }
 
+#facebookForm{
+    margin-bottom: 10px;
+}
+
 #facebookForm label{
     display: block;
 }
