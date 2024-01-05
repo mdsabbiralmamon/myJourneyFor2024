@@ -75,3 +75,12 @@ Before starting any project we need to create a github repo then connect with ou
 - margin: auto;
 
 ---
+
+## ✨Module 5-6 Technical Skills, Flex Gap And How To Apply Flex
+
+### 🧨Learned HTML Tags:
+- 
+
+### 🧨Learned CSS Tags:
+- 
+---
