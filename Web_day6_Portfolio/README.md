@@ -138,3 +138,17 @@ It may take a few minutes for changes to be reflected after you push new updates
 
 ---
 
+## ✨Module 5-9 Module Summary And Font Awesome
+
+### 🧨Learned HTML Tags:
+- 
+
+### 🧨Learned CSS Tags:
+- background-image: url(''), url('');
+- background-repeat: no-repeat;
+- background-position: bottom right, top left;
+
+### 🧨font awesome implementation:
+- see <a href="https://fontawesome.com/docs"> documentation </a>
+
+---
