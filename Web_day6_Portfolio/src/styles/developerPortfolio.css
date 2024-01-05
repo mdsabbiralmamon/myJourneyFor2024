@@ -14,14 +14,16 @@
     color: #FFF;
     background-color: #FD6E0A;
     border: 0;
-    height: 64px;
+    height: 60px;
+    font-size: 25px;
     border-radius: 5px;
 }
 
 /* Header CSS */
 
 header{
-    border: 2px solid red;
+    background-color: #FFF8F3;
+    padding-top: 50px;
 }
 
 header h2{
@@ -35,7 +37,7 @@ nav{
     justify-content: space-between;
     align-items: center;
     max-width: 1440px;
-    margin: auto;
+    margin: 0px auto;
 }
 
 nav ul{
@@ -55,4 +57,60 @@ nav li a{
 nav li button{
     width: 150px;
     font-size: 20px;
+}
+
+/* Hero Section CSS */
+
+.hero{
+    background-image: url(../images/developer.png);
+    background-repeat: no-repeat;
+    background-position: bottom left;
+    background-size: 80px;
+    background-position-x: 20px;
+    background-position-y: -5px;
+}
+
+.heroContent{
+    display: flex;
+    align-items: center;
+    background-image: url(../images/header_bg.png);
+    background-repeat: no-repeat;
+    background-position: bottom right;
+    justify-content: space-between;
+    max-width: 1680px;
+    margin-left: auto;
+}
+
+.hero img{
+    height: 670px;
+    position: bottom right;
+}
+
+.leftSection h3{
+    font-size: 30px;
+    color: #474747;
+    margin-bottom: 20px;
+}
+
+.leftSection h2{
+    font-size: 60px;
+    color: #181818;
+    margin-bottom: 20px;
+}
+
+.leftSection p{
+    font-size: small;
+    margin-bottom: 20px;
+}
+
+.leftSection .DownloadCV {
+    width: 200px;
+
+}
+
+.leftSection .Contact {
+    width: 160px;
+    background-color: transparent;
+    border: 1px solid #FD6E0A;
+    color: #FD6E0A;
 }
