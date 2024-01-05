@@ -4,6 +4,42 @@
 }
 
 main{
-    border: 2px solid red;
     height: auto;
+    padding: 25px 0px 0px 10px;
+}
+
+.search{
+    margin: 10px 0px;
+    width: 90%;
+    display: flex;
+}
+
+.search label{
+    display: block;
+}
+
+.search input[type="text"] {
+    display: block;
+    width: 60%;
+  }
+
+.search input[type="submit"] {
+    display: block;
+  }
+
+.mainImage > a{
+    display: block;
+    margin: 10px 0px;
+}
+
+#facebookForm label{
+    display: block;
+}
+
+#facebookForm input{
+    height: 20px;
+}
+
+#facebookForm textarea{
+    width: 80%;
 }
