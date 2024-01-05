@@ -83,4 +83,58 @@ Before starting any project we need to create a github repo then connect with ou
 
 ### 🧨Learned CSS Tags:
 - 
+
 ---
+
+## ✨Module 5-7 Resume Section Education And Experience Area
+
+### 🧨Learned HTML Tags:
+- 
+
+### 🧨Learned CSS Tags:
+- 
+
+---
+
+## ✨Module 5-7 Resume Section Education And Experience Area
+
+### 🧨Learned HTML Tags:
+- 
+
+### 🧨Learned CSS Tags:
+- 
+
+---
+
+## ✨Module 5-8 Style Contact Form And Github Pages Hosting, Live Link
+
+### 🧨Learned HTML Tags:
+- input
+- textarea
+
+### 🧨Learned CSS Tags:
+- display: block
+- margin
+- padding
+- color
+- border-radius
+- border
+- width
+
+### 🧨making page live in github:
+
+#### 🎆Go to your GitHub repository.
+#### 🎆Click on the "Settings" tab.
+#### 🎆Scroll down to the "GitHub Pages" section.
+#### 🎆In the "Source" dropdown, select the branch you want to use for GitHub Pages (typically, choose main or master).
+#### 🎆Save the changes.
+
+### 🧨Access Your Live Site:
+
+- Once configured, GitHub Pages will provide a URL where your site is live.
+- Example: `https://username.github.io/repository/`
+
+It may take a few minutes for changes to be reflected after you push new updates.
+
+---
+
