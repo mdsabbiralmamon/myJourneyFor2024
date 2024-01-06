@@ -163,3 +163,68 @@ nav li button {
     font-weight: 700;
     line-height: 30px;
 }
+
+/* What I do Section CSS */
+
+.whatIDo {
+    max-width: 1140px;
+    margin: auto;
+    margin-top: 130px;
+    align-items: center;
+    text-align: center;
+}
+
+.whatIDo h2 {
+    text-align: center;
+    font-size: 35px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+.whatIDo>p {
+    color: #757575;
+    text-align: center;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 30px;
+    margin: 50px 116px;
+}
+
+.mySkills {
+    display: flex;
+    gap: 25px;
+}
+
+.skillCard {
+    width: 267px;
+    padding: 30px;
+    text-align: left;
+    border-radius: 5px;
+    background: #FFF;
+    box-shadow: 0px 6px 50px 0px rgba(0, 0, 0, 0.06);
+}
+
+.skillCard img {
+    width: 50px;
+    height: 50px;
+}
+
+.skillCard h3 {
+    color: #181818;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    margin: 30px 0px;
+}
+
+.skillCard p {
+    color: #757575;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 28px;
+    text-align: justify;
+}
