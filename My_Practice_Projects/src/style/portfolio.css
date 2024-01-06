@@ -30,11 +30,7 @@
 
 header {
     background-color: #FFF8F3;
-    background-image: url(../images/header_bg.png), url(../images/developer.png);
-    background-repeat: no-repeat;
-    background-position: bottom right, bottom left ;
-    background-size: 650px, 85px;
-    height: 647px;
+    height: fit-content;
 }
 
 nav {
@@ -84,12 +80,14 @@ li button {
 
 .heroBanner {
     display: flex;
-    justify-content: right;
+    justify-content: space-between;
     align-items: center;
+    width: 1440px;
+    margin: auto;
 }
 
 .leftIntro{
-    width: 900px;
+    width: 590px;
 }
 
 .leftIntro h3 {
@@ -131,8 +129,16 @@ li button {
 
 .rightProfilePic{
     height: fit-content;
-    width: 770px;
+    width: 585px;
     text-align: right;
+    background-image: url(../images/header_bg.png);
+    background-size: 550px;
+    background-repeat: no-repeat;
+    background-position: bottom right;
+}
+
+.rightProfilePic img{
+    margin: 0px 0px 0px 150px;
 }
 
 /*----------------------------
