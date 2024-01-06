@@ -290,3 +290,41 @@ nav li button {
     line-height: 28px;
     width: 510px;
 }
+
+.experience {
+    text-align: left;
+}
+
+.experience h3 {
+    color: #474747;
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+.experienceContainer h4 {
+    color: #474747;
+    font-size: 25px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    margin: 30px 0px 10px 0px;
+}
+
+.experienceContainer h5 {
+    color: #757575;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+}
+
+.experienceContainer p {
+    color: #757575;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 28px;
+    width: 510px;
+}
