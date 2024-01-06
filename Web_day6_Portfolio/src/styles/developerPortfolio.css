@@ -329,7 +329,40 @@ nav li button {
     width: 510px;
 }
 
-.summaryResume button{
+.summaryResume button {
     width: 200px;
     margin-top: 50px;
+}
+
+/* Footer code */
+
+footer {
+    background-color: #FFF8F3;
+    margin-top: 113px;
+    padding: 130px 0px;
+}
+
+.footerContent {
+    display: flex;
+    max-width: 1440px;
+    margin: auto;
+    justify-content: space-between;
+    background-color: #FFF8F3;
+}
+
+.connect h2 {
+    font-size: 35px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+.connect p {
+    color: #474747;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 28px;
+    width: 562px;
+    margin: 20px 0px;
 }
