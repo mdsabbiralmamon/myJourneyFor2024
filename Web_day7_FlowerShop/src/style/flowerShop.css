@@ -1,0 +1,71 @@
+/*===================================
+            Global CSS
+====================================*/
+* {
+    margin: 0;
+    padding: 0;
+    color: #272727;
+    font-family: 'Lato', sans-serif;
+}
+
+.container {
+    max-width: 1440px;
+    margin: auto;
+}
+
+.primary-paragraph {
+    color: rgba(39, 39, 39, 0.60);
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 30px;
+}
+
+.primary-btn {
+    padding: 20px 43px;
+    border-radius: 8px;
+    background: #E55473;
+    border: #E55473;
+    color: #FFF;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+/*===================================
+            Header CSS
+====================================*/
+header {
+    height: fit-content;
+    padding: 50px 0px 0px 0px;
+    background: rgba(229, 84, 115, 0.10);
+}
+
+header .heroSection {
+    display: flex;
+    text-align: left;
+    align-items: center;
+    justify-content: space-between;
+}
+
+header .heroSection .leftInformation {
+    width: 708px;
+}
+
+header .heroSection .leftInformation h2 {
+    font-size: 65px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+}
+
+header .heroSection .leftInformation p {
+    margin: 30px 0px;
+}
+
+header .heroSection .rightImage {
+    width: 635px;
+    height: 800px;
+    flex-shrink: 0;
+}
