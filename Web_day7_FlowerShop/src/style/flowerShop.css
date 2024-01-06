@@ -176,3 +176,33 @@ main .featured .featuredFlowers .flower3 h5 {
     text-decoration-line: underline;
     margin: 30px;
 }
+
+/*===================================
+            Features CSS
+====================================*/
+main .features {
+    display: flex;
+    text-align: center;
+    align-items: center;
+    border-radius: 8px;
+    background: rgba(39, 39, 39, 0.05);
+    gap: 130px;
+    height: 320px;
+    flex-shrink: 0;
+    margin: 200px auto;
+    justify-content: center;
+}
+
+main .features .feature img {
+    width: 88px;
+    height: 88px;
+    flex-shrink: 0;
+}
+
+main .features .feature p {
+    color: rgba(39, 39, 39, 0.80);
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 35px;
+}
