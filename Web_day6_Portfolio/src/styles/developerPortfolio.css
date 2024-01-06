@@ -371,6 +371,12 @@ footer {
     margin: 20px 0px;
 }
 
+.social{
+    display: inline-flex;
+    align-items: left;
+    gap: 20px;
+}
+
 .message{
     width: 560px;
 }
@@ -385,10 +391,10 @@ footer {
 }
 
 .message input[type="text"],
-input[type="email"] {
+input[type="email"] , textarea{
     width: 461px;
     border-radius: 5px;
-    background: var(--White-Color, #FFF);
+    background: #FFF;
     padding: 20px;
     margin-bottom: 5px;
     border: none;
