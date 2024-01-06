@@ -350,6 +350,10 @@ footer {
     background-color: #FFF8F3;
 }
 
+.connect{
+    width: 560px;
+}
+
 .connect h2 {
     font-size: 35px;
     font-style: normal;
@@ -365,4 +369,41 @@ footer {
     line-height: 28px;
     width: 562px;
     margin: 20px 0px;
+}
+
+.message{
+    width: 560px;
+}
+
+.message h2 {
+    text-align: left;
+    font-size: 35px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    margin-bottom: 20px;
+}
+
+.message input[type="text"],
+input[type="email"] {
+    width: 461px;
+    border-radius: 5px;
+    background: var(--White-Color, #FFF);
+    padding: 20px;
+    margin-bottom: 5px;
+    border: none;
+}
+
+.message input[type="submit"] {
+    display: block;
+    width: 150px;
+    border-radius: 5px;
+    background: #FD6E0A;
+    border: none;
+    padding: 20px;
+    color: #FFF8F3;
+}
+
+#message{
+    height: 180px;
 }
