@@ -164,3 +164,25 @@ It may take a few minutes for changes to be reflected after you push new updates
 - clone and design : https://github.com/ProgrammingHero1/new-year-new-me.git
 
 ---
+
+## ✨ What I have Learned and did 6th January?
+- I have Learned HTML 5 Tags + CSS + creating complete portfolio website today.
+- Then tried to Solve this tasks with what I had learned.
+- Here is the screenshot of today's completed tasks by clicking on the image you will redirect to my github upload:
+
+### 🧨Practice Task1 :
+
+<p align="center">
+  <a href="https://github.com/mdsabbiralmamon/myJourneyFor2024/blob/main/Web_day6_Portfolio/developerPortfolio.html"><img src="https://cdn.discordapp.com/attachments/1117616249984258109/1193122576688484392/image.png"></a>
+</p>
+<p align="center">
+  <a href="https://github.com/mdsabbiralmamon/myJourneyFor2024/blob/main/Web_day6_Portfolio/developerPortfolio.html"><img src="https://cdn.discordapp.com/attachments/1117616249984258109/1193122577128894474/image.png"></a>
+</p>
+<p align="center">
+  <a href="https://github.com/mdsabbiralmamon/myJourneyFor2024/blob/main/Web_day6_Portfolio/developerPortfolio.html"><img src="https://cdn.discordapp.com/attachments/1117616249984258109/1193122577565098014/image.png"></a>
+</p>
+<p align="center">
+  <a href="https://github.com/mdsabbiralmamon/myJourneyFor2024/blob/main/Web_day6_Portfolio/developerPortfolio.html"><img src="https://cdn.discordapp.com/attachments/1117616249984258109/1193122577929998406/image.png"></a>
+</p>
+
+---
