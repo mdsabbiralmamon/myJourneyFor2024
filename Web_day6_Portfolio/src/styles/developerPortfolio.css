@@ -228,3 +228,65 @@ nav li button {
     line-height: 28px;
     text-align: justify;
 }
+
+/* Summary Section CSS */
+
+.summaryResume {
+    max-width: 1140px;
+    margin: auto;
+    margin-top: 130px;
+    align-items: center;
+    text-align: center;
+}
+
+.summaryResume h2 {
+    text-align: center;
+    font-size: 35px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+.summary {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 110px;
+}
+
+.education {
+    text-align: left;
+}
+
+.education h3 {
+    color: #474747;
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+.educationContainer h4 {
+    color: #474747;
+    font-size: 25px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    margin: 30px 0px 10px 0px;
+}
+
+.educationContainer h5 {
+    color: #757575;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+}
+
+.educationContainer p {
+    color: #757575;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 28px;
+    width: 510px;
+}
