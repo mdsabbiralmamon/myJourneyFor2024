@@ -328,3 +328,8 @@ nav li button {
     line-height: 28px;
     width: 510px;
 }
+
+.summaryResume button{
+    width: 200px;
+    margin-top: 50px;
+}
