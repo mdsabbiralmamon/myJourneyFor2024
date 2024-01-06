@@ -10,6 +10,8 @@
 - Module 3 : Version Control System VCS (Git/Github)
 - Module   : CSS Positioning
 - Module 4 : More About HTML
+- Module 5 : Portfolio site design
+- Module 6 : thinking ...
 
 ---
 
