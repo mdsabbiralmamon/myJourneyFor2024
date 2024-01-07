@@ -272,3 +272,21 @@ header .heroSection .rightImage {
     height: 800px;
     flex-shrink: 0;
 }
+
+/*===================================
+            Instagram CSS
+====================================*/
+main .instagram{
+    margin-top: 125px;
+}
+
+main .instagram .instagramPosts {
+    display: flex;
+    justify-content: space-between;
+}
+
+main .instagram .instagramPosts .post img {
+    width: 332px;
+    height: 376px;
+    flex-shrink: 0;
+}
