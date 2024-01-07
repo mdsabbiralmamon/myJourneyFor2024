@@ -259,7 +259,7 @@ header .heroSection .rightImage {
 /*===================================
             Instagram CSS
 ====================================*/
-main .instagram{
+main .instagram {
     margin-top: 125px;
 }
 
@@ -272,4 +272,37 @@ main .instagram .instagramPosts .post img {
     width: 332px;
     height: 376px;
     flex-shrink: 0;
+}
+
+/*===================================
+            Latest deals CSS
+====================================*/
+main .latestDeals {
+    background-image: url(../image/Rectangle\ 9.png);
+    width: 1440px;
+    height: 449px;
+    flex-shrink: 0;
+    margin-top: 125px;
+    align-items: center;
+    text-align: center;
+}
+
+main .latestDeals h2 {
+    margin-top: 120px;
+    padding-top: 120px;
+}
+
+main .latestDeals .subscribers input {
+    width: 700px;
+    height: 64px;
+    flex-shrink: 0;
+    border: none;
+    border-radius: 8px;
+    background: #FFF;
+    color: rgba(39, 39, 39, 0.60);
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    padding: 0px 20px;
 }
