@@ -37,3 +37,4 @@
 ### <a href="https://github.com/mdsabbiralmamon/myJourneyFor2024/blob/main/Web_day4_css_positioning/README.md#-what-i-have-learned-and-did-4th-january">✨ What I have Learned and did 4th January?</a>
 ### <a href="https://github.com/mdsabbiralmamon/myJourneyFor2024/blob/main/Web_day5_MoreAboutHTML/README.md#-what-i-have-learned-and-did-5th-january">✨ What I have Learned and did 5th January?</a>
 ### <a href="https://github.com/mdsabbiralmamon/myJourneyFor2024/tree/main/Web_day6_Portfolio#-what-i-have-learned-and-did-6th-january">✨ What I have Learned and did 6th January?</a>
+### <a href="https://github.com/mdsabbiralmamon/myJourneyFor2024/tree/main/Web_day7_FlowerShop#-what-i-have-learned-and-did-7th-january">✨ What I have Learned and did 7th January?</a>
