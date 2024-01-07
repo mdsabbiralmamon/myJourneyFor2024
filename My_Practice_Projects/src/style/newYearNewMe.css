@@ -125,3 +125,47 @@ main .mainFailureSection .rightSection ul li:before {
     display: inline-block;
     margin-right: 5px;
 }
+
+/*===================================
+        Plans Section CSS
+===================================*/
+main .myPlanSection {
+    text-align: center;
+    margin-top: 200px;
+}
+
+main .myPlanSection h2 {
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    margin: 50px;
+}
+
+main .myPlanSection .myplans {
+    display: flex;
+    justify-content: space-between;
+}
+
+main .myPlanSection .myplans img{
+    margin: 20px;
+}
+
+main .myPlanSection .myplans .plans h3 {
+    color: #151414;
+    text-align: center;
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+main .myPlanSection .myplans .plans p {
+    color: #737272;
+    text-align: center;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    margin: 20px;
+}
