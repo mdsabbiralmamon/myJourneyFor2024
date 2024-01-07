@@ -1,7 +1,70 @@
 /*===================================
             Global CSS
 ===================================*/
-*{
+* {
     margin: 0;
     padding: 0;
+    font-family: 'Work Sans', sans-serif;
+    color: #151414;
+}
+
+.container {
+    width: 1440px;
+    margin: auto;
+}
+
+/*===================================
+            Header CSS
+===================================*/
+header {
+    border: 2px solid transparent;
+    background-image: url(../images/banner/banner1.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 1080px;
+}
+
+header .headerSection {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    text-align: center;
+    margin-top: 400px;
+}
+
+header .headerSection .leftSection {
+    width: 525px;
+}
+
+header .headerSection .rightSection {
+    width: 525px;
+    text-align: right;
+}
+
+header .headerSection .rightSection h2 {
+    text-align: right;
+    font-size: 65px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+header .headerSection .rightSection p {
+    color: #444343;
+    text-align: right;
+    width: 494px;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 26px;
+    margin: 25px 0px 30px 0px;
+}
+
+header .headerSection .rightSection button {
+    width: 160px;
+    height: 64px;
+    flex-shrink: 0;
+    border-radius: 5px;
+    background: #F15B22;
+    border: #F15B22;
 }
