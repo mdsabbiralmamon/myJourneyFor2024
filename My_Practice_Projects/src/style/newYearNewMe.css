@@ -175,7 +175,8 @@ main .myPlanSection .myplans .plans p {
 ===================================*/
 main .callNow {
     background-image: url(../images/gradient2.png), url(../images/watch.png);
-    background-size: cover, cover;
+    background-size: 100%, 100%;
+    background-repeat: no-repeat;
     width: 1140px;
     height: 300px;
     flex-shrink: 0;
