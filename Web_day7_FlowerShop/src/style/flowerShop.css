@@ -38,6 +38,25 @@
     ;
 }
 
+.secondary-heading {
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+    text-align: center;
+}
+
+.secondary-paragraph {
+    width: 594px;
+    color: rgba(39, 39, 39, 0.60);
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 30px;
+    margin: 25px auto 30px auto;
+    text-align: center;
+}
+
 /*===================================
             Header CSS
 ====================================*/
