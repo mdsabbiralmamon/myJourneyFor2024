@@ -51,8 +51,6 @@ header .headerSection .rightSection h2 {
 
 header .headerSection .rightSection p {
     color: #444343;
-    text-align: right;
-    width: 494px;
     font-size: 16px;
     font-style: normal;
     font-weight: 400;
@@ -67,4 +65,63 @@ header .headerSection .rightSection button {
     border-radius: 5px;
     background: #F15B22;
     border: #F15B22;
+}
+
+/*===================================
+        Failure Section CSS
+===================================*/
+main .mainFailureSection {
+    display: flex;
+    width: fit-content;
+    gap: 100px;
+    align-items: center;
+    text-align: center;
+    margin: 360px auto 0px auto;
+}
+
+main .mainFailureSection .leftSection {
+    align-items: center;
+    text-align: center;
+    height: 540px;
+    width: 540px;
+    border-radius: 579px;
+    background: rgba(241, 91, 34, 0.20);
+}
+
+main .mainFailureSection .leftSection img {
+    height: 724px;
+    width: 579px;
+    margin-top: -184px;
+    margin-left: -18px;
+}
+
+main .mainFailureSection .rightSection {
+    width: 420px;
+    text-align: left;
+}
+
+main .mainFailureSection .rightSection h2 {
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+main .mainFailureSection .rightSection p {
+    color: #444343;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 26px;
+    margin: 25px 0px 25px 0px;
+}
+
+main .mainFailureSection .rightSection ul {
+    list-style: none;
+}
+
+main .mainFailureSection .rightSection ul li:before {
+    content: url('data:image/svg+xml;utf8,<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none"><path d="M20 6L9 17L4 12" stroke="%2316D887" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg>');
+    display: inline-block;
+    margin-right: 5px;
 }
