@@ -209,3 +209,29 @@ main .callNow .callContainer button {
     line-height: normal;
     margin: 24px 0px 0px 0px;
 }
+
+/*===================================
+        footer Section CSS
+===================================*/
+footer {
+    background: #151414;
+    height: 577px;
+    flex-shrink: 0;
+}
+
+footer .footerContents {
+    display: flex;
+    justify-content: space-between;
+}
+
+footer .footerContents .leftSection {
+    width: 485px;
+}
+
+footer .footerContents .footerLeftSection h2 {
+    color: #F8F8F8;
+    font-size: 45px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
