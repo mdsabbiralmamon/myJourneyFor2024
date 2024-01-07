@@ -33,6 +33,11 @@
     line-height: normal;
 }
 
+.primary-color {
+    color: #E55473;
+    ;
+}
+
 /*===================================
             Header CSS
 ====================================*/
@@ -205,4 +210,46 @@ main .features .feature p {
     font-style: normal;
     font-weight: 600;
     line-height: 35px;
+}
+
+/*===================================
+            Hot Deals CSS
+====================================*/
+main .hotDeals {
+    height: fit-content;
+    padding: 50px 0px 0px 0px;
+    background: rgba(229, 84, 115, 0.10);
+}
+
+main .hotDeals .hotDealsContainer {
+    display: flex;
+    text-align: left;
+    align-items: center;
+    gap: 150px;
+    width: fit-content;
+    margin: auto;
+}
+
+main .hotDeals .hotDealsContainer .leftInformation {
+    width: 595px;
+    text-align: center;
+}
+
+main .hotDeals .hotDealsContainer .leftInformation h2 {
+    color: #272727;
+    font-size: 35px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+}
+
+main .hotDeals .hotDealsContainer .leftInformation p {
+    width: 594px;
+    margin: 25px 0px;
+}
+
+header .heroSection .rightImage {
+    width: 635px;
+    height: 800px;
+    flex-shrink: 0;
 }
