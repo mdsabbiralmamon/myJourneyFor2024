@@ -238,16 +238,7 @@ main .hotDeals .hotDealsContainer .leftInformation {
 }
 
 main .hotDeals .hotDealsContainer .leftInformation h2 {
-    color: #272727;
     font-size: 35px;
-    font-style: normal;
-    font-weight: 800;
-    line-height: normal;
-}
-
-main .hotDeals .hotDealsContainer .leftInformation p {
-    width: 594px;
-    margin: 25px 0px;
 }
 
 header .heroSection .rightImage {
