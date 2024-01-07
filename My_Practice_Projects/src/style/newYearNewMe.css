@@ -215,7 +215,7 @@ main .callNow .callContainer button {
 ===================================*/
 footer {
     background: #151414;
-    height: 577px;
+    height: fit-content;
     flex-shrink: 0;
 }
 
@@ -224,8 +224,9 @@ footer .footerContents {
     justify-content: space-between;
 }
 
-footer .footerContents .leftSection {
+footer .footerContents .footerLeftSection {
     width: 485px;
+    margin: 40px 0px;
 }
 
 footer .footerContents .footerLeftSection h2 {
@@ -234,4 +235,58 @@ footer .footerContents .footerLeftSection h2 {
     font-style: normal;
     font-weight: 700;
     line-height: normal;
+}
+
+footer .footerContents .footerLeftSection p {
+    color: #FFF;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 26px;
+    width: 485px;
+    margin: 20px 0px;
+}
+
+footer .footerContents .footerRightSection {
+    width: 485px;
+    margin: 40px 0px;
+}
+
+footer .footerContents .footerRightSection h2 {
+    color: #FFF;
+    font-size: 25px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    margin: 20px;
+}
+
+footer .footerContents .footerRightSection input {
+    width: 325px;
+    height: 64px;
+    flex-shrink: 0;
+    border-radius: 8px;
+    border: 1px solid #FFF;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    padding-left: 20px;
+    background-color: #151414;
+    margin: 20px;
+}
+
+footer .footerContents .footerRightSection button {
+    width: 170.106px;
+    height: 64px;
+    flex-shrink: 0;
+    border-radius: 8px;
+    background: #FFF;
+    border: #fff;
+    color: #F15B22;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    margin: 20px;
 }
