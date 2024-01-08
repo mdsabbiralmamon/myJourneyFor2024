@@ -42,7 +42,7 @@ The z-index property specifies the stacking order of positioned elements. Elemen
 
 🎃 Example:
 
-```php
+```bash
 
 div {
   position: relative;
@@ -63,7 +63,7 @@ Pseudo-elements are used to style specific parts of an element. Commonly used ps
 
 Example:
 
-```js
+```bash
 
 div::before {
   content: "Before";
@@ -86,7 +86,7 @@ You can use z-index in combination with pseudo-elements to control the stacking 
 
 Example:
 
-```
+```bash
 
 div {
   position: relative;
