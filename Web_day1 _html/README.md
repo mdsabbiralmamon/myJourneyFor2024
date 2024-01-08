@@ -1,12 +1,52 @@
 ## 👨‍🏫 Module 1-1 [HTML]: Explore VSCode And What Is HTML
 
+### 🧨Getting started with softwares
+
+For starting web development we need a few softwares for getting started. let's download and install them first.
+
+### 🧨Essential Downloads and Install method :
+- VS Code : Download Link - <a href="https://code.visualstudio.com/download"> Download VS Code </a>
+
+#### 🎃How to install VS Code?
+To install Visual Studio Code (VS Code), follow these general steps. The specific steps may vary slightly depending on your operating system.
+
+#### 🛠 Installation Steps (for Windows, macOS, and Linux):
+
+- Once the download is complete, run the installer.
+- Follow the installation wizard's instructions.
+- Open Visual Studio Code after installation is complete.
+
+#### 🛠 Additional Notes:
+
+- During installation, you may have the option to add VS Code to the system PATH, which can be helpful for using VS Code from the command line.
+
+- VS Code is a lightweight code editor and does not include a built-in compiler. If you are working with certain programming languages, you may need to install additional tools or extensions for language-specific support.
+
+- Extensions are available for VS Code, which add functionality and language support. You can install extensions directly from the VS Code marketplace.
+
+- Once installed, you can customize Visual Studio Code according to your preferences and start using it as your code editor.
+
+#### 🎃How to install Node?
+
+To install Node.js, you can follow these general steps. Note that the specific steps might vary slightly depending on your operating system.
+
+#### 🛠 Installation Steps (for Windows, macOS, and Linux):
+
+- For Windows:
+-- Visit the official Node.js website: Node.js Downloads.
+Download the LTS (Long Term Support) version, which is recommended for most users.
+Run the installer.
+Follow the installation wizard's instructions.
+Once the installation is complete, open a command prompt or PowerShell window and type node -v to check if Node.js was installed successfully. Also, check npm -v to verify the installation of npm (Node Package Manager).
+For macOS:
+Visit the official Node.js website: Node.js Downloads.
+Download the LTS (Long Term Support) version, which is recommended for most users.
+Run the installer.
+Follow the installation wizard's instructions.
+Open a terminal and type node -v and npm -v to check if Node.js and npm were installed successfully.
+
 ### 🧨What is HTML?
 - Hyper Text Markup Language : Used for web development.
-
-### 🧨Essential Downloads:
-- VS Code
-- Node
-- Git
 
 ### 🧨Start Learning:
 
