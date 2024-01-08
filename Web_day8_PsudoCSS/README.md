@@ -14,6 +14,8 @@ In web development, pseudo classes are used in CSS to define styles for specific
 
 Se more at : <a href="https://www.w3schools.com/css/css_pseudo_classes.asp">Pseudo classes</a>
 
+---
+
 ## 🌷Module 6_5-2 Position Static Relative Absolute Fixed Sticky
 
 ### ✅ CSS Position: 
@@ -27,3 +29,79 @@ In CSS, the position property is used to control the positioning of an element w
 - `Sticky (position: sticky;):` This is a hybrid of relative and fixed positioning. The element is treated as relative positioned within its containing block until it crosses a specified point, then it is treated as fixed positioned.
 
 Se more at : <a href="https://app.uxcel.com/courses/css-for-designers/css-position-047">CSS Position</a>
+
+---
+
+## 🌷Module 6_5-3 Stack Elements Z-Index And Pseudo Element
+
+When working with the stacking order of elements in CSS, the z-index property is used to determine the stacking context of an element. Additionally, pseudo-elements can be utilized to create virtual elements and apply styles to specific parts of an element. Here's a brief explanation:
+
+### ✅ Z-Index: 
+
+The z-index property specifies the stacking order of positioned elements. Elements with a higher z-index value will be stacked above elements with lower values.
+
+🎃 Example:
+
+```
+
+div {
+  position: relative;
+  z-index: 1;
+}
+
+span {
+  position: relative;
+  z-index: 2;
+}
+
+```
+In this example, the span element will be stacked above the div element due to its higher z-index value.
+
+### ✅Pseudo-Elements:
+
+Pseudo-elements are used to style specific parts of an element. Commonly used pseudo-elements include ::before and ::after.
+
+Example:
+
+```
+
+div::before {
+  content: "Before";
+  display: block;
+  background-color: #ccc;
+}
+
+div::after {
+  content: "After";
+  display: block;
+  background-color: #ddd;
+}
+
+```
+In this example, the `::before and ::after` pseudo-elements will create virtual elements before and after the content of the div, respectively.
+
+### ✅Combining z-index and Pseudo-Elements:
+
+You can use z-index in combination with pseudo-elements to control the stacking order of generated content.
+
+Example:
+
+```
+
+div {
+  position: relative;
+  z-index: 1;
+}
+
+div::before {
+  content: "Before";
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: -1;
+}
+
+```
+In this case, the `::before` pseudo-element is positioned behind the div because of its negative z-index value.
+
+---
