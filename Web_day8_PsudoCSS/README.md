@@ -42,7 +42,7 @@ The z-index property specifies the stacking order of positioned elements. Elemen
 
 🎃 Example:
 
-```
+```HTML
 
 div {
   position: relative;
