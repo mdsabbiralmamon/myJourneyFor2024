@@ -55,6 +55,15 @@
 
 <p>Git has become a fundamental tool in modern software development due to its efficiency, flexibility, and the collaborative workflows it supports. It is widely used in open-source projects and by development teams in various industries. </p>
 
+### Git Commands after creating a repo:
+
+- git init
+- git add .
+- git commit -m"Meaningful Message"
+- git branch -M main
+- git remote add origin https://github.com/user-name/repo-name.git
+- git push -u origin main
+
 ### How git works:
 
 <p align="center">
