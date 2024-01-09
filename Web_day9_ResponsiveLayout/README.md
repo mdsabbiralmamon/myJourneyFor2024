@@ -509,3 +509,61 @@ Try Yourself
 
 ---
 
+## 📝   Module 7-6 Explore Basic Responsiveness Using Simple Media Query
+
+<details>
+<summary>
+
+### 🗺️   Media Query
+
+</summary>
+
+This topic or task related to exploring basic responsiveness using simple media queries in the context of web development. Let's break down the key concepts associated with this topic:
+
+-   `Basic Responsiveness:`     Basic responsiveness in web design involves ensuring that a website's layout and content adapt effectively to different screen sizes and devices. This adaptation is crucial for providing a positive user experience across a wide range of devices, including desktops, laptops, tablets, and smartphones.
+
+-   `Media Queries:`    Media queries are CSS techniques that allow you to apply different styles based on various conditions such as screen width, height, device orientation, and more. Media queries play a pivotal role in implementing responsive design by adjusting the layout and styling of a webpage for different devices.
+
+    -   Simple Media Query Example:
+
+Here's a simple example of a media query that adjusts the font size when the screen width is below a certain threshold (e.g., 600 pixels):
+
+```css
+
+/* Default styles for larger screens */
+body {
+  font-size: 16px;
+}
+
+/* Media query for smaller screens */
+@media screen and (max-width: 600px) {
+  body {
+    font-size: 14px;
+  }
+}
+
+```
+
+-   In this example:
+
+    -   The default font size is set to 16px for larger screens.
+    -   When the screen width is 600px or less, the font size is adjusted to 14px.
+
+-   Explore Basic Responsiveness Steps:
+
+    -   `Identify Breakpoints:`     Determine key points at which your layout needs to adapt. Common breakpoints include those for smartphones, tablets, and desktops.
+
+    -   `Apply Basic Styling:`      Set up your default styles for larger screens.
+
+    -   `Add Media Queries:`    Introduce media queries in your CSS to adjust styles based on specific conditions.
+
+    -   `Test Responsiveness:`      Preview your website on various devices and browsers to ensure that the layout responds appropriately to different screen sizes.
+
+    -   `Refine Styles:`    Make adjustments as needed to refine the responsiveness and improve the overall user experience.
+
+By incorporating these steps, you can create a more responsive design that caters to a diverse audience using different devices.
+
+</details>
+
+---
+
