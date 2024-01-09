@@ -119,6 +119,8 @@ In CSS, various units are used to define the size and spacing of elements on a w
 
 - `Viewport Width (vw) and Viewport Height (vh):` These units represent a percentage of the viewport size. For example, 1vw is 1% of the viewport width.
 
+- `vmax and vmin :`  these are viewport-percentage lengths that represent relative units based on the size of the viewport (the visible portion of the web page in the browser window). These units are useful for creating designs that are responsive to different screen sizes.
+
 - `Absolute Units (in, cm, mm, pt, pc):` These are absolute units not dependent on other factors like screen size or text size. They are less commonly used in web design, especially for responsive layouts.
 
 #### 🎯   2. Responsive Design:
@@ -134,6 +136,69 @@ Responsive design is an approach to web design that makes web pages render well 
 - `Mobile-First Approach:` Starting the design process with mobile devices in mind and then progressively enhancing the layout for larger screens.
 
 By combining appropriate CSS measuring units and responsive design principles, developers can create websites that provide a seamless and optimal user experience across a range of devices and screen sizes.
+
+</details>
+
+---
+
+<details>
+
+<summary>
+
+### 🗺️   Measurements Comparison :
+
+</summary>
+
+#### 🎯   1. PX vs % :
+
+In CSS, both pixels (px) and percentages (%) are units of measurement used to define sizes, dimensions, and spacing on a webpage. However, they serve different purposes and have distinct characteristics. Here's a comparison between px and %:
+
+- Pixels (px):
+
+    - Absolute Unit: Pixels are an absolute unit of measurement. One pixel represents a single dot on a screen.
+    - Fixed Size: The size specified in pixels is fixed and does not change based on the size of the viewport or parent element.
+    - Controlled Precision: Pixels offer precise control over element sizes, making them suitable for fixed-size elements like images, borders, and containers.
+    - Device Independence: While it provides a consistent size on a specific device, it might not adapt well to different screen sizes or resolutions.
+
+Example:
+
+```css
+
+.container {
+  width: 300px;
+  height: 150px;
+  font-size: 16px;
+}
+
+```
+
+- Percentages (%):
+
+    - Relative Unit: Percentages are relative to the size of the containing element. For width and height, percentages are relative to the size of the parent container.
+    - Responsive Design: Using percentages is common in creating responsive designs, as elements can scale proportionally based on the size of the parent container or viewport.
+    - Fluid Layouts: Percentages are often used for creating fluid layouts that adapt to different screen sizes.
+    - Flexibility: Percentages are versatile and can be used for widths, heights, margins, and other properties.
+
+Example:
+
+```css
+
+.container {
+  width: 50%;
+  height: 75%;
+  margin-left: 10%;
+}
+
+```
+
+- Choosing Between px and %:
+
+    - Use px when a fixed size is required, and you want precise control over element dimensions.
+    - Use % when you want elements to scale proportionally based on the size of their parent container or the viewport, promoting a more flexible and responsive design.
+
+In responsive web design, percentages are often preferred for creating layouts that adapt to various screen sizes, while pixels are useful for specific elements where a fixed size is necessary. The choice depends on the design goals and requirements of your webpage.
+
+#### 🎯   2. 
 
 </details>
 
