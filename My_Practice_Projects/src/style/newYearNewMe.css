@@ -11,7 +11,6 @@
 }
 
 .container {
-    border: 2px solid red;
     max-width: 1140px;
     width: 71.25%;
     margin: auto;
@@ -21,11 +20,12 @@
             Header CSS
 ===================================*/
 header {
-    border: 2px solid transparent;
     background-image: url(../images/banner/banner1.png);
+    background-color: #E8E8E8;
     background-repeat: no-repeat;
-    background-size: cover;
-    height: 1080px;
+    background-position: center;
+    display: flex;
+    height: 808px;
 }
 
 header .headerSection {
@@ -33,7 +33,6 @@ header .headerSection {
     justify-content: space-between;
     align-items: center;
     text-align: center;
-    margin-top: 400px;
 }
 
 header .headerSection .leftSection {
@@ -42,6 +41,7 @@ header .headerSection .leftSection {
 
 header .headerSection .rightSection {
     width: 525px;
+    height: 435px;
     text-align: right;
 }
 
@@ -80,7 +80,6 @@ header .headerSection .rightSection button {
         Main Section CSS
 ===================================*/
 main {
-    border: 2px solid rgb(119, 0, 255);
     max-width: 1140px;
     width: 71.25%;
     margin: auto;
@@ -91,7 +90,7 @@ main {
 ===================================*/
 main .mainFailureSection {
     display: flex;
-    width: fit-content;
+    width: 1140px;
     gap: 100px;
     align-items: center;
     text-align: center;
@@ -149,7 +148,6 @@ main .mainFailureSection .rightSection ul li:before {
         Plans Section CSS
 ===================================*/
 main .myPlanSection {
-    border: 2px solid red;
     width: 1140px;
     text-align: center;
     margin-top: 200px;
