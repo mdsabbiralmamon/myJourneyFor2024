@@ -198,7 +198,52 @@ Example:
 
 In responsive web design, percentages are often preferred for creating layouts that adapt to various screen sizes, while pixels are useful for specific elements where a fixed size is necessary. The choice depends on the design goals and requirements of your webpage.
 
-#### 🎯   2. 
+#### 🎯   2. VW vs VH : 
+
+In CSS, vw and vh are both viewport-relative units used to define sizes and dimensions in a way that is responsive to the size of the viewport (the visible portion of the web page in the browser window). Here's a comparison between vw (viewport width) and vh (viewport height):
+
+- Viewport Width (vw):
+
+    - Relative to Width: vw stands for viewport width, and 1 vw is equal to 1% of the viewport's width.
+    - Responsive Layouts: It is commonly used to set the size of elements in a way that is proportional to the width of the viewport. For example, setting width: 50vw; means the element will be 50% of the viewport's width.
+    - Use Cases: Often used for responsive typography, container widths, or any dimension that should be responsive to the width of the viewport.
+
+Example:
+
+```css
+
+.container {
+  width: 80vw;
+  font-size: 3vw;
+}
+
+```
+
+- Viewport Height (vh):
+
+    - Relative to Height: vh stands for viewport height, and 1 vh is equal to 1% of the viewport's height.
+    - Responsive Heights: Useful for setting heights of elements relative to the height of the viewport. For instance, height: 50vh; means the element will be 50% of the viewport's height.
+    - Use Cases: Frequently employed for setting the height of containers, sections, or any dimension that should be responsive to the height of the viewport.
+
+Example:
+
+```css
+
+.section {
+  height: 70vh;
+}
+
+```
+
+- Choosing Between vw and vh:
+
+    - Use vw when you want to size elements based on the width of the viewport.
+    - Use vh when you want to size elements based on the height of the viewport.
+    - Both units can be combined to create responsive layouts that adapt to both width and height changes.
+
+Viewport-relative units like vw and vh are valuable in creating designs that scale appropriately across various devices and screen sizes, contributing to a more responsive and flexible layout.
+
+#### 🎯   2. Vmin vs Vmax : 
 
 </details>
 
