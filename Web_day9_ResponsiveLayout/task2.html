@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Web day 9 responsive grid layout</title>
+    <style>
+        body{
+
+        }
+
+        .container{
+            display: grid;
+            grid-template-columns: repeat(4, 1fr) ;
+            grid-auto-rows: minmax(200px, auto);
+            gap: 1em;
+            
+        }
+
+        .box{
+            font-weight: bolder;
+            font-size: larger;
+            color: aliceblue;
+            border-radius: 10px;
+        }
+
+        .box1{
+            background-color: rgb(255, 60, 0);
+            grid-column: 1/3;
+            grid-row: 1/3;
+        }
+
+        .box2{
+            background-color: rgb(255, 153, 0);
+            grid-column: 3/5;
+        }
+
+        .box3{
+            background-color: rgb(172, 0, 172);
+        }
+
+        .box4{
+            background-color: rgb(83, 116, 105);
+        }
+
+        @media screen and (max-width: 576px) {
+            .box1{
+                grid-row: 1;
+                grid-column: 1/5;
+            }
+
+            .box2{
+                grid-column: 1/5;
+            }
+
+            .box3{
+                grid-column: 1/5;
+            }
+
+            .box4{
+                grid-column: 1/5;
+            }
+        }
+
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="box box1">1</div>
+        <div class="box box2">2</div>
+        <div class="box box3">3</div>
+        <div class="box box4">4</div>
+    </div>
+</body>
+</html>
