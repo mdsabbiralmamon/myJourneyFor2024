@@ -338,9 +338,16 @@ html {
 
 Both units have their uses, and the choice between em and rem depends on the specific design requirements and the desired level of control over font size inheritance.
 
-
-
 </details>
 
 ---
+
+## 📝   Module 7-2 Flexbox, Flex Direction Justify Content Align Items
+
+<details>
+<summary>
+
+### 🗺️   Flex Box:
+
+</summary>
 
