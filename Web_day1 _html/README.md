@@ -8,11 +8,13 @@ For starting web development we need a few softwares for getting started. let's 
 - VS Code : Download Link - <a href="https://code.visualstudio.com/download"> Download VS Code </a>
 - Node js : Download Link - <a href="https://nodejs.org/en/download">Node.js Downloads</a>
 
+---
+
 <details>
 
   <summary>
 
-#### 🎃 How to install VS Code?v1.22 release notes
+#### 🎃 How to install VS Code?
 
   </summary>
 
@@ -36,7 +38,15 @@ To install Visual Studio Code (VS Code), follow these general steps. The specifi
 
 </details>
 
+---
+
+<details>
+
+  <summary>
+
 #### 🎃 How to install Node?
+
+  </summary>
 
 To install Node.js, you can follow these general steps. Note that the specific steps might vary slightly depending on your operating system.
 
@@ -51,6 +61,8 @@ To install Node.js, you can follow these general steps. Note that the specific s
 
 Once the installation is complete, open a command prompt or PowerShell window and type `node -v` to check if Node.js was installed successfully. Also, check `npm -v` to verify the installation of npm (Node Package Manager).
 
+---
+
 `For macOS:`
 
 - Visit the official Node.js website: <a href="https://nodejs.org/en/download">Node.js Downloads</a>
@@ -58,7 +70,76 @@ Once the installation is complete, open a command prompt or PowerShell window an
 - Run the installer.
 - Follow the installation wizard's instructions.
 
-Open a terminal and type node -v and npm -v to check if Node.js and npm were installed successfully.
+Open a terminal and type `node -v and npm -v` to check if Node.js and npm were installed successfully.
+
+---
+
+`For Linux:`
+
+- Using Package Manager `(Debian/Ubuntu)`:
+
+Open a terminal and run the following commands:
+
+```bash
+
+sudo apt update
+sudo apt install nodejs npm
+
+```
+
+- Using Package Manager `(Fedora)`:
+
+Open a terminal and run the following command:
+
+```bash
+
+sudo dnf install nodejs
+
+```
+- Using Node Version Manager (NVM) `(for Linux, macOS, or WSL on Windows)`:
+
+-- Install NVM by running the following command in your terminal:
+
+```bash
+
+curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.38.0/install.sh | bash
+
+```
+
+This command installs NVM. Follow the instructions in the terminal to complete the installation.
+
+-- Close and reopen your terminal or run:
+
+```bash
+
+source ~/.bashrc  # or source ~/.zshrc if you are using Zsh
+
+```
+
+-- Install a specific version of Node.js using NVM. For example:
+
+```bash
+
+nvm install 14  # Installs Node.js version 14
+
+```
+
+You can replace 14 with the version you prefer.
+
+- Verify the installation by typing:
+
+```bash
+
+node -v
+npm -v
+
+```
+
+This should display the installed Node.js and npm versions.
+
+Once Node.js is installed, you can use it to run JavaScript applications and npm to manage packages and dependencies.
+
+</details>
 
 ### 🧨What is HTML?
 - Hyper Text Markup Language : Used for web development.
