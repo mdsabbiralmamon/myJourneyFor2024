@@ -390,3 +390,111 @@ These properties provide a wide range of options for creating flexible and respo
 Try Yourself
 
 ---
+
+## 📝   Module 7-4 CSS Grid Layout Template Columns Grid Gap
+
+<details>
+<summary>
+
+### 🗺️   Grid Layout
+
+</summary>
+
+CSS Grid Layout is a powerful layout system for building two-dimensional grid-based layouts in web applications. Here's an overview of some key CSS Grid properties:
+
+-   `display: grid;:`   Defines an element as a grid container.
+
+-   `grid-template-columns and grid-template-rows:`    Specifies the size of the columns and rows in the grid.
+Accepts values like auto, 1fr (fractional unit), fixed sizes, or a combination.
+
+```css
+
+grid-template-columns: 100px 1fr 2fr;
+grid-template-rows: 50px auto;
+
+```
+-   `grid-template-areas:`  Defines named grid areas, allowing for a more visual way of creating layouts.
+```css
+
+grid-template-areas:
+  "header header header"
+  "sidebar main main"
+  "footer footer footer";
+
+  ```
+
+-   `grid-column and grid-row:`   Specifies the start and end positions of a grid item along the grid's columns and rows.
+
+```css
+
+grid-column: 2 / 4; /* item spans from column line 2 to 4 */
+grid-row: 1 / 3;    /* item spans from row line 1 to 3 */
+
+```
+-   `grid-gap:`     Sets the size of the gap between columns and rows.
+
+```css
+
+grid-gap: 10px;
+
+```
+
+-   `justify-items and align-items:`      Aligns grid items within their grid areas along the inline (row) and block (column) axes.
+
+```css
+
+justify-items: center; /* align items horizontally in the center */
+align-items: end;      /* align items vertically at the end */
+
+```
+
+-   `justify-content and align-content:`    Aligns the grid container's content along the inline (row) and block (column) axes.
+
+```css
+
+justify-content: space-between; /* distribute items along the row axis */
+align-content: center;          /* center items along the column axis */
+
+```
+-  ` place-items: `   A shorthand property for setting both justify-items and align-items.
+
+```css
+
+place-items: center end; /* center horizontally, align at the end vertically */
+
+```
+
+-   `place-content:`  A shorthand property for setting both justify-content and align-content.
+
+```css
+
+place-content: space-around center; /* distribute content vertically, center horizontally */
+
+```
+
+-   `grid-auto-columns and grid-auto-rows:`     Defines the size of implicitly created grid tracks (columns or rows) in the grid.
+
+```css
+
+grid-auto-columns: 100px;
+grid-auto-rows: minmax(50px, auto);
+
+```
+
+-   `grid-auto-flow:`     Specifies how auto-placed items are inserted into the grid.
+
+```css
+
+grid-auto-flow: column; /* insert items column-wise */
+
+```
+
+-   `grid:`     A shorthand property for defining all the grid-related properties at once.
+
+```css
+
+grid: auto-flow dense / 1fr 2fr;
+
+```
+
+These properties provide a robust set of tools for creating complex grid-based layouts in a straightforward and concise manner. Grid Layout is particularly useful for both simple and intricate designs where precise control over the placement of elements is essential.
