@@ -1,31 +1,31 @@
 ## ✨ Module 3-1 What Is Version Control System, Git Vs GitHub
 
 ### What is version control system?
-<p>A version control system (VCS) is a software tool that helps manage changes to source code or any set of files. It allows multiple developers to work collaboratively on a project, keeping track of changes, and coordinating updates. The primary goals of version control are to:</p>
-<ol>
-<li>`Track Changes:` A VCS keeps a record of every change made to the code or files over time. This includes who made the change, when it was made, and what specific changes were implemented.</li>
+A version control system (VCS) is a software tool that helps manage changes to source code or any set of files. It allows multiple developers to work collaboratively on a project, keeping track of changes, and coordinating updates. The primary goals of version control are to:
 
-<li>`Collaboration:` Multiple developers can work on the same project simultaneously without interfering with each other's work. The VCS enables developers to merge their changes and resolve conflicts.</li>
+- `Track Changes:` A VCS keeps a record of every change made to the code or files over time. This includes who made the change, when it was made, and what specific changes were implemented.
 
-<li>`Backup and Recovery:` VCS acts as a backup system, providing a history of changes. If something goes wrong or a mistake is made, it's possible to roll back to a previous state.</li>
+- `Collaboration:` Multiple developers can work on the same project simultaneously without interfering with each other's work. The VCS enables developers to merge their changes and resolve conflicts.
 
-<li>`Branching and Merging:` Developers can create branches to work on features or bug fixes independently. These branches can later be merged back into the main codebase. This allows for parallel development and experimentation.</li>
+- `Backup and Recovery:` VCS acts as a backup system, providing a history of changes. If something goes wrong or a mistake is made, it's possible to roll back to a previous state.
 
-<li>`Traceability:` VCS provides a detailed history of changes, making it easier to understand how a project has evolved. This is useful for debugging, auditing, and tracking down issues.</li>
-</ol>
+- `Branching and Merging:` Developers can create branches to work on features or bug fixes independently. These branches can later be merged back into the main codebase. This allows for parallel development and experimentation.
+
+- `Traceability:` VCS provides a detailed history of changes, making it easier to understand how a project has evolved. This is useful for debugging, auditing, and tracking down issues.
+
 
 ### There are two main types of version control systems:
 
-<ol>
-<li>`Centralized Version Control Systems (CVCS):` In a CVCS, there is a central server that stores the repository, and developers check out files from this central repository. Examples include CVS (Concurrent Versions System) and SVN (Apache Subversion).</li>
 
-<li>`Distributed Version Control Systems (DVCS):` In a DVCS, each developer has a complete copy of the repository, including its history. Examples include Git, Mercurial, and Bazaar.<li>
+- `Centralized Version Control Systems (CVCS):` In a CVCS, there is a central server that stores the repository, and developers check out files from this central repository. Examples include CVS (Concurrent Versions System) and SVN (Apache Subversion).
 
-<p>Git is one of the most widely used version control systems. It's a distributed system known for its speed, flexibility, and popularity in open-source projects.</p>
+- `Distributed Version Control Systems (DVCS):` In a DVCS, each developer has a complete copy of the repository, including its history. Examples include Git, Mercurial, and Bazaar.
+
+Git is one of the most widely used version control systems. It's a distributed system known for its speed, flexibility, and popularity in open-source projects.
 
 ### Why version control system is needed?
 
-<p>collaboration, storing versions, re storing previous versions, backup, etc. </p>
+collaboration, storing versions, re storing previous versions, backup, etc. 
 
 ### What is GIT?
 
@@ -134,9 +134,7 @@ You can upload files directly or use Git commands to push code.
 
   - Settings: Click on the "Settings" tab to configure various settings for your repository, including collaborators, branch protection, webhooks, and more.
 
-- Explore Other Repositories:
-
-Use the GitHub search bar to explore other repositories by topics, languages, and more.
+  - Explore Other Repositories: Use the GitHub search bar to explore other repositories by topics, languages, and more.
 
 This is just a basic overview, and GitHub has many more features and functionalities. As you work on your projects, you'll likely use additional GitHub features such as branches, forks, and collaboration tools. GitHub provides extensive documentation to help you explore and utilize its features effectively.
 
