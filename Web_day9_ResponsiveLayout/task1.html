@@ -18,10 +18,6 @@
         }
 
         Main{
-            display: flex;
-        }
-
-        main .container{
             border: 2px solid black;
             border-radius: 5px;
             width: 75%;
@@ -30,22 +26,43 @@
             margin: auto;
             display: flex;
             align-items: center;
+            justify-content: center;
             gap: .5%;
         }
 
+
         main .left{
             background-color: grey;
+            border-radius: 5px;
             max-width: 300px;
             width: 19.84%;
-            height: 99%;
+            height: 98%;
         }
 
         main .right{
             background-color: antiquewhite;
+            border-radius: 5px;
             max-width: 1140px;
             width: 78.17%;
-            height: 99%;
+            height: 98%;
         }
+
+        @media screen and (max-width: 576px) {
+            main {
+                flex-direction: column;
+
+            }
+
+            main .left{
+                width: 100%;
+                max-width: 100%;
+            }
+
+            main .right{
+                width: 100%;
+            }
+        }
+
     </style>
 </head>
 <body>
@@ -53,13 +70,11 @@
         <H2>Desktop</H2>
     </header>
     <main>
-        <section class="container">
-            <section class="left">
+        <section class="left">
 
-            </section>
-            <section class="right">
+        </section>
+        <section class="right">
 
-            </section>
         </section>
     </main>
     <footer>
