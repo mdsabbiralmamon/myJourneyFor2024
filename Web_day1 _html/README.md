@@ -6,7 +6,8 @@ For starting web development we need a few softwares for getting started. let's 
 
 ### 🧨Essential Downloads and Install method :
 - VS Code : Download Link - <a href="https://code.visualstudio.com/download"> Download VS Code </a>
-- Node js : Download Link - <a href="https://nodejs.org/en/download">Node.js Downloads</a>
+- Node js : Download Link - <a href="https://nodejs.org/en/download">Node.js Download</a>
+- Git : Download Link - <a href="https://www.git-scm.com/downloads">Git Download</a>
 
 ---
 
@@ -140,6 +141,99 @@ This should display the installed Node.js and npm versions.
 Once Node.js is installed, you can use it to run JavaScript applications and npm to manage packages and dependencies.
 
 </details>
+
+---
+
+<details>
+
+  <summary>
+
+#### 🎃 How to install Git?
+
+  </summary>
+
+To install Git, you can follow these general steps. The specific steps may vary depending on your operating system.
+
+`For Windows:`
+
+- Visit the official Git website: <a href="https://www.git-scm.com/downloads">Git Download</a>
+- Download the latest version for Windows.
+- Run the installer.
+- Follow the installation wizard's instructions, making sure to select appropriate options as needed.
+
+Once the installation is complete, you can open a command prompt or Git Bash and type `git --version` to check if Git was installed successfully.
+
+---
+
+`For macOS:`
+
+Git is usually pre-installed on macOS. You can check if it's installed by opening a terminal and typing `git --version`.
+
+If Git is not installed or you want to update it, you can install it using Homebrew:
+
+```bash
+
+brew install git
+
+```
+
+If you don't have Homebrew installed, you can install it by following the instructions on the Homebrew website: <a href="https://brew.sh/"> Homebrew. </a>
+
+---
+
+`For Linux:`
+
+- Using Package Manager `(Debian/Ubuntu)`:
+
+-- Open a terminal and run the following command:
+
+```bash
+
+sudo apt update
+sudo apt install git
+
+```
+
+- Using Package Manager `(Fedora)`:
+
+-- Open a terminal and run the following command:
+
+```bash
+
+sudo dnf install git
+
+```
+
+- Verification:
+
+-- After installation, you can verify that Git is installed by opening a terminal and running:
+
+```bash
+
+git --version
+
+```
+
+This should display the installed Git version.
+
+- Configuration:
+
+-- After installing Git, it's a good idea to configure your username and email. Open a terminal and run:
+
+```bash
+
+git config --global user.name "Your Name"
+git config --global user.email "your.email@example.com"
+
+```
+
+Replace "`Your Name`" with your actual `name` and "`your.email@example.com`" with your `email address`. These configurations are used to identify your commits.
+
+Now you have Git installed and configured on your system, and you can use it for version control in your projects.
+
+</details>
+
+---
 
 ### 🧨What is HTML?
 - Hyper Text Markup Language : Used for web development.
