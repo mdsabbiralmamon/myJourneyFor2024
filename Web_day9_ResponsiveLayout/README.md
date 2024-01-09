@@ -385,3 +385,8 @@ These properties provide a wide range of options for creating flexible and respo
 
 ---
 
+## 📝   Module 7-3 Create Login Form And Flexible Nav Using Flexbox
+
+Try Yourself
+
+---
