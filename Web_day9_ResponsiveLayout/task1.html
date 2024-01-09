@@ -4,8 +4,66 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Web Day 9 Task 1 Responsive flexbox layout</title>
+    <style>
+        header{
+            font-weight: bold; 
+            font-size: 1.875rem;
+            width: 75%;
+            max-width: 1440px;
+            margin: auto;
+        }
+
+        header h2{
+            text-align: center;
+        }
+
+        Main{
+            display: flex;
+        }
+
+        main .container{
+            border: 2px solid black;
+            border-radius: 5px;
+            width: 75%;
+            max-width: 1440px;
+            height: 800px;
+            margin: auto;
+            display: flex;
+            align-items: center;
+            gap: .5%;
+        }
+
+        main .left{
+            background-color: grey;
+            max-width: 300px;
+            width: 19.84%;
+            height: 99%;
+        }
+
+        main .right{
+            background-color: antiquewhite;
+            max-width: 1140px;
+            width: 78.17%;
+            height: 99%;
+        }
+    </style>
 </head>
 <body>
-    
+    <header>
+        <H2>Desktop</H2>
+    </header>
+    <main>
+        <section class="container">
+            <section class="left">
+
+            </section>
+            <section class="right">
+
+            </section>
+        </section>
+    </main>
+    <footer>
+
+    </footer>
 </body>
 </html>
