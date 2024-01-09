@@ -498,3 +498,14 @@ grid: auto-flow dense / 1fr 2fr;
 ```
 
 These properties provide a robust set of tools for creating complex grid-based layouts in a straightforward and concise manner. Grid Layout is particularly useful for both simple and intricate designs where precise control over the placement of elements is essential.
+
+</details>
+
+---
+
+## 📝   Module 7-5 Create Calendar Using Css Grid And Flex Box
+
+Try Yourself
+
+---
+
