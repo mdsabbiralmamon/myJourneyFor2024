@@ -11,7 +11,9 @@
 }
 
 .container {
-    width: 1440px;
+    border: 2px solid red;
+    max-width: 1140px;
+    width: 71.25%;
     margin: auto;
 }
 
@@ -72,6 +74,16 @@ header .headerSection .rightSection button {
     font-style: normal;
     font-weight: 600;
     line-height: normal;
+}
+
+/*===================================
+        Main Section CSS
+===================================*/
+main {
+    border: 2px solid rgb(119, 0, 255);
+    max-width: 1140px;
+    width: 71.25%;
+    margin: auto;
 }
 
 /*===================================
@@ -184,11 +196,11 @@ main .callNow {
     background-image: url(../images/gradient2.png), url(../images/watch.png);
     background-size: 100%, 100%;
     background-repeat: no-repeat;
-    width: 1140px;
+    width: 1020px;
     height: 300px;
     flex-shrink: 0;
-    margin-top: 130px;
-    padding: 60px;
+    margin: 130px auto;
+    padding: 0px 60px;
     align-items: center;
     display: flex;
 }
