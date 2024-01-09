@@ -567,3 +567,65 @@ By incorporating these steps, you can create a more responsive design that cater
 
 ---
 
+## 📝   Module 7-7 Responsive Media Query For Small, Medium And Large Devices
+
+### 🗺️   Available breakpoints:
+
+Bootstrap includes six default breakpoints, sometimes referred to as grid tiers, for building responsively. These breakpoints can be customized if you’re using our source Sass files.
+
+Breakpoint  |   Class infix   |   Dimensions
+--- | --- | ---
+X-Small |   None    |   <576px
+Small   |   sm  |   ≥576px
+Medium  |   md  |   ≥768px
+Large   |   lg  |   ≥992px
+Extra large   |   xl    |   ≥1200px
+Extra extra large   |   xxl   |   ≥1400px
+
+Below is an example of a set of media queries in CSS targeting small, medium, and large devices. These media queries adjust various styles based on the screen width, but you can customize them according to your specific design requirements:
+
+```css
+
+/* Default styles for all devices */
+body {
+  font-size: 16px;
+  /* Add other default styles as needed */
+}
+
+/* Small devices (phones) */
+@media screen and (max-width: 767px) {
+  body {
+    font-size: 14px;
+    /* Additional styles for small devices */
+  }
+}
+
+/* Medium devices (tablets) */
+@media screen and (min-width: 768px) and (max-width: 991px) {
+  body {
+    font-size: 16px; /* Reset font size if needed */
+    /* Additional styles for medium devices */
+  }
+}
+
+/* Large devices (desktops and laptops) */
+@media screen and (min-width: 992px) {
+  body {
+    font-size: 18px;
+    /* Additional styles for large devices */
+  }
+}
+
+```
+
+In this example:
+
+-   The default font size is set to 16px for all devices.
+-   For small devices (max-width: 767px), the font size is reduced to 14px.
+-   For medium devices (min-width: 768px and max-width: 991px), the font size is reset to 16px.
+-   For large devices (min-width: 992px), the font size is increased to 18px.
+
+You can customize other styles and layout properties within each media query to create a responsive design that fits well on devices of different sizes. Adjust the breakpoints and styles based on your specific design considerations. Testing on actual devices or using browser developer tools can help ensure that your design adapts as intended.
+
+---
+
