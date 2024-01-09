@@ -149,6 +149,8 @@ main .mainFailureSection .rightSection ul li:before {
         Plans Section CSS
 ===================================*/
 main .myPlanSection {
+    border: 2px solid red;
+    width: 1140px;
     text-align: center;
     margin-top: 200px;
 }
