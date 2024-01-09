@@ -627,5 +627,26 @@ In this example:
 
 You can customize other styles and layout properties within each media query to create a responsive design that fits well on devices of different sizes. Adjust the breakpoints and styles based on your specific design considerations. Testing on actual devices or using browser developer tools can help ensure that your design adapts as intended.
 
+</details>
+
 ---
+
+## 📝   Module 7-8 Seven Things You Need To Do To Make A Website Responsive
+
+<details>
+<summary>
+
+### 🗺️   Available breakpoints:
+
+</summary>
+
+-   viewport meta tag
+-   CSS relative unit
+-   body max width horizontal center
+-   image fluid
+-   two column flex and use media query with flex direction column
+-   multi column grid layout
+-   menu responsive : will need js
+
+</details>
 
