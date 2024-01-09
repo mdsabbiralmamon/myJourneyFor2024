@@ -650,3 +650,53 @@ You can customize other styles and layout properties within each media query to 
 
 </details>
 
+## 📝   Module 7-9 Module Summary _ Practice
+
+<details>
+<summary>
+
+### 🗺️   Module Summary:
+
+</summary>
+
+- Grid vs Flex Box
+- Media Query
+- Responsive Design
+- 7 things to make website responsive
+
+</details>
+
+---
+
+## 📝   Practice Task 1: Design a responsive flex layout
+
+<p align="center">
+  <a href="#"><img height=" " width="1000vh" src=" "></a>
+</p>
+
+## 📝   Practice Task 2: Design a responsive grid layout
+
+<p align="center">
+  <a href="#"><img height=" " width="1000vh" src=" "></a>
+</p>
+
+## 📝   Practice Task 3: adapt images for different devices
+
+<p align="center">
+  <a href="#"><img height=" " width="1000vh" src=" "></a>
+</p>
+
+## 📝   Practice Task 4: Design a responsive layout
+
+<p align="center">
+  <a href="#"><img height=" " width="1000vh" src=" "></a>
+</p>
+
+## 📝   Practice Task 4: Design a responsive layout ii
+
+<p align="center">
+  <a href="#"><img height=" " width="1000vh" src=" "></a>
+</p>
+
+
+
