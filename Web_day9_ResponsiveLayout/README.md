@@ -245,6 +245,47 @@ Viewport-relative units like vw and vh are valuable in creating designs that sca
 
 #### 🎯   2. Vmin vs Vmax : 
 
+In CSS, vmin and vmax are viewport-relative units used to define sizes and dimensions in a way that is responsive to the size of the viewport (the visible portion of the web page in the browser window). Here's a comparison between vmin (viewport minimum) and vmax (viewport maximum):
+
+- Viewport Minimum (vmin):
+
+    - Relative to Smaller Dimension: vmin stands for viewport minimum, and 1 vmin is equal to 1% of the smaller of the viewport's width or height.
+    - Responsive to Smaller Dimension: Useful for setting sizes relative to the smaller dimension of the viewport. For example, width: 50vmin; means the element's width will be 50% of the smaller of the viewport's width or height.
+    - Use Cases: Often used for typography, container dimensions, or any element size that should be responsive to the smaller dimension of the viewport.
+
+Example:
+
+```css
+.container {
+  width: 40vmin;
+  font-size: 2vmin;
+}
+
+```
+
+- Viewport Maximum (vmax):
+
+    - Relative to Larger Dimension: vmax stands for viewport maximum, and 1 vmax is equal to 1% of the larger of the viewport's width or height.
+    - Responsive to Larger Dimension: Useful for setting sizes relative to the larger dimension of the viewport. For instance, height: 70vmax; means the element's height will be 70% of the larger of the viewport's width or height.
+    - Use Cases: Commonly employed for setting container dimensions or any element size that should be responsive to the larger dimension of the viewport.
+
+Example:
+
+```css
+.container {
+  height: 60vmax;
+}
+
+```
+
+- Choosing Between vmin and vmax:
+
+    - Use vmin when you want to size elements based on the smaller dimension of the viewport.
+    - Use vmax when you want to size elements based on the larger dimension of the viewport.
+    - Both units can be used together to create designs that are responsive to both the smaller and larger dimensions of the viewport.
+    
+Viewport-relative units like vmin and vmax are beneficial in creating designs that scale appropriately across various devices and screen sizes, contributing to a more responsive and flexible layout.
+
 </details>
 
 ---
