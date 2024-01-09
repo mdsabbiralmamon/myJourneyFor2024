@@ -569,7 +569,13 @@ By incorporating these steps, you can create a more responsive design that cater
 
 ## 📝   Module 7-7 Responsive Media Query For Small, Medium And Large Devices
 
+<details>
+
+<summary>
+
 ### 🗺️   Available breakpoints:
+
+</summary>
 
 Bootstrap includes six default breakpoints, sometimes referred to as grid tiers, for building responsively. These breakpoints can be customized if you’re using our source Sass files.
 
@@ -636,7 +642,7 @@ You can customize other styles and layout properties within each media query to 
 <details>
 <summary>
 
-### 🗺️   Available breakpoints:
+### 🗺️   Seven Things:
 
 </summary>
 
