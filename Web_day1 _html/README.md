@@ -99,7 +99,7 @@ sudo dnf install nodejs
 ```
 - Using Node Version Manager (NVM) `(for Linux, macOS, or WSL on Windows)`:
 
--- Install NVM by running the following command in your terminal:
+  - Install NVM by running the following command in your terminal:
 
 ```bash
 
@@ -109,7 +109,7 @@ curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.38.0/install.sh | bash
 
 This command installs NVM. Follow the instructions in the terminal to complete the installation.
 
--- Close and reopen your terminal or run:
+  - Close and reopen your terminal or run:
 
 ```bash
 
@@ -117,7 +117,7 @@ source ~/.bashrc  # or source ~/.zshrc if you are using Zsh
 
 ```
 
--- Install a specific version of Node.js using NVM. For example:
+  - Install a specific version of Node.js using NVM. For example:
 
 ```bash
 
@@ -185,7 +185,7 @@ If you don't have Homebrew installed, you can install it by following the instru
 
 - Using Package Manager `(Debian/Ubuntu)`:
 
--- Open a terminal and run the following command:
+  - Open a terminal and run the following command:
 
 ```bash
 
@@ -196,7 +196,7 @@ sudo apt install git
 
 - Using Package Manager `(Fedora)`:
 
--- Open a terminal and run the following command:
+  - Open a terminal and run the following command:
 
 ```bash
 
@@ -218,7 +218,7 @@ This should display the installed Git version.
 
 - Configuration:
 
--- After installing Git, it's a good idea to configure your username and email. Open a terminal and run:
+  - After installing Git, it's a good idea to configure your username and email. Open a terminal and run:
 
 ```bash
 
