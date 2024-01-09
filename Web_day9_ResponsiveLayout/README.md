@@ -351,3 +351,37 @@ Both units have their uses, and the choice between em and rem depends on the spe
 
 </summary>
 
+Flexbox, or the Flexible Box Layout, is a CSS layout model designed for building complex layouts more efficiently and with less code. Here's an overview of some key Flexbox properties:
+
+-   `display: flex; or display: inline-flex;:`    Defines a flex container. The flex value creates a block-level container, while inline-flex creates an inline-level container.
+
+-   `flex-direction: row | row-reverse | column | column-reverse;:`   Specifies the direction of the flex container's main axis.
+
+-   `flex-wrap: nowrap | wrap | wrap-reverse;:`   Determines whether items should wrap into multiple lines if they exceed the container's size.
+
+-   `flex-flow: <flex-direction> <flex-wrap>;:`   A shorthand property for setting both flex-direction and flex-wrap in one declaration.
+
+-   `justify-content: flex-start | flex-end | center | space-between | space-around | space-evenly;:`   Aligns items along the main axis of the flex container.
+
+-   `align-items: flex-start | flex-end | center | baseline | stretch;:`  Aligns items along the cross axis of the flex container.
+
+-   `align-self: auto | flex-start | flex-end | center | baseline | stretch;:`    Allows the default alignment to be overridden for individual flex items.
+
+-   `align-content: flex-start | flex-end | center | space-between | space-around | stretch;:`    Aligns a flex container's lines within the flex container when there is extra space in the cross axis.
+
+-   `order: <integer>;`:  Specifies the order in which a flex item appears within the flex container.
+
+-   `flex: <flex-grow> <flex-shrink> <flex-basis>;:`    A shorthand property for the flex-grow, flex-shrink, and flex-basis properties.
+
+-   `flex-grow: <number>;:`  Defines the ability for a flex item to grow if necessary.
+
+-   `flex-shrink: <number>;:`   Defines the ability for a flex item to shrink if necessary.
+
+-   `flex-basis: <length> | auto;:`   Specifies the initial main size of a flex item.
+
+These properties provide a wide range of options for creating flexible and responsive layouts. You can use them individually or in combination to achieve the desired layout behavior. Keep in mind that Flexbox is particularly powerful for handling one-dimensional layouts along either the main axis or the cross axis.
+
+</details>
+
+---
+
