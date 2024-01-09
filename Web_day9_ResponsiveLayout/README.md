@@ -671,31 +671,31 @@ You can customize other styles and layout properties within each media query to 
 ## 📝   Practice Task 1: Design a responsive flex layout
 
 <p align="center">
-  <a href="#"><img height=" " width="1000vh" src=" "></a>
+  <a href="#"><img height=" " width="1000vh" src="https://raw.githubusercontent.com/mdsabbiralmamon/myJourneyFor2024/main/Web_day9_ResponsiveLayout/src/images/task%201.png"></a>
 </p>
 
 ## 📝   Practice Task 2: Design a responsive grid layout
 
 <p align="center">
-  <a href="#"><img height=" " width="1000vh" src=" "></a>
+  <a href="#"><img height=" " width="1000vh" src="https://raw.githubusercontent.com/mdsabbiralmamon/myJourneyFor2024/main/Web_day9_ResponsiveLayout/src/images/task%202.png"></a>
 </p>
 
 ## 📝   Practice Task 3: adapt images for different devices
 
 <p align="center">
-  <a href="#"><img height=" " width="1000vh" src=" "></a>
+  <a href="#"><img height=" " width="1000vh" src="https://raw.githubusercontent.com/mdsabbiralmamon/myJourneyFor2024/main/Web_day9_ResponsiveLayout/src/images/task%203.png"></a>
 </p>
 
 ## 📝   Practice Task 4: Design a responsive layout
 
 <p align="center">
-  <a href="#"><img height=" " width="1000vh" src=" "></a>
+  <a href="#"><img height=" " width="1000vh" src="https://raw.githubusercontent.com/mdsabbiralmamon/myJourneyFor2024/main/Web_day9_ResponsiveLayout/src/images/task%204.png"></a>
 </p>
 
 ## 📝   Practice Task 4: Design a responsive layout ii
 
 <p align="center">
-  <a href="#"><img height=" " width="1000vh" src=" "></a>
+  <a href="#"><img height=" " width="1000vh" src="https://raw.githubusercontent.com/mdsabbiralmamon/myJourneyFor2024/main/Web_day9_ResponsiveLayout/src/images/task%205.png"></a>
 </p>
 
 
