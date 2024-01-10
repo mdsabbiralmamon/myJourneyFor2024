@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Design a responsive layout ii</title>
+    <style>
+        .articleContainer {
+            display: grid;
+            grid-template-columns: repeat(2, 1fr);
+            gap: 2em;
+        }
+
+        .imageContainer {
+            overflow: hidden;
+            position: relative;
+            max-width: 960px;
+            width: 100%;
+            max-height: 540px;
+            height: 100%;
+
+        }
+
+        .imageContainer img {
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+            display: block;
+        }
+
+        .imageContainer1 {}
+
+        .postTexts1 {}
+
+        .imageContainer2 {
+            order: 1;
+        }
+
+        .postTexts2 {}
+
+        /* Medium devices (landscape tablets, 768px and below) */
+        @media only screen and (max-width: 768px) {
+            .articleContainer {
+                display: grid;
+                grid-template-columns: repeat(1, 1fr);
+                gap: 2em;
+            }
+
+            .postTexts2{
+                order: 1;
+            }
+        }
+    </style>
+</head>
+
+<body>
+    <div class="articleContainer">
+        <div class="imageContainer1 imageContainer">
+            <img src="/Web_day9_ResponsiveLayout/src/images/fastfoods.webp" alt="">
+        </div>
+        <div class="postTexts1">
+            <h2>This is a post heading for article 1</h2>
+            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Repellendus neque delectus sint odio quod.
+                Repudiandae veritatis asperiores, qui eius id animi. Enim necessitatibus maxime dignissimos rem neque
+                blanditiis laboriosam, consequatur, ad accusamus non consequuntur? Recusandae vero quae illum quibusdam
+                nihil nulla consequatur. Obcaecati excepturi, maxime harum soluta in deserunt culpa aliquam autem,
+                quidem recusandae veniam distinctio officia voluptatum optio sequi odit odio laudantium repellat ad iste
+                rerum praesentium quis velit iure. Distinctio vel, inventore consequuntur sunt ipsa officia maiores
+                corrupti, amet provident possimus quidem molestias vitae deleniti earum expedita mollitia incidunt quia
+                delectus eligendi illum. Repellendus fugiat repellat possimus, voluptatum ratione id optio. Voluptates
+                in architecto tenetur cum, natus unde error ullam ea eveniet facere quidem dolorem nam ipsam dicta.</p>
+        </div>
+        <div class="imageContainer2 imageContainer">
+            <img src="/Web_day9_ResponsiveLayout/src/images/mixfoods.webp" alt="">
+        </div>
+        <div class="postTexts2">
+            <h2>This is a post heading 1 for article 2</h2>
+            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Repellendus neque delectus sint odio quod.
+                Repudiandae veritatis asperiores, qui eius id animi. Enim necessitatibus maxime dignissimos rem neque
+                blanditiis laboriosam, consequatur, ad accusamus non consequuntur? Recusandae vero quae illum quibusdam
+                nihil nulla consequatur. Obcaecati excepturi, maxime harum soluta in deserunt culpa aliquam autem,
+                quidem recusandae veniam distinctio officia voluptatum optio sequi odit odio laudantium repellat ad iste
+                rerum praesentium quis velit iure. Distinctio vel, inventore consequuntur sunt ipsa officia maiores
+                corrupti, amet provident possimus quidem molestias vitae deleniti earum expedita mollitia incidunt quia
+                delectus eligendi illum. Repellendus fugiat repellat possimus, voluptatum ratione id optio. Voluptates
+                in architecto tenetur cum, natus unde error ullam ea eveniet facere quidem dolorem nam ipsam dicta.</p>
+        </div>
+    </div>
+    </div>
+</body>
+
+</html>
