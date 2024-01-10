@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Web dev day 9 task 4 Design a responsive layout</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+        }
+
+        .articleContainer {
+            max-width: 1920px;
+            width: 100%;
+        }
+
+        .imageConatiner {
+            overflow: hidden;
+            position: relative;
+            max-width: 1920px;
+            width: 40%;
+        }
+
+        .imageConatiner img {
+            width: 100%;
+            object-fit: cover;
+            display: block;
+        }
+
+        .article {
+            display: flex;
+            margin: 20px;
+        }
+
+        @media only screen and (max-width: 768px) {
+            .article{
+                display: block;
+            }
+
+            .imageConatiner{
+                width: 100%;
+            }
+        }
+    </style>
+</head>
+
+<body>
+    <div class="articleContainer">
+        <div class="article">
+            <div class="imageConatiner">
+                <img src="/Web_day9_ResponsiveLayout/src/images/mixfoods.webp" alt="">
+            </div>
+            <div class="postTexts">
+                <h2>Post title : this a title</h2>
+                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quam, inventore minus est quae corporis
+                    placeat magnam beatae culpa perspiciatis nulla earum deserunt qui exercitationem velit dignissimos
+                    in sit sed accusamus voluptate aliquid quas! Incidunt maiores, itaque tenetur labore inventore earum
+                    facere ipsa, nostrum ipsam iure distinctio nemo? Iste, non necessitatibus!</p>
+                <button>Read more</button>
+            </div>
+        </div>
+        <div class="article">
+            <div class="imageConatiner">
+                <img src="/Web_day9_ResponsiveLayout/src/images/fastfoods.webp" alt="">
+            </div>
+            <div class="postTexts">
+                <h2>Post title : this a title</h2>
+                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quam, inventore minus est quae corporis
+                    placeat magnam beatae culpa perspiciatis nulla earum deserunt qui exercitationem velit dignissimos
+                    in sit sed accusamus voluptate aliquid quas! Incidunt maiores, itaque tenetur labore inventore earum
+                    facere ipsa, nostrum ipsam iure distinctio nemo? Iste, non necessitatibus!</p>
+                <button>Read more</button>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>
