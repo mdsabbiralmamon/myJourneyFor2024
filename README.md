@@ -11,7 +11,8 @@
 - Module   : CSS Positioning
 - Module 4 : More About HTML
 - Module 5 : Portfolio site design
-- Module 6 : thinking ...
+- Module 6 : New year mission site design
+- Module 7 : Responsive design : intro to grid
 
 ---
 
@@ -38,3 +39,6 @@
 ### <a href="https://github.com/mdsabbiralmamon/myJourneyFor2024/blob/main/Web_day5_MoreAboutHTML/README.md#-what-i-have-learned-and-did-5th-january">✨ What I have Learned and did 5th January?</a>
 ### <a href="https://github.com/mdsabbiralmamon/myJourneyFor2024/tree/main/Web_day6_Portfolio#-what-i-have-learned-and-did-6th-january">✨ What I have Learned and did 6th January?</a>
 ### <a href="https://github.com/mdsabbiralmamon/myJourneyFor2024/tree/main/Web_day7_FlowerShop#-what-i-have-learned-and-did-7th-january">✨ What I have Learned and did 7th January?</a>
+### <a href="https://github.com/mdsabbiralmamon/myJourneyFor2024/tree/main/Web_day8_PsudoCSS/README.md">✨ What I have Learned and did 8th January?</a>
+### <a href="https://github.com/mdsabbiralmamon/myJourneyFor2024/tree/main/Web_day9_ResponsiveLayout/README.md">✨ What I have Learned and did 9th January?</a>
+
