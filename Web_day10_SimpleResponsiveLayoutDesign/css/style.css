@@ -1,0 +1,94 @@
+/* =========================================
+                Global CSS
+========================================= */
+
+@import url('https://fonts.googleapis.com/css2?family=Sora:wght@100;200;300;400;500;600;700;800&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: sora;
+}
+
+/* =========================================
+                Body CSS
+========================================= */
+
+body {
+    background-color: #FAFAF9;
+}
+
+/* =========================================
+                Card CSS
+========================================= */
+
+.cardContainer {
+    border: 1px solid #FFFFFF;
+    margin: 164px auto 0px auto;
+    width: 28.75%;
+    max-width: 368px;
+    background-color: #FFFFFF;
+    border-radius: 15px;
+    box-shadow: 0px 30px 100px 0px rgba(17, 23, 41, 0.05);
+}
+
+.cardContainer img {
+    width: 91.30%;
+    max-width: 336px;
+    height: 152px;
+    border-radius: 10px;
+    margin: 16px 16px;
+}
+
+.cardContainer .tag {
+    background-color: #E6D6FC;
+    color: #883AE1;
+    width: fit-content;
+    border-radius: 20px;
+    padding: 6px 16px;
+    margin: 0 16px;
+    font-size: 0.625rem;
+}
+
+.cardContainer h2 {
+    width: fit-content;
+    margin: 16px 16px 3px 16px;
+    font-size: 1.125rem;
+    color: #20293A;
+}
+
+.cardContainer .paragraph {
+    margin: 3px 16px 16px 16px;
+    font-size: 0.875rem;
+    width: fit-content;
+    color: #6C727F;
+}
+
+.cardContainer hr {
+    color: #FAFAF9;
+}
+
+.cardContainer .cardFooter {
+    margin: 20px auto 20px 16px;
+    font-size: 0.75rem;
+    width: fit-content;
+    color: #6C727F;
+}
+
+/* =========================================
+              Responsive CSS
+========================================= */
+
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 640px) {
+    .cardContainer{
+        width: 368px;
+    }
+}
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 640px) {
+    .cardContainer{
+        width: 368px;
+    }
+}
