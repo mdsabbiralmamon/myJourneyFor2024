@@ -37,10 +37,14 @@ body{
     stroke: #31e8ff;
 }
 
+/* change values of array and offset to create a starting point from where you want to start your animation */
+
 .container .heart path {
     stroke-dasharray: 1760;
     stroke-dashoffset: 1760;
 }
+
+/* hover animation effect creation */
 
 .container .heart:hover path{
     animation: animate-heart 2s linear forwards;
@@ -51,10 +55,10 @@ body{
         stroke-dashoffset: 0;
     }
     40% {
-        stroke-dashoffset: 1760;
+        stroke-dashoffset: 1760; /*same value from the path creation*/
     }
     80% {
-        stroke-dashoffset: 3520;
+        stroke-dashoffset: 3520;  /*double the value you selected before effect creation*/
         fill: transparent;
     }
     100% {
