@@ -35,3 +35,9 @@ do it yourself:
 
 - figure out solutions process and add them
 
+## 🌷Module 9-6 Add Facts Contents And Apply Flex
+
+do it yourself: 
+
+- figure out solutions process and add them
+
