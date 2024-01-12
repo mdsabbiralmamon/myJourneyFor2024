@@ -47,3 +47,9 @@ do it yourself:
 
 - figure out solutions process and add them
 
+## 🌷Module 9-8 Create Features Section Content And Badge
+
+do it yourself: 
+
+- figure out solutions process and add them
+
