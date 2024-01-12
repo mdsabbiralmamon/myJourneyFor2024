@@ -41,3 +41,9 @@ do it yourself:
 
 - figure out solutions process and add them
 
+## 🌷Module 9-7 Make Facts And Sponsors Responsive
+
+do it yourself: 
+
+- figure out solutions process and add them
+
