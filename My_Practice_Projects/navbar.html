@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+
+        * {
+            margin: 0;
+            padding: 0;
+            font-family: Roboto;
+        }
+
+        .navContainer {
+            max-width: 90.33%;
+            width: 1734.336px;
+            min-width: 733px;
+            margin: auto;
+        }
+
+        .navContainer .upperNavContainer {
+            display: flex;
+            justify-content: center;
+            margin: 16px 0px;
+            align-items: baseline;
+            gap: 25px;
+        }
+
+        .navContainer .upperNavContainer h2{
+            width: 100%;
+        }
+
+        .navContainer .upperNavContainer h4{
+            color: #888888;
+            width: 100%;
+            text-align: right;
+        }
+
+        .navContainer .lowerNavContainer {
+            display: flex;
+            justify-content: space-between;
+            margin: 16px 0px;
+            align-items: center;
+            gap: 12px;
+        }
+
+        .navContainer .lowerNavContainer select {
+            -webkit-appearance: none;
+            -moz-appearance: none;
+            -ms-appearance: none;
+            appearance: none;
+            outline: 0;
+            box-shadow: 1px 1px 20px rgb(209, 209, 209);
+            background: #ffffff;
+            background-image: none;
+            flex: 1;
+            padding: 0 .5em;
+            color: #cacaca;
+            cursor: pointer;
+            font-size: 1em;
+            border: 2px solid white;
+        }
+
+        .navContainer .lowerNavContainer select::-ms-expand {
+            display: none;
+        }
+
+        .navContainer .lowerNavContainer .select {
+            position: relative;
+            display: flex;
+            width: 100%;
+            height: 58px;
+            line-height: 3;
+            border-radius: .25em;
+        }
+
+        .navContainer .lowerNavContainer .select::after {
+            content: '\25BC';
+            position: absolute;
+            top: 5px;
+            right: 5px;
+            padding: 0 16px;
+            background: #F5AA42;
+            cursor: pointer;
+            pointer-events: none;
+            transition: .25s all ease;
+        }
+
+        .navContainer .lowerNavContainer .select:hover::after {
+            color: #be6f00;
+        }
+
+        .navContainer .lowerNavContainer input {
+            width: 100%;
+            height: 55px;
+            line-height: 3;
+            border: 2px solid white;
+            box-shadow: 1px 1px 20px rgb(209, 209, 209);
+            font-weight: lighter;
+            padding: 0px 10px;
+            font-size: 16px;
+        }
+
+        .navContainer .lowerNavContainer input[type=text]::placeholder {
+            color: #cacaca;
+        }
+
+        .navContainer .lowerNavContainer input[type=button] {
+            border: black;
+            background-color: black;
+            color: #be6f00;
+            padding: 0;
+            cursor: pointer;
+            width: 100%;
+        }
+    </style>
+    <title>nav bar</title>
+</head>
+
+<body>
+    <div class="navContainer">
+        <div class="upperNavContainer">
+            <h2>FIND YOUR ZONES AND RATES</h2>
+            <h4>NOW YOU CAN FIND YOUR RATES AND ZONES</h4>
+        </div>
+        <div class="lowerNavContainer">
+            <div class="select">
+                <select name="format" id="format">
+                    <option value="" disabled selected>TYPE YOUR AIRPORT?</option>
+                    <option value="Airport1">Airport 1</option>
+                    <option value="Airport2">Airport 2</option>
+                    <option value="Airport3">Airport 3</option>
+                </select>
+            </div>
+            <input type="text" name="username" placeholder="TYPE YOUR ZIP CODE HERE">
+            <input type="button" value="SEARCH">
+        </div>
+    </div>
+</body>
+
+</html>
