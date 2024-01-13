@@ -30,7 +30,7 @@ css3 properties:
 what is css 3
 core features of css 3
 
-## 🌷Module 10-4 Transform Element Using Rotate Scale Translate
+ 10-4 Transform Element Using Rotate Scale Translate
 
 css3 properties :
 
@@ -38,7 +38,17 @@ css3 properties :
 >>>>>>>>>>>>Translate
 
 
+## 🌷Module 10-5 Introduction To CSS Animation Transition
 
+css3 properties :
+
+>>>>>>>>>>>Transform : change the shape
+>>>>>>>>>>>Translation : move shapes within x and y axis
+>>>>>>>>>>>Transition : time expanded
+
+## 🌷Module 10-6 (Optional) Cricket Match Animation Transform, Translate, Transition
+
+css3 properties :
 
 
 
