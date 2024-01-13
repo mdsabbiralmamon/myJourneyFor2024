@@ -56,5 +56,9 @@ create a bat hiting ball animation effect >>>>>>>>task
 
 ## 🌷Module 10-7 (Optional) Css Animation And Bounce Effect With Balls
 
+ task : create a ball dropping animation
+
+ search google for more details
+
 
 
