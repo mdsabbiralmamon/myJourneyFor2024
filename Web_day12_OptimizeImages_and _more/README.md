@@ -21,5 +21,16 @@
 
 ## 🌷Module 10-3 CSS3 Features And CSS Overflow, Text-Overflow, Ellipsis
 
+css3 properties:
+
+>>>>>>>>>>overflow: hidden, auto, scroll....
+>>>>>>>>>>overflow-x: hidden ....
+>>>>>>>>>> text overflow: ellipsis, clip ...
+
+what is css 3
+core features of css 3
+
+## 🌷Module 10-3 CSS3 Features And CSS Overflow, Text-Overflow, Ellipsis
+
 
 
