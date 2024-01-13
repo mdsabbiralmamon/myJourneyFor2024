@@ -61,4 +61,13 @@ create a bat hiting ball animation effect >>>>>>>>task
  search google for more details
 
 
+## 🌷Module 10-8 (Advanced) CSS Custom Property And Use Var, Calc
+
+## 🌷Module 10-9 Module Summary And Optimise And Resize Images
+
+## 🌷Module 10-10 Practice Practice Responsive Influencer Gear
+
+resource link : https://github.com/ProgrammingHero1/influencer-gear.git
+
+
 
