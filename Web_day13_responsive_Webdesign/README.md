@@ -20,3 +20,5 @@
 
 - large devices : 992px and up
 - small devices : 600px and down
+
+---
