@@ -40,6 +40,12 @@
 
     - go to : https://tailwindcss.com/docs/ for more documentation
 
+## Module 🌷 12-10 Module Summary And Home Work
+
+-  task do full figma to html with tailwind css
+
+
+
 
 
 
