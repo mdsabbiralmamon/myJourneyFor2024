@@ -22,6 +22,25 @@
 
 -  Download resources : https://github.com/ProgrammingHero1/penguin-fashion-resources.git
 
+## Module 🌷 12-7 Apply Header With Custom Button And Svg Hero Icons
+
+-  Download resources : and try yourself 
+
+    - go to : https://tailwindcss.com/docs/ for more documentation
+
+## Module 🌷 12-8 Make Header Responsive For Smaller And Larger Devices
+
+-  Download resources : and try yourself 
+
+    - go to : https://tailwindcss.com/docs/ for more documentation
+
+## Module 🌷 12-9 Setup Custom Card And Card Grid Using Tailwind Css
+
+-  Download resources : and try yourself 
+
+    - go to : https://tailwindcss.com/docs/ for more documentation
+
+
 
 
 
