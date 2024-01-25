@@ -43,4 +43,45 @@
 | var | weight | = | 38 | ; |
 
 
+## 🎫   Module 16-4 Variable Data Types, Numeric, String, Boolean
+
+### 🎃  research about different variables
+
+## 🎫   Module 16-5 JavaScript Keyword, Variable Name Naming Convention
+
+### 🎃  research about different Keyword, Variable Name Naming Convention
+
+## 🎫   Module 16-6 Know The Fundamentals Of JS Numbers
+
+### 🎃  research about different numbers
+
+## 🎫   Module 16-7 Introduction To Arithmetic Operators
+
+### 🎃  research about different Operators 
+
+## 🎫   Module 16-8 (Advanced) Mathematical Operation Shorthand
+
+### 🎃  research about different Operators 
+
+## 🎫   Module 16-9 Module Summary And Practice Task
+
+### 🎃  Task 1
+
+You went to the supermarket to buy some oranges and apples. Calculate how much money the shopkeeper will return.
+
+### Input:
+The first line of the input is the taka you have. The second line is the cost of 1 kg of oranges and 1 kg of apples.
+
+### Output:
+Print the result.
+
+| Sample Input | Sample Output |
+| :---: | :---: |
+| 1000 | 300 |
+| 700 |  |
+
+
+
+
+
 
