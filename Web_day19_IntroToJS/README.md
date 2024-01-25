@@ -94,6 +94,20 @@ Print the result in 2 decimal places.
 | :---: | :---: |
 | 75.25, 65, 80, 35.45, 99.50 | 71.04 |
 
+### 🎃  Task 2
+
+You task is to divide the given number by 5 and show the remainder as the output.
+
+### Input:
+The first line of the input is the marks of the five subjects mentioned above, respectively.
+
+### Output:
+Print the remainder.
+
+| Sample Input | Sample Output |
+| :---: | :---: |
+| 119 | 5 |
+
 
 
 
