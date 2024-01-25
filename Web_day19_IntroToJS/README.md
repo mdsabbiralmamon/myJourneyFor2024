@@ -94,7 +94,7 @@ Print the result in 2 decimal places.
 | :---: | :---: |
 | 75.25, 65, 80, 35.45, 99.50 | 71.04 |
 
-### 🎃  Task 2
+### 🎃  Task 3
 
 You task is to divide the given number by 5 and show the remainder as the output.
 
@@ -107,6 +107,17 @@ Print the remainder.
 | Sample Input | Sample Output |
 | :---: | :---: |
 | 119 | 5 |
+
+### 🎃  Task 4
+
+What will be the result of the following codes:
+
+var a = isNaN(‘11’);
+
+var a = isNaN(2-10);
+
+Explain your answers.
+
 
 
 
