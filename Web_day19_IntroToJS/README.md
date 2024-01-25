@@ -31,3 +31,18 @@
 - area :
 - graph :
 
+## 🎫   Module 16-3 What Is A Variable, Five Things You Need To Declare A Variable
+
+### 🎃  Variables declaration :
+
+- var weight = 38;
+
+---
+keyword: var
+name: weight
+equal: =
+value: 38
+semi-colon: ;
+---
+
+
