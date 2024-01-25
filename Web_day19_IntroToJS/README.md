@@ -37,12 +37,10 @@
 
 - var weight = 38;
 
----
-keyword: var
-name: weight
-equal: =
-value: 38
-semi-colon: ;
----
+
+| keyword | name | equal | value | semi-colon |
+| :---: | :---: | :---: | :---: | :---: |
+| var | weight | = | 38 | ; |
+
 
 
