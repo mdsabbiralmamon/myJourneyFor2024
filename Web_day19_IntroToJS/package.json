@@ -1,0 +1,15 @@
+{
+  "name": "web_day19_introtojs",
+  "version": "1.0.0",
+  "description": "- intro to js\r - data types in js\r - keywords\r - operators\r - arrays\r - loops\r - strings\r - reverse arrays\r - functions\r - parameters\r - var, let, const",
+  "main": "task1.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "prompt-sync": "^4.2.0"
+  }
+}
