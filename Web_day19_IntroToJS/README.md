@@ -106,7 +106,7 @@ Print the remainder.
 
 | Sample Input | Sample Output |
 | :---: | :---: |
-| 119 | 5 |
+| 119 | 4 |
 
 ### 🎃  Task 4
 
