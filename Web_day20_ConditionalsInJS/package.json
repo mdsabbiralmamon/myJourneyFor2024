@@ -1,0 +1,15 @@
+{
+  "name": "web_day20_conditionalsinjs",
+  "version": "1.0.0",
+  "description": "Free Drinks :\r     - Burger more than 500tk: free Coke\r     - Else Coke: 30tk",
+  "main": "task1.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "prompt-sync": "^4.2.0"
+  }
+}
