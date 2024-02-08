@@ -41,6 +41,7 @@ function deleteInvalids(array) {
 }
 
 function password(obj) {
+
     if (obj.siteName === undefined || obj.birthYear === undefined || obj.siteName === undefined) {
         return ("invalid");
     }
@@ -53,13 +54,11 @@ function password(obj) {
             return ("invalid");
         }
         else {
-            const newPassword = obj.siteName + "#" + obj.name + "@" + obj.birthYear;
+            let websiteName = obj.siteName;
+            websiteName = websiteName.charAt(0).toUpperCase() + websiteName.slice(1);
+            const newPassword = websiteName + "#" + obj.name + "@" + obj.birthYear;
             return (newPassword);
         }
-    }
-    else {
-        const newPassword = obj.siteName + "#" + obj.name + "@" + obj.birthYear;
-        return (newPassword);
     }
 }
 
@@ -82,7 +81,7 @@ function monthlySavings(arr, livingCost) {
             return ("earn more");
         }
     }
-    else{
-        return("invalid input");
+    else {
+        return ("invalid input");
     }
 }
