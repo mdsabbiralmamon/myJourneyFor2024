@@ -85,5 +85,3 @@ function monthlySavings(arr, livingCost) {
         return ("invalid input");
     }
 }
-
-console.log(monthlySavings([ 1000 , 2000 , 2500 ] , 5000));
