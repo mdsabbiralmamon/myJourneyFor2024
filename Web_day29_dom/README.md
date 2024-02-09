@@ -173,3 +173,115 @@ These techniques can be useful when dealing with objects that resemble arrays bu
 
 ---
 
+## 🎃   24-3 Traversing Dom - GetElementByClass VS GetElementById
+
+### GetElementByClass
+
+The correct method to select elements by their class name in the DOM is getElementsByClassName(). This method returns a collection of all elements in the document that have the specified class name.
+
+Here's how you can use getElementsByClassName():
+
+```html
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>getElementsByClassName Example</title>
+    <style>
+        .highlight {
+            color: red;
+        }
+    </style>
+</head>
+<body>
+    <h1 class="highlight">This is a highlighted heading.</h1>
+    <p>This is a paragraph.</p>
+    <div class="highlight">
+        <p>This is another highlighted paragraph.</p>
+    </div>
+    <ul>
+        <li class="highlight">Item 1</li>
+        <li>Item 2</li>
+        <li class="highlight">Item 3</li>
+    </ul>
+
+    <script>
+        // Get all elements with the class "highlight"
+        var highlightedElements = document.getElementsByClassName("highlight");
+        
+        // Loop through the collection and do something with each highlighted element
+        for (var i = 0; i < highlightedElements.length; i++) {
+            console.log(highlightedElements[i].textContent);
+            // You can also manipulate each element here, for example:
+            // highlightedElements[i].style.fontWeight = "bold";
+        }
+    </script>
+</body>
+</html>
+
+```
+In this example, getElementsByClassName("highlight") returns all elements with the class "highlight" in the document. Then, a loop iterates over each highlighted element, logging its textContent to the console. You can also perform other operations on these elements, such as changing their style or content.
+
+### GetElementById : 
+
+getElementById() is a method in the Document Object Model (DOM) API that allows you to select an element in the document by its unique ID attribute. It returns the element with the specified ID, or null if no such element exists.
+
+Here's how you can use getElementById():
+
+```html
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>getElementById Example</title>
+</head>
+<body>
+    <h1 id="heading">Hello, World!</h1>
+    
+    <script>
+        // Get the element with the ID "heading"
+        var headingElement = document.getElementById("heading");
+        
+        // Modify the element's content
+        headingElement.textContent = "Welcome to my website!";
+        
+        // You can also manipulate other attributes or styles of the element
+        headingElement.style.color = "blue";
+    </script>
+</body>
+</html>
+
+```
+
+In this example, getElementById("heading") selects the element with the ID "heading" in the document, which is the `<h1>` element. Then, you can manipulate its content, attributes, or styles using JavaScript.
+
+### when to use GetElementByClass and GetElementById
+
+getElementById() and getElementsByClassName() are both methods in the Document Object Model (DOM) API used to select elements from a web page, but they serve different purposes based on the attributes they target:
+
+- getElementById():
+
+    - Purpose: This method is used to select a single element based on its unique ID attribute.
+    - Usage: If you have an element with a unique identifier (ID) on your web page, you can use getElementById() to select it.
+    - Return value: It returns the element with the specified ID or null if no such element exists.
+
+- getElementsByClassName():
+
+    - Purpose: This method is used to select multiple elements based on their class names.
+    - Usage: If you have multiple elements with the same class name on your web page, you can use getElementsByClassName() to select all of them.
+    - Return value: It returns a live HTMLCollection of elements with the specified class name.
+    
+When to use each method depends on your specific use case:
+
+- Use getElementById() when you want to select a single element that has a unique identifier (ID). IDs should be unique within the document, so this method is suitable when you know there's only one element with a specific ID.
+
+- Use getElementsByClassName() when you want to select multiple elements that share a common class name. This method is useful when you want to apply the same styles or behavior to multiple elements.
+
+It's worth noting that there's also a newer method called querySelector() that can be used for more flexible element selection. With querySelector(), you can select elements using CSS-style selectors, allowing you to target elements based on IDs, classes, attributes, and more.
+
+---
+
