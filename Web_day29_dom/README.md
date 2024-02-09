@@ -416,4 +416,180 @@ In summary, HTMLCollection is more commonly associated with methods that return 
 
 ---
 
+## 🎃   24-5 Dynamic Style, GetAttribute, SetAttribute, InnerText, InnerHTML
+
+### Dynamic Style
+
+Dynamic styling in web development refers to the ability to change the appearance of elements on a web page dynamically using JavaScript. This can be achieved by manipulating the style properties of DOM elements directly through JavaScript.
+
+Here's a basic example demonstrating how to dynamically change the style of an HTML element using JavaScript:
+
+HTML:
+
+```html
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dynamic Style Example</title>
+    <style>
+        /* Default style */
+        .box {
+            width: 100px;
+            height: 100px;
+            background-color: red;
+        }
+    </style>
+</head>
+<body>
+    <div id="myBox" class="box"></div>
+
+    <button onclick="changeColor()">Change Color</button>
+
+    <script>
+        function changeColor() {
+            // Get the element by ID
+            var box = document.getElementById("myBox");
+
+            // Change the background color
+            box.style.backgroundColor = "blue";
+        }
+    </script>
+</body>
+</html>
+
+```
+
+In this example:
+
+- We have a `<div>` element with an ID of "myBox" and a class of "box". This element represents a box that we want to style dynamically.
+- Initially, the box has a default red background color applied through CSS.
+- There's a button labeled "Change Color". When clicked, it triggers the changeColor() function.
+- Inside the changeColor() function, we use getElementById() to select the box element. Then, we use the style property to dynamically change its background color to blue.
+
+This is just a basic example, but you can dynamically change various other style properties such as width, height, font size, position, etc., using similar techniques. Dynamic styling allows you to create interactive and visually appealing web applications.
+
+### GetAttribute
+
+getAttribute() is a method in the Document Object Model (DOM) API that allows you to retrieve the value of a specified attribute on an element. You can use it to get the value of any attribute of an HTML element, such as id, class, href, src, etc.
+
+Here's how you can use getAttribute():
+
+```html
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>getAttribute Example</title>
+</head>
+<body>
+    <a id="link" href="https://www.example.com">Example Link</a>
+
+    <script>
+        // Get the href attribute value of the link element
+        var linkElement = document.getElementById("link");
+        var hrefValue = linkElement.getAttribute("href");
+        
+        // Output the href value
+        console.log(hrefValue); // Output: https://www.example.com
+    </script>
+</body>
+</html>
+
+```
+
+In this example:
+
+- We have an `<a>` (anchor) element with an id attribute set to "link" and an href attribute set to "https://www.example.com".
+- Using JavaScript, we use getElementById() to select the anchor element.
+- We then use getAttribute("href") to retrieve the value of the href attribute and store it in the hrefValue variable.
+- Finally, we log the value of hrefValue to the console, which outputs "https://www.example.com".
+
+You can use getAttribute() to retrieve the value of any attribute of an HTML element, allowing you to access and manipulate attributes dynamically in your JavaScript code.
+
+### SetAttribute
+
+setAttribute() is a method in the Document Object Model (DOM) API that allows you to set the value of a specified attribute on an element. You can use it to modify existing attributes or create new ones on HTML elements.
+
+Here's how you can use setAttribute():
+
+```html
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>setAttribute Example</title>
+</head>
+<body>
+    <div id="exampleDiv">Example</div>
+
+    <script>
+        // Get the div element by its ID
+        var divElement = document.getElementById("exampleDiv");
+        
+        // Set a new attribute "data-example" with the value "123"
+        divElement.setAttribute("data-example", "123");
+
+        // Check if the attribute has been set
+        var dataAttribute = divElement.getAttribute("data-example");
+        console.log(dataAttribute); // Output: 123
+    </script>
+</body>
+</html>
+
+```
+
+In this example:
+
+- We have a `<div>` element with an ID attribute set to "exampleDiv".
+- Using JavaScript, we use getElementById() to select the div element.
+- We then use setAttribute("data-example", "123") to set a new attribute called "data-example" with the value "123" on the div element.
+- Finally, we use getAttribute("data-example") to retrieve the value of the "data-example" attribute, and we log it to the console. The output will be "123".
+
+You can use setAttribute() to dynamically add, modify, or remove attributes on HTML elements, providing flexibility in how you manipulate the DOM with JavaScript.
+
+
+### InnerText VS InnerHTML
+
+innerText and innerHTML are both properties of DOM elements in JavaScript, but they are used for different purposes and have different behaviors:
+
+- innerText:
+
+    - Purpose: innerText is used to get or set the text content of an element, including its descendants, but it does not return the HTML markup. It returns only the visible text within the element, excluding any hidden text or elements.
+
+    - Usage: It's commonly used when you want to manipulate or retrieve text content within an element but do not need to deal with HTML markup.
+
+Example:
+
+```js 
+
+var element = document.getElementById("example");
+console.log(element.innerText); // Retrieves the text content
+element.innerText = "New Text"; // Sets the text content
+
+
+```
+- innerHTML:
+
+    - Purpose: innerHTML is used to get or set the HTML content of an element, including all its descendants. It returns the HTML markup as a string, which means it also includes any HTML tags inside the element.
+
+    - Usage: It's commonly used when you want to manipulate or retrieve the HTML content within an element, including both text and HTML markup.
+
+Example:
+
+```js
+
+var element = document.getElementById("example");
+console.log(element.innerHTML); // Retrieves the HTML content
+element.innerHTML = "<strong>New Content</strong>"; // Sets the HTML content
+
+```
+
+In summary, innerText deals with the text content only and ignores any HTML markup, while innerHTML includes both text and HTML markup. Use innerText when you're working with text content and don't need to handle HTML markup, and use innerHTML when you need to manipulate or retrieve both text and HTML content of an element. However, note that setting innerHTML can potentially lead to security risks if the content is not sanitized properly, as it allows executing arbitrary HTML and scripts.
 
