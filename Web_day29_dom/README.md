@@ -692,3 +692,112 @@ In this example:
 
 Using classList methods like add() and remove() is a convenient and reliable way to manipulate CSS classes in JavaScript, providing more flexibility and control over styling in your web applications.
 
+---
+
+## 🎃   24-7 NodeList, Htmlcollection, ParentNode, Childnodes, CreateElement
+
+### NodeList
+
+visit : https://developer.mozilla.org/en-US/docs/Web/API/Node
+
+
+A NodeList is a collection of nodes, typically returned by methods such as querySelectorAll() or childNodes. It represents a list of nodes (usually elements) found in the document that match a specified selector or are direct children of a specific element.
+
+Here are some key points about NodeList:
+
+- Returned by Methods: NodeList objects are commonly returned by various DOM methods like querySelectorAll() and childNodes.
+
+- Live vs. Static: Depending on the method used to obtain the NodeList, it can be either live or static.
+
+    - Live: A live NodeList is automatically updated as the document changes. If elements are added or removed from the document after the NodeList is created, the collection reflects those changes. Examples of methods that return live NodeLists include getElementsByTagName(), getElementsByClassName(), and querySelectorAll().
+    - Static: A static NodeList represents a snapshot of the document at the time the method was called. Changes to the document after creating the NodeList won't affect its contents. Examples of methods that return static NodeLists include childNodes and children.
+- Accessing Nodes: You can access nodes in a NodeList using numeric indices, similar to accessing elements in an array. For example, nodeList[0] accesses the first node in the list.
+
+- Iteration: You can iterate over a NodeList using a for loop or other iteration methods like forEach().
+
+Here's an example of using a NodeList obtained from querySelectorAll():
+
+```js 
+
+// Select all <p> elements with the class "example"
+var paragraphs = document.querySelectorAll("p.example");
+
+// Iterate over the NodeList
+for (var i = 0; i < paragraphs.length; i++) {
+    console.log(paragraphs[i].textContent); // Output text content of each <p> element
+}
+
+
+```
+
+In this example, querySelectorAll("p.example") returns a NodeList containing all `<p>` elements with the class "example". We then iterate over this NodeList, logging the text content of each paragraph element to the console.
+
+### Htmlcollection
+
+- An HTMLCollection is an array-like object that represents a collection of HTML elements in the DOM.
+- It is typically returned by methods like getElementsByTagName(), getElementsByClassName(), and children property.
+- HTMLCollection is live, meaning it updates itself automatically if the underlying DOM changes.
+- You can access elements in an HTMLCollection using numeric indices (collection[0], collection[1], etc.).
+
+Example:
+
+```js
+
+var elements = document.getElementsByTagName("div");
+console.log(elements.length); // Number of div elements in the document
+
+```
+
+### ParentNode 
+
+- ParentNode is a mixin interface implemented by nodes that can have child nodes, such as elements, document fragments, and document objects themselves.
+- It provides methods to access and manipulate the child nodes of the node.
+- Common methods provided by ParentNode include querySelector(), querySelectorAll(), appendChild(), prepend(), removeChild(), etc.
+
+Example:
+
+```js
+
+var parent = document.getElementById("parentElement");
+var child = document.createElement("div");
+parent.appendChild(child); // Appends the newly created div as a child of parentElement
+
+```
+
+### Childnodes 
+
+- childNodes is a property of Node objects that returns a live NodeList representing the child nodes of the node.
+- It includes all child nodes, including elements, text nodes, and comment nodes.
+- You can access child nodes using numeric indices (childNodes[0], childNodes[1], etc.).
+
+Example:
+
+```js
+
+var parent = document.getElementById("parentElement");
+var children = parent.childNodes;
+console.log(children.length); // Number of child nodes of parentElement
+
+
+```
+
+### CreateElement
+
+- createElement() is a method of the document object that creates a new element node with the specified tag name.
+- It returns the newly created element.
+- You can then append this element to the DOM as a child of another element.
+
+Example:
+
+```js
+
+var newElement = document.createElement("div");
+newElement.textContent = "This is a new div element";
+document.body.appendChild(newElement); // Appends the new div element to the body
+
+```
+
+These concepts are fundamental to DOM manipulation in JavaScript and are frequently used when working with web pages dynamically.
+
+---
+
