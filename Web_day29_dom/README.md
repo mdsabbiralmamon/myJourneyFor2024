@@ -75,3 +75,101 @@ function greet() {
 ```
 Ensure that your HTML file and JavaScript file are in the same directory, or you need to provide the correct path to your JavaScript file in the src attribute of the `<script>` tag.
 
+---
+
+## 🎃   24-2 Traversing Dom - GetElementsByTagName
+
+### GetElementsByTagName
+
+getElementsByTagName() is a method in the Document Object Model (DOM) API that allows you to retrieve all elements within a document that have a specific tag name. It returns a live HTMLCollection of elements with the specified tag name.
+
+Here's how you can use getElementsByTagName():
+
+```html
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>getElementsByTagName Example</title>
+</head>
+<body>
+    <h1>Sample Document</h1>
+    <p>This is a paragraph.</p>
+    <div>
+        <p>This is another paragraph.</p>
+    </div>
+    <ul>
+        <li>Item 1</li>
+        <li>Item 2</li>
+        <li>Item 3</li>
+    </ul>
+
+    <script>
+        // Get all <p> elements in the document
+        var paragraphs = document.getElementsByTagName("p");
+        
+        // Loop through the collection and do something with each paragraph
+        for (var i = 0; i < paragraphs.length; i++) {
+            console.log(paragraphs[i].textContent);
+            // You can also manipulate each paragraph here, for example:
+            // paragraphs[i].style.color = "red";
+        }
+    </script>
+</body>
+</html>
+
+```
+
+In this example, getElementsByTagName("p") returns all `<p>` elements in the document. Then, a loop iterates over each `<p>` element, logging its textContent to the console. You can also perform other operations on these elements, such as changing their style or content.
+
+### Array like object 
+
+Arrays are objects in JavaScript, but they have specific properties and methods that distinguish them from regular JavaScript objects. However, if you're referring to "array-like objects," these are objects that resemble arrays in that they have numeric indices and a length property, but they may not have all the methods and features of a true array.
+
+Here's an example of an array-like object:
+
+```js
+
+var arrayLike = {
+    0: 'apple',
+    1: 'banana',
+    2: 'orange',
+    length: 3
+};
+
+```
+In this object:
+
+- The properties 0, 1, and 2 are numeric indices, just like an array.
+- The length property indicates the number of elements in the "array-like" object.
+- However, this object is not a true array because it doesn't have built-in array methods like push(), pop(), forEach(), etc.
+
+You can still access elements of array-like objects using numeric indices and iterate over them using loops, just like with arrays. For example:
+
+```js
+
+for (var i = 0; i < arrayLike.length; i++) {
+    console.log(arrayLike[i]);
+}
+
+```
+Or, you can convert array-like objects into arrays using various methods such as Array.from() or by using the spread operator (...). This allows you to use array methods on them:
+
+```js
+
+var array = Array.from(arrayLike);
+console.log(array); // ['apple', 'banana', 'orange']
+
+// Using spread operator
+var newArray = [...arrayLike];
+console.log(newArray); // ['apple', 'banana', 'orange']
+
+
+```
+
+These techniques can be useful when dealing with objects that resemble arrays but don't have all the functionality of true arrays.
+
+---
+
