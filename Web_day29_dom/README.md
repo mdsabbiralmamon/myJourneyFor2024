@@ -408,11 +408,8 @@ Here's a brief comparison:
 | Feature | HTMLCollection | NodeList |
 | :---: | :---: | :---: |
 | Live Collection | Yes | No |
-| :---: | :---: | :---: |
 | Accessing | By index, name, or ID | By index |
-| :---: | :---: | :---: |
 | Methods | Limited | forEach(), etc. |
-| :---: | :---: | :---: |
 | Returned by | getElementsByTagName(), etc | querySelectorAll(), childNodes, etc. |
 
 In summary, HTMLCollection is more commonly associated with methods that return collections of elements based on specific criteria like tag name or class name, while NodeList is more versatile and can be returned by various methods and properties, offering more flexibility in traversing the DOM.
