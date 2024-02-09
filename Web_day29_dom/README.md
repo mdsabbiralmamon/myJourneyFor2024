@@ -801,3 +801,85 @@ These concepts are fundamental to DOM manipulation in JavaScript and are frequen
 
 ---
 
+## 🎃   24-8 Create HTML Elements Using Javascript And AppendChild
+
+Below is an example demonstrating how to create HTML elements using JavaScript's createElement() method and how to append them to the DOM using appendChild():
+
+```html
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Create HTML Elements Using JavaScript</title>
+</head>
+<body>
+    <div id="container">
+        <!-- Existing content -->
+    </div>
+
+    <script>
+        // Create a new paragraph element
+        var paragraph = document.createElement("p");
+        
+        // Set the text content of the paragraph
+        paragraph.textContent = "This is a dynamically created paragraph.";
+
+        // Create a new span element
+        var span = document.createElement("span");
+
+        // Set the text content of the span
+        span.textContent = "This is a span inside the paragraph.";
+
+        // Append the span element to the paragraph
+        paragraph.appendChild(span);
+
+        // Get the container element
+        var container = document.getElementById("container");
+        
+        // Append the paragraph element to the container
+        container.appendChild(paragraph);
+    </script>
+</body>
+</html>
+
+```
+
+In this example:
+
+- We create a paragraph element `(<p>)` using document.createElement("p").
+- We set the text content of the paragraph using the textContent property.
+- We create a span element `(<span>)` using document.createElement("span").
+- We set the text content of the span.
+- We append the span element to the paragraph using appendChild().
+- We select the container element using getElementById("container").
+- We append the paragraph element to the container using appendChild().
+- As a result, a new paragraph containing the span will be appended inside the container element in the HTML document.
+
+This approach allows for dynamic creation and insertion of HTML elements into the DOM using JavaScript.
+
+---
+
+## 🎃   24-9 Module Summary (DOM Review)
+
+### Summary
+
+Throughout this article, we've covered various aspects of web development using JavaScript and the Document Object Model (DOM). Here's a summary of the topics discussed:
+
+- Connecting JavaScript with HTML: We discussed different methods of connecting JavaScript with HTML files, including embedding JavaScript directly within HTML using `<script>` tags and linking external JavaScript files using the `<script src="filename.js"></script>` tag.
+
+- Traversing the DOM: We explored various DOM traversal methods, such as getElementsByTagName(), getElementsByClassName(), querySelector(), and querySelectorAll(), which allow you to select and manipulate elements based on their tag names, class names, or CSS selectors.
+
+- Manipulating DOM Elements: We covered techniques for manipulating DOM elements, including accessing element properties like textContent, innerHTML, and style, as well as methods for adding, removing, and toggling CSS classes using classList.
+
+- Dynamic Styling: We discussed dynamic styling of DOM elements using JavaScript, where you can modify the inline styles of elements directly by accessing their style properties.
+
+- Creating and Appending HTML Elements: We explored the creation of new HTML elements using document.createElement(), setting their properties and content, and appending them to the DOM using appendChild().
+
+- Attributes Manipulation: We covered methods like getAttribute() and setAttribute() for reading and modifying attributes of DOM elements dynamically.
+
+- NodeList and HTMLCollection: We explained the differences between NodeList and HTMLCollection, which represent collections of DOM nodes returned by various DOM methods, and how to access and manipulate their contents.
+
+Overall, this article provided an overview of key concepts and techniques for working with JavaScript and the DOM to create dynamic and interactive web pages.
+
