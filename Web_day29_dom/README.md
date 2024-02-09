@@ -593,3 +593,102 @@ element.innerHTML = "<strong>New Content</strong>"; // Sets the HTML content
 
 In summary, innerText deals with the text content only and ignores any HTML markup, while innerHTML includes both text and HTML markup. Use innerText when you're working with text content and don't need to handle HTML markup, and use innerHTML when you need to manipulate or retrieve both text and HTML content of an element. However, note that setting innerHTML can potentially lead to security risks if the content is not sanitized properly, as it allows executing arbitrary HTML and scripts.
 
+---
+
+## 🎃   24-6 Styling Dom Properties, Add And Remove Css Class Using JS
+
+### Styling Dom Properties
+
+To style DOM elements using JavaScript, you can directly manipulate their style properties. Each DOM element has a style property that represents its inline styles. You can access this property to set or modify CSS properties dynamically.
+
+Here's how you can style DOM elements using JavaScript:
+
+```html
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Styling DOM Properties</title>
+</head>
+<body>
+    <div id="exampleDiv">This is a div element</div>
+
+    <script>
+        // Get the div element by its ID
+        var divElement = document.getElementById("exampleDiv");
+        
+        // Set or modify CSS properties
+        divElement.style.backgroundColor = "lightblue";
+        divElement.style.color = "white";
+        divElement.style.padding = "10px";
+        divElement.style.borderRadius = "5px";
+        divElement.style.fontWeight = "bold";
+    </script>
+</body>
+</html>
+
+```
+
+In this example:
+
+We have a `<div>` element with an ID attribute set to "exampleDiv".
+Using JavaScript, we use getElementById() to select the div element.
+We then access its style property to dynamically set several CSS properties such as background color, text color, padding, border radius, and font weight.
+By manipulating the style property of a DOM element, you can dynamically apply styles to elements based on various conditions or user interactions, making your web page more interactive and dynamic.
+
+
+### Add And Remove Css Class Using JS :
+
+To add and remove CSS classes using JavaScript, you can use the classList property of DOM elements. The classList property provides methods to manipulate classes on an element, such as adding, removing, toggling, and checking for the presence of classes.
+
+Here's how you can add and remove CSS classes using JavaScript:
+
+```html
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Add and Remove CSS Class using JS</title>
+    <style>
+        .highlight {
+            background-color: yellow;
+        }
+    </style>
+</head>
+<body>
+    <div id="exampleDiv">This is a div element</div>
+    <button onclick="addClass()">Add Class</button>
+    <button onclick="removeClass()">Remove Class</button>
+
+    <script>
+        // Function to add a CSS class
+        function addClass() {
+            var divElement = document.getElementById("exampleDiv");
+            divElement.classList.add("highlight");
+        }
+
+        // Function to remove a CSS class
+        function removeClass() {
+            var divElement = document.getElementById("exampleDiv");
+            divElement.classList.remove("highlight");
+        }
+    </script>
+</body>
+</html>
+
+```
+
+In this example:
+
+- We have a `<div>` element with an ID attribute set to "exampleDiv".
+- There's a CSS class called .highlight defined in the `<style>` section, which gives elements a yellow background.
+- We have two buttons, one for adding a class and one for removing it.
+- When the "Add Class" button is clicked, the addClass() function is executed. This function selects the div element and adds the class "highlight" to it using the classList.add() method.
+- When the "Remove Class" button is clicked, the removeClass() function is executed. This function selects the div element and removes the class "highlight" from it using the classList.remove() method.
+
+Using classList methods like add() and remove() is a convenient and reliable way to manipulate CSS classes in JavaScript, providing more flexibility and control over styling in your web applications.
+
