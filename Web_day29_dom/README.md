@@ -285,3 +285,138 @@ It's worth noting that there's also a newer method called querySelector() that c
 
 ---
 
+## 🎃   24-4 Traversing Dom - GetElementByQuerySelector, QuerySelectorAll
+
+### QuerySelector
+
+querySelector() is a method in the Document Object Model (DOM) API that allows you to select elements from a web page using CSS-style selectors. It returns the first element that matches the specified selector(s), or null if no such element is found.
+
+Here's how you can use querySelector():
+
+```html
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>querySelector Example</title>
+    <style>
+        .highlight {
+            color: red;
+        }
+    </style>
+</head>
+<body>
+    <h1 class="highlight">This is a highlighted heading.</h1>
+    <p>This is a paragraph.</p>
+    <div class="highlight">
+        <p>This is another highlighted paragraph.</p>
+    </div>
+    <ul>
+        <li class="highlight">Item 1</li>
+        <li>Item 2</li>
+        <li class="highlight">Item 3</li>
+    </ul>
+
+    <script>
+        // Get the first element with the class "highlight"
+        var highlightedElement = document.querySelector(".highlight");
+        
+        // Do something with the selected element
+        console.log(highlightedElement.textContent);
+        // You can also manipulate the element here, for example:
+        // highlightedElement.style.fontWeight = "bold";
+    </script>
+</body>
+</html>
+
+```
+
+In this example, querySelector(".highlight") selects the first element with the class "highlight" in the document. Then, you can manipulate it or perform any desired actions. If you want to select multiple elements that match a selector, you can use querySelectorAll(), which returns a NodeList containing all matching elements.
+
+### querySelectorAll()
+
+querySelectorAll() is a method in the Document Object Model (DOM) API that allows you to select elements from a web page using CSS-style selectors. It returns a static NodeList containing all elements that match the specified selector(s).
+
+Here's how you can use querySelectorAll():
+
+```html
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>querySelectorAll Example</title>
+    <style>
+        .highlight {
+            color: red;
+        }
+    </style>
+</head>
+<body>
+    <h1 class="highlight">This is a highlighted heading.</h1>
+    <p>This is a paragraph.</p>
+    <div class="highlight">
+        <p>This is another highlighted paragraph.</p>
+    </div>
+    <ul>
+        <li class="highlight">Item 1</li>
+        <li>Item 2</li>
+        <li class="highlight">Item 3</li>
+    </ul>
+
+    <script>
+        // Get all elements with the class "highlight"
+        var highlightedElements = document.querySelectorAll(".highlight");
+        
+        // Loop through the NodeList and do something with each matching element
+        highlightedElements.forEach(function(element) {
+            console.log(element.textContent);
+            // You can also manipulate each element here, for example:
+            // element.style.fontWeight = "bold";
+        });
+    </script>
+</body>
+</html>
+
+```
+
+In this example, querySelectorAll(".highlight") selects all elements with the class "highlight" in the document and returns a NodeList containing them. Then, you can iterate over the NodeList and manipulate each matching element as desired.
+
+### HTMLCollection VS NodeList
+
+Both HTMLCollection and NodeList are object types in the Document Object Model (DOM) API that represent collections of DOM nodes (elements). However, there are some differences between them:
+
+- HTMLCollection:
+
+    - Live Collection: HTMLCollection is a live collection, meaning it is automatically updated as the DOM changes. If elements are added or removed from the document after the HTMLCollection is created, the collection will reflect those changes automatically.
+    - Accessing Elements: Elements in an HTMLCollection can be accessed using numeric indices or by their name or ID properties.
+    - Specific to Certain DOM Structures: HTMLCollection is specific to certain DOM structures, such as those returned by methods like getElementsByTagName() or getElementsByClassName().
+    - No forEach Method: HTMLCollection does not have a built-in forEach() method, so you may need to use a traditional for loop to iterate over its elements.
+
+- NodeList:
+
+    - Static Collection: NodeList is a static collection, meaning it does not automatically update as the DOM changes. It represents the state of the DOM at the time it was created.
+    - Accessing Elements: Elements in a NodeList can be accessed using numeric indices.
+    - Returned by Various Methods: NodeList can be returned by various methods, such as querySelectorAll() and properties like childNodes.
+    - Has forEach Method: NodeList has a built-in forEach() method, which makes it easier to iterate over its elements.
+
+Here's a brief comparison:
+
+| Feature | HTMLCollection | NodeList |
+| :---: | :---: | :---: |
+| Live Collection | Yes | No |
+| :---: | :---: | :---: |
+| Accessing | By index, name, or ID | By index |
+| :---: | :---: | :---: |
+| Methods | Limited | forEach(), etc. |
+| :---: | :---: | :---: |
+| Returned by | getElementsByTagName(), etc | querySelectorAll(), childNodes, etc. |
+
+In summary, HTMLCollection is more commonly associated with methods that return collections of elements based on specific criteria like tag name or class name, while NodeList is more versatile and can be returned by various methods and properties, offering more flexibility in traversing the DOM.
+
+---
+
+
