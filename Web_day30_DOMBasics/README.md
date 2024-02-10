@@ -44,5 +44,43 @@ Here are some different types of events commonly encountered in web development:
 - Custom Events:
 
     - Events that developers create and dispatch programmatically using JavaScript.
-    
+
 These are just a few examples of the many events available in web development. Each event type has specific properties and methods associated with it, allowing developers to respond to and manipulate the behavior of their web applications dynamically.
+
+---
+
+## 25-2 Add Onclick Handler Directly Or Via Javascript
+
+---
+
+## 25-3 Different Ways To Use AddEventListener On A Button
+
+---
+
+## 25-4 Most Common Ways To Set Event Handlers
+
+---
+
+## 25-5 Create A Comment Box And Display Comment
+
+---
+
+## 25-6 Simple Github Like Delete Confirmation Button
+
+---
+
+## 25-7 (Semi-Advanced) Event Bubble And Stop Propagating
+
+---
+
+## 25-8 (Advanced) Event Delegate And Benefit Of Event Bubble
+
+---
+
+## 25-9 DOM Events Summary And And Homework
+
+---
+
+
+
+
