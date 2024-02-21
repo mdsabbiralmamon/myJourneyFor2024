@@ -535,3 +535,20 @@ The choice between `for...of` and `for...in` loops in JavaScript depends on the 
 - Use `for...in` for iterating over object keys to access their properties.
 - Avoid using `for...in` for arrays and scenarios where order of iteration matters.
 
+### Tasks and Interview Questions :
+
+<p align="center">
+  <a href="#"><img height=" " width="1000vh" src="https://raw.githubusercontent.com/mdsabbiralmamon/myJourneyFor2024/main/Web_day33_ES6%265/tasks/task1.png"></a>
+</p>
+<p align="center">
+  <a href="#"><img height=" " width="1000vh" src="https://raw.githubusercontent.com/mdsabbiralmamon/myJourneyFor2024/main/Web_day33_ES6%265/tasks/task2.png"></a>
+</p>
+<p align="center">
+  <a href="#"><img height=" " width="1000vh" src="https://raw.githubusercontent.com/mdsabbiralmamon/myJourneyFor2024/main/Web_day33_ES6%265/tasks/task3.png"></a>
+</p>
+<p align="center">
+  <a href="#"><img height=" " width="1000vh" src="https://raw.githubusercontent.com/mdsabbiralmamon/myJourneyFor2024/main/Web_day33_ES6%265/tasks/task4.png"></a>
+</p>
+<p align="center">
+  <a href="#"><img height=" " width="1000vh" src="https://raw.githubusercontent.com/mdsabbiralmamon/myJourneyFor2024/main/Web_day33_ES6%265/tasks/interview_questions.png"></a>
+</p>
