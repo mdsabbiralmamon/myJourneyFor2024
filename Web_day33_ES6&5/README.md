@@ -407,3 +407,77 @@ Object and array destructuring in JavaScript is a powerful feature that allows d
 - **Facilitates Default Values**: You can provide default values for variables during destructuring, enhancing code robustness.
 
 Object and array destructuring is a fundamental concept in modern JavaScript and is widely used in web development for handling data structures effectively.
+
+## Module 30-8 Keys, Values, Entries, Delete, Seal, Freeze
+
+understanding how to work with keys, values, entries, deletion, sealing, and freezing objects in JavaScript is essential for effective data manipulation and management. Let's explore each of these concepts:
+
+### Keys:
+
+- **Definition**: Keys refer to the property names of an object in JavaScript.
+- **Accessing Keys**: You can access keys using the dot notation (`objectName.key`) or bracket notation (`objectName['key']`).
+- **Example**:
+  ```javascript
+  const person = { name: 'John', age: 30 };
+  console.log(Object.keys(person)); // Output: ['name', 'age']
+  ```
+
+### Values:
+
+- **Definition**: Values refer to the property values associated with keys in an object.
+- **Accessing Values**: You can access values using the dot notation or bracket notation.
+- **Example**:
+  ```javascript
+  const person = { name: 'John', age: 30 };
+  console.log(Object.values(person)); // Output: ['John', 30]
+  ```
+
+### Entries:
+
+- **Definition**: Entries refer to key-value pairs of an object, represented as an array of arrays.
+- **Accessing Entries**: You can access entries using the `Object.entries()` method.
+- **Example**:
+  ```javascript
+  const person = { name: 'John', age: 30 };
+  console.log(Object.entries(person)); // Output: [['name', 'John'], ['age', 30]]
+  ```
+
+### Delete:
+
+- **Definition**: The `delete` operator is used to remove a property from an object.
+- **Example**:
+  ```javascript
+  const person = { name: 'John', age: 30 };
+  delete person.age;
+  console.log(person); // Output: { name: 'John' }
+  ```
+
+### Seal:
+
+- **Definition**: Object sealing is a mechanism in JavaScript that prevents new properties from being added to an object and marks existing properties as non-configurable.
+- **Example**:
+  ```javascript
+  const person = { name: 'John', age: 30 };
+  Object.seal(person);
+  person.age = 40; // This change will not be applied
+  console.log(person); // Output: { name: 'John', age: 30 }
+  ```
+
+### Freeze:
+
+- **Definition**: Object freezing is a mechanism in JavaScript that prevents any modifications to an object, including adding, deleting, or modifying properties.
+- **Example**:
+  ```javascript
+  const person = { name: 'John', age: 30 };
+  Object.freeze(person);
+  person.age = 40; // This change will not be applied
+  console.log(person); // Output: { name: 'John', age: 30 }
+  ```
+
+### Summary:
+
+- **Keys, Values, Entries**: These concepts are fundamental to understanding object manipulation in JavaScript.
+- **Delete**: Allows you to remove properties from an object.
+- **Seal**: Prevents new properties from being added and marks existing properties as non-configurable.
+- **Freeze**: Prevents any modifications to an object, including adding, deleting, or modifying properties.
+
