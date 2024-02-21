@@ -185,3 +185,69 @@ const subtract = (a, b) => {
 
 ```
 Arrow functions offer a more concise syntax for writing functions, especially for short, one-liner functions. They are commonly used in modern JavaScript development for their readability and convenience, especially in functional programming and asynchronous code.
+
+## Module 30-5 More Arrow Functions And Big Arrow Function
+
+Arrow functions and traditional (normal) functions in JavaScript have several differences, including syntax, behavior, and how they handle the this keyword. Here's a comprehensive list of their differences:
+
+- Syntax:
+
+    - Arrow functions use a concise syntax with the => arrow.
+    - Traditional functions have a more verbose syntax with the function keyword.
+
+- Binding of this:
+
+    - Arrow functions lexically bind this to the enclosing scope. They do not have their own this context and inherit it from the surrounding code.
+    - Normal functions have their own this context, which is determined by how they are called (this can change based on how the function is invoked).
+
+- Arguments Object:
+
+    - Arrow functions do not have their own arguments object.
+    - Normal functions have their own arguments object, which contains all the arguments passed to the function.
+
+- Use of new:
+
+    - Arrow functions cannot be used as constructors with the new keyword.
+    - Normal functions can be used as constructors to create new instances of objects.
+
+- Implicit Return:
+
+    - Arrow functions support implicit return for single-line expressions.
+    - Normal functions require an explicit return statement for returning values.
+
+- Constructor Property:
+
+    - Arrow functions do not have a prototype property or a constructor property.
+    - Normal functions have both a prototype property and a constructor property.
+
+- Arguments Binding:
+
+    - Arrow functions do not bind their own arguments object. Instead, they inherit the arguments object from the surrounding scope.
+    - Normal functions have their own arguments object, which represents the arguments passed to the function.
+
+- Use in Object Methods:
+
+    - Arrow functions are not suitable for object methods because they do not have their own this context.
+    - Normal functions are commonly used for defining object methods because they have their own this context, which refers to the object itself when the method is invoked.
+
+Here's a quick example to illustrate some of these differences:
+
+```js
+
+const obj = {
+    name: 'John',
+    sayHello: function() {
+        console.log(`Hello, ${this.name}!`);
+    },
+    sayHelloArrow: () => {
+        console.log(`Hello, ${this.name}!`); // 'this' will not refer to obj
+    }
+};
+
+obj.sayHello(); // Output: Hello, John!
+obj.sayHelloArrow(); // Output: Hello, undefined! (or error)
+
+```
+
+In summary, arrow functions are more concise and have lexical this binding, making them suitable for certain use cases like callbacks and short anonymous functions. However, traditional functions offer more flexibility and are still widely used, especially in object-oriented programming and as constructors.
+
