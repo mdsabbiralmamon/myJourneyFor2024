@@ -68,3 +68,60 @@ In JavaScript, there are several data types, each with its own default value whe
     - Default value: null
 
 Note: It's important to understand that default values are context-dependent and may vary depending on the situation. For example, the default value of a function parameter without a provided argument is undefined. However, these are the default values typically associated with each data type in JavaScript.
+
+## Module 30-3 Template String, Multiple Line String, Dynamic String
+
+In JavaScript, template strings, also known as template literals, allow for more flexible and expressive string formatting compared to traditional strings. They support multiple lines, interpolation of variables and expressions, and allow for easy embedding of other strings.
+
+- Template Strings (Template Literals):
+
+    - Template strings are enclosed within backticks ( ) instead of single or double quotes.
+    - They support interpolation of variables and expressions using ${} syntax.
+    - Example:
+
+```js
+
+const name = 'John';
+const greeting = `Hello, ${name}!`;
+console.log(greeting); // Output: Hello, John!
+
+
+```
+
+- Multiple Line Strings:
+
+    - Template strings support multiline content without the need for explicit line breaks (\n).
+    - Simply add line breaks within the backticks.
+    - Example:
+
+```js
+
+const multilineString = `This is a
+multiline
+string`;
+console.log(multilineString);
+// Output:
+// This is a
+// multiline
+// string
+
+
+```
+
+- Dynamic String Creation:
+
+    - Template strings allow for dynamic string creation by embedding expressions within ${}.
+    - Expressions inside ${} are evaluated and their results are concatenated into the string.
+    - Example:
+
+```js
+
+const x = 10;
+const y = 20;
+const dynamicString = `The sum of ${x} and ${y} is ${x + y}.`;
+console.log(dynamicString); // Output: The sum of 10 and 20 is 30.
+
+```
+
+Template strings provide a more concise and readable way to create strings in JavaScript, especially when dealing with complex string formatting or multiline content. They are widely used in modern JavaScript development for their versatility and expressiveness.
+
