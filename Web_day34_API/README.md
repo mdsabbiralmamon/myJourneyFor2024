@@ -56,3 +56,24 @@ This feature simplifies code and makes it more resilient to unexpected null or u
 
 ---
 
+## Module 31-3 Array Map To Do One Line Loop Magic
+
+In JavaScript, you can use the `Array.prototype.map()` method to transform each element of an array into a new value and return a new array with the transformed values. You can also write this in a single line using arrow functions for concise code.
+
+Here's an example:
+
+```javascript
+const originalArray = [1, 2, 3, 4, 5];
+
+// One-line map to double each element
+const doubledArray = originalArray.map(num => num * 2);
+
+console.log(doubledArray); // Output: [2, 4, 6, 8, 10]
+```
+
+In this example, `originalArray.map(num => num * 2)` iterates over each element of `originalArray`, doubling each value, and returns a new array with the doubled values.
+
+You can perform various operations within the arrow function inside `map()` to achieve different transformations of array elements, all in one line.
+
+---
+
