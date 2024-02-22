@@ -130,3 +130,100 @@ Differences:
 
 ---
 
+## Module 31-5 (Recap) Map, ForEach, Filter, Find, Reduce
+
+`reduce` is another array method in JavaScript that is used for reducing the array to a single value. It executes a reducer function (that you provide) on each element of the array, resulting in a single output value. Here's how it works:
+
+```javascript
+array.reduce(callback(accumulator, currentValue[, index[, array]])[, initialValue])
+```
+
+- `callback`: The function to execute on each element of the array.
+  - `accumulator`: The accumulator accumulates the callback's return values. It's the accumulated value returned by the previous iteration, or `initialValue` if supplied (see below).
+  - `currentValue`: The current element being processed in the array.
+  - `index` (optional): The index of the current element being processed.
+  - `array` (optional): The array `reduce` was called upon.
+- `initialValue` (optional): A value to use as the first argument to the first call of the `callback`. If not provided, `reduce` will use the first element of the array as the initial accumulator value and start reducing from the second element.
+
+Here's an example to sum up all the elements of an array using `reduce`:
+
+```javascript
+const numbers = [1, 2, 3, 4, 5];
+
+const sum = numbers.reduce((accumulator, currentValue) => accumulator + currentValue, 0);
+
+console.log(sum); // Output: 15 (1 + 2 + 3 + 4 + 5)
+```
+
+In this example:
+
+- `accumulator` initially starts with the value `0` because we provided `0` as the initial value.
+- The callback function adds each `currentValue` to the `accumulator`.
+- After iterating through all elements of the array, the final accumulated value is returned (`15` in this case).
+
+### Recap
+
+Let's recap the differences between `map`, `forEach`, `filter`, `find`, and `reduce` in JavaScript:
+
+1. `map`:
+   - Purpose: `map` creates a new array by applying a function to each element in the original array.
+   - Use case: When you need to transform each element of an array and create a new array of the same length.
+   - Example:
+
+   ```javascript
+   const numbers = [1, 2, 3, 4];
+   const doubledNumbers = numbers.map(num => num * 2);
+   console.log(doubledNumbers); // Output: [2, 4, 6, 8]
+   ```
+
+2. `forEach`:
+   - Purpose: `forEach` iterates over each element of an array and executes a provided callback function for each element.
+   - Use case: When you want to perform an action for each element of an array without creating a new array.
+   - Example:
+
+   ```javascript
+   const numbers = [1, 2, 3, 4];
+   numbers.forEach(num => console.log(num * 2));
+   // Output:
+   // 2
+   // 4
+   // 6
+   // 8
+   ```
+
+3. `filter`:
+   - Purpose: `filter` creates a new array with elements that pass a certain condition.
+   - Use case: When you want to extract elements from an array based on a condition.
+   - Example:
+
+   ```javascript
+   const numbers = [1, 2, 3, 4];
+   const evenNumbers = numbers.filter(num => num % 2 === 0);
+   console.log(evenNumbers); // Output: [2, 4]
+   ```
+
+4. `find`:
+   - Purpose: `find` returns the first element in an array that satisfies a provided condition.
+   - Use case: When you want to find a single element in an array based on a condition.
+   - Example:
+
+   ```javascript
+   const numbers = [1, 2, 3, 4];
+   const foundNumber = numbers.find(num => num > 2);
+   console.log(foundNumber); // Output: 3
+   ```
+
+5. `reduce`:
+   - Purpose: `reduce` executes a reducer function on each element of the array, resulting in a single output value.
+   - Use case: When you want to reduce an array to a single value.
+   - Example:
+
+   ```javascript
+   const numbers = [1, 2, 3, 4, 5];
+   const sum = numbers.reduce((accumulator, currentValue) => accumulator + currentValue, 0);
+   console.log(sum); // Output: 15 (1 + 2 + 3 + 4 + 5)
+   ```
+
+Each of these array methods serves different purposes and can be used depending on the specific requirements of your code.
+
+---
