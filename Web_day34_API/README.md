@@ -227,3 +227,62 @@ Let's recap the differences between `map`, `forEach`, `filter`, `find`, and `red
 Each of these array methods serves different purposes and can be used depending on the specific requirements of your code.
 
 ---
+
+## Module 31-6 (Optional) Introduction To Class And Objects
+
+In JavaScript, classes and objects are fundamental concepts in object-oriented programming (OOP). Let's briefly introduce each of them:
+
+### Objects:
+
+An object in JavaScript is a collection of key-value pairs, where the keys are strings (or symbols) and the values can be any data type (including other objects or functions). Objects are used to represent entities or concepts in your code.
+
+Example of creating an object:
+
+```javascript
+const person = {
+  name: 'John',
+  age: 30,
+  isEmployed: true,
+  greet() {
+    console.log(`Hello, my name is ${this.name} and I'm ${this.age} years old.`);
+  }
+};
+
+console.log(person.name);  // Output: John
+console.log(person.age);   // Output: 30
+person.greet();            // Output: Hello, my name is John and I'm 30 years old.
+```
+
+### Classes:
+
+Classes in JavaScript are a template for creating objects. They encapsulate data for the object and methods to operate on that data. Classes are declared using the `class` keyword and can have constructors for initializing object properties, as well as methods to define behavior.
+
+Example of defining a class and creating objects from it:
+
+```javascript
+class Person {
+  constructor(name, age) {
+    this.name = name;
+    this.age = age;
+  }
+
+  greet() {
+    console.log(`Hello, my name is ${this.name} and I'm ${this.age} years old.`);
+  }
+}
+
+const person1 = new Person('John', 30);
+const person2 = new Person('Alice', 25);
+
+console.log(person1.name);  // Output: John
+console.log(person2.age);   // Output: 25
+person1.greet();            // Output: Hello, my name is John and I'm 30 years old.
+person2.greet();            // Output: Hello, my name is Alice and I'm 25 years old.
+```
+
+In this example, `Person` is a class with a constructor that sets the `name` and `age` properties of each `Person` object. It also has a `greet` method that logs a greeting using the object's `name` and `age`. Then, we create two instances of the `Person` class: `person1` and `person2`.
+
+Classes and objects provide a way to structure your code, organize data, and define behavior in a more modular and reusable manner, which is a core principle of object-oriented programming.
+
+---
+
