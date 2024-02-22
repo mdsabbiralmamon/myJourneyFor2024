@@ -286,3 +286,56 @@ Classes and objects provide a way to structure your code, organize data, and def
 
 ---
 
+## Module 31-7 (Optional) Inheritance Prototypical Inheritance
+
+ In JavaScript, prototypical inheritance is a mechanism for objects to inherit properties and methods from other objects. Every JavaScript object has a prototype property, which refers to another object. When you access a property or method on an object, if that property or method doesn't exist on the object itself, JavaScript will look for it on the object's prototype, and then on the prototype's prototype, and so on, forming a prototype chain until it finds the property or method or until it reaches the end of the chain (where the prototype is `null`).
+
+Here's a basic example of prototypical inheritance in JavaScript:
+
+```javascript
+// Parent object constructor
+function Animal(name) {
+  this.name = name;
+}
+
+// Method defined on the prototype of Animal
+Animal.prototype.greet = function() {
+  console.log(`Hello, I'm ${this.name}.`);
+}
+
+// Child object constructor
+function Dog(name, breed) {
+  // Call parent constructor
+  Animal.call(this, name);
+  this.breed = breed;
+}
+
+// Set up prototype chain
+Dog.prototype = Object.create(Animal.prototype);
+Dog.prototype.constructor = Dog;
+
+// Method specific to Dog
+Dog.prototype.bark = function() {
+  console.log('Woof woof!');
+}
+
+// Create an instance of Dog
+const dog = new Dog('Buddy', 'Golden Retriever');
+
+dog.greet(); // Output: Hello, I'm Buddy.
+dog.bark();  // Output: Woof woof!
+```
+
+In this example:
+
+- We define a parent object constructor `Animal` which accepts a `name` parameter and assigns it to the object being created.
+- We add a method `greet` to the `Animal` prototype.
+- We define a child object constructor `Dog` which accepts a `name` and a `breed`, and calls the parent constructor using `Animal.call(this, name)`.
+- We set up the prototype chain by creating a new object with `Animal.prototype` as its prototype using `Object.create(Animal.prototype)`, and assigning it to `Dog.prototype`.
+- We define a method `bark` specific to `Dog` on `Dog.prototype`.
+- Finally, we create an instance of `Dog` called `dog` and demonstrate calling methods `greet` and `bark`.
+
+Prototypical inheritance allows objects to inherit properties and methods from other objects, facilitating code reuse and creating a hierarchy of objects with shared behavior.
+
+---
+
