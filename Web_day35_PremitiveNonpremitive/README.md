@@ -61,3 +61,73 @@ Here's a comparison between primitive and non-primitive data types:
 The choice between primitive and non-primitive data types depends on the requirements of the program and the nature of the data being manipulated. Primitive types are often used for simple data storage and manipulation, while non-primitive types are used for more complex data structures and object-oriented programming paradigms.
 
 ---
+
+## Module 32-2 Null Vs Undefined, Different Ways You Will Get Undefined
+
+In programming, especially in languages like JavaScript, "null" and "undefined" are two distinct concepts often used to denote absence or non-existence of a value, but they have different meanings and behaviors.
+
+1. **Undefined**:
+   - In JavaScript, "undefined" is a primitive value that is automatically assigned to variables that have been declared but not initialized.
+   - It represents the absence of a value or an uninitialized variable.
+   - Variables can also be explicitly set to undefined.
+   - Undefined is also returned when trying to access non-existing properties of an object or when a function doesn't return anything explicitly.
+
+   ```javascript
+   let x;
+   console.log(x); // Outputs: undefined
+
+   function foo() {}
+   console.log(foo()); // Outputs: undefined
+   ```
+
+2. **Null**:
+   - "Null" is a special value in JavaScript that represents the intentional absence of any object value.
+   - It is often used to denote an empty or non-existent value deliberately assigned by the programmer.
+   - Unlike "undefined," "null" is explicitly assigned.
+
+   ```javascript
+   let y = null;
+   console.log(y); // Outputs: null
+   ```
+
+Ways to Get "Undefined" in JavaScript:
+1. **Declared But Not Initialized**:
+   ```javascript
+   let x;
+   console.log(x); // Outputs: undefined
+   ```
+
+2. **Accessing Non-existing Object Properties**:
+   ```javascript
+   let obj = {};
+   console.log(obj.nonExistentProperty); // Outputs: undefined
+   ```
+
+3. **Function Without Return Statement**:
+   ```javascript
+   function foo() {}
+   console.log(foo()); // Outputs: undefined
+   ```
+
+4. **Implicit Return of Functions**:
+   ```javascript
+   function bar() {
+     // No return statement
+   }
+   console.log(bar()); // Outputs: undefined
+   ```
+
+5. **Non-existing Array Elements**:
+   ```javascript
+   let arr = [];
+   console.log(arr[5]); // Outputs: undefined
+   ```
+
+6. **Implicit Return in Arrow Functions**:
+   ```javascript
+   const baz = () => {};
+   console.log(baz()); // Outputs: undefined
+   ```
+
+These examples demonstrate various scenarios in JavaScript where "undefined" can be encountered, either through uninitialized variables, accessing non-existing properties, or functions not returning any value.
+
