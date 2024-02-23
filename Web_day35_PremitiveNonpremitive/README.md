@@ -298,3 +298,67 @@ console.log(_.isEqual(obj1, obj2)); // Outputs: true, because their contents are
 
 Keep in mind that with deep comparison, performance might be impacted, especially with large or deeply nested structures. Choose the comparison method based on your specific needs and performance considerations.
 
+## Module 32-5 Block Scope Global Scope Simple Understanding Of Hoisting
+
+Understanding block scope, global scope, and hoisting is fundamental to writing effective JavaScript code.
+
+### Block Scope:
+- Block scope refers to the area within curly braces `{}` where variables are accessible.
+- Variables declared inside a block are only accessible within that block.
+- Introduced with ES6 using `let` and `const` keywords.
+  
+Example:
+```javascript
+{
+  let x = 10;
+  console.log(x); // Outputs: 10
+}
+
+console.log(x); // Throws ReferenceError: x is not defined
+```
+
+### Global Scope:
+- Global scope refers to the area outside of any function or block.
+- Variables declared in the global scope are accessible from anywhere in the code.
+- Declared using `var` keyword (prior to ES6) or by directly declaring variables outside of any block or function.
+
+Example:
+```javascript
+var globalVar = 10;
+
+function test() {
+  console.log(globalVar); // Outputs: 10
+}
+
+test();
+console.log(globalVar); // Outputs: 10
+```
+
+### Hoisting:
+- Hoisting is a JavaScript mechanism where variable and function declarations are moved to the top of their containing scope during compilation, before execution.
+- Only the declarations are hoisted, not the initializations.
+- Hoisting applies to variables declared with `var`, `let`, and `const`, as well as function declarations, but not to function expressions.
+
+Example (with `var`):
+```javascript
+console.log(x); // Outputs: undefined
+var x = 10;
+```
+
+Explanation:
+- During compilation, the variable declaration `var x;` is hoisted to the top of its containing scope.
+- However, the initialization `x = 10;` remains in place.
+- So, when `console.log(x)` is executed, `x` exists but has not been assigned a value yet, hence the output is `undefined`.
+
+Example (with `let`):
+```javascript
+console.log(x); // Throws ReferenceError: Cannot access 'x' before initialization
+let x = 10;
+```
+
+Explanation:
+- Unlike `var`, variables declared with `let` and `const` are not initialized until the declaration is evaluated.
+- Therefore, trying to access a `let` variable before its declaration results in a `ReferenceError`.
+
+Understanding block scope, global scope, and hoisting is crucial for writing predictable and maintainable JavaScript code. It helps avoid bugs and unintended behavior by clearly defining the visibility and lifecycle of variables and functions.
+
