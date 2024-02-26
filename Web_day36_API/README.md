@@ -244,3 +244,109 @@ This setup allows you to dynamically load and display data on your website as th
 
 ---
 
+## 33-6 Load Posts And Display On The Website With CSS
+
+To load posts and display them on a website with CSS styling, you can use HTML, JavaScript, and CSS together. Below is an example that demonstrates how to fetch posts from an API and display them with CSS styling:
+
+```html
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Dynamic Post Display</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 0;
+      background-color: #f4f4f4;
+    }
+
+    .container {
+      max-width: 800px;
+      margin: 20px auto;
+      padding: 20px;
+      background-color: #fff;
+      border-radius: 5px;
+      box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    }
+
+    .post {
+      background-color: #fff;
+      border: 1px solid #ddd;
+      border-radius: 5px;
+      margin-bottom: 20px;
+      padding: 20px;
+    }
+
+    .post h2 {
+      font-size: 1.5rem;
+      margin-bottom: 10px;
+    }
+
+    .post p {
+      font-size: 1rem;
+      color: #666;
+    }
+  </style>
+</head>
+<body>
+  <div class="container" id="postContainer">
+    <!-- Posts will be displayed here -->
+  </div>
+  <button id="loadMoreBtn">Load More Posts</button>
+
+  <script>
+    let currentPage = 1;
+
+    function fetchData(page) {
+      fetch(`https://jsonplaceholder.typicode.com/posts?_page=${page}&_limit=5`)
+        .then(response => response.json())
+        .then(data => {
+          displayDataOnUI(data);
+        })
+        .catch(error => console.error('Error fetching data:', error));
+    }
+
+    function displayDataOnUI(data) {
+      const postContainer = document.getElementById('postContainer');
+
+      // Loop through each post and create post elements with styling
+      data.forEach(post => {
+        const postDiv = document.createElement('div');
+        postDiv.classList.add('post');
+        postDiv.innerHTML = `
+          <h2>${post.title}</h2>
+          <p>${post.body}</p>
+        `;
+        postContainer.appendChild(postDiv);
+      });
+    }
+
+    function handleLoadMore() {
+      currentPage++;
+      fetchData(currentPage);
+    }
+
+    document.getElementById('loadMoreBtn').addEventListener('click', handleLoadMore);
+
+    // Initial data fetch when the page loads
+    window.onload = () => {
+      fetchData(currentPage);
+    };
+  </script>
+</body>
+</html>
+```
+
+In this example:
+- We have a container `<div>` with the class `container` to hold the posts. Posts will be dynamically appended inside this container.
+- Each post is represented by a `<div>` element with the class `post`. The title of the post is displayed using an `<h2>` element, and the body of the post is displayed using a `<p>` element.
+- CSS styles are applied to the container and post elements to give them a clean and modern look.
+- The JavaScript code fetches posts from the JSONPlaceholder API and dynamically displays them on the webpage. When the "Load More Posts" button is clicked, it fetches the next page of posts and appends them to the container.
+
+This setup provides a simple and elegant way to load and display posts on a website with CSS styling.
+
+---
+
