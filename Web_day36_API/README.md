@@ -159,3 +159,88 @@ This HTML document fetches posts data from JSONPlaceholder API and displays the 
 
 ---
 
+## 33-4 Load More Data, More APIs, Send Data To Function
+
+## 33-5 Dynamically Display Loaded Data On Your Website
+
+To dynamically display loaded data on your website, you can use JavaScript to manipulate the DOM (Document Object Model) and update the content of your webpage as data is loaded. Below is an example of how you can achieve this:
+
+```html
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Dynamic Data Display</title>
+  <style>
+    /* CSS for styling */
+    #postList {
+      list-style-type: none;
+      padding: 0;
+    }
+    .post-item {
+      margin-bottom: 10px;
+      padding: 10px;
+      border: 1px solid #ccc;
+      border-radius: 5px;
+    }
+  </style>
+</head>
+<body>
+  <ul id="postList"></ul>
+  <button id="loadMoreBtn">Load More</button>
+
+  <script>
+    let currentPage = 1;
+
+    function fetchData(page) {
+      fetch(`https://jsonplaceholder.typicode.com/posts?_page=${page}&_limit=5`)
+        .then(response => response.json())
+        .then(data => {
+          displayDataOnUI(data);
+        })
+        .catch(error => console.error('Error fetching data:', error));
+    }
+
+    function displayDataOnUI(data) {
+      const postList = document.getElementById('postList');
+
+      // Loop through each post and create list item to display
+      data.forEach(post => {
+        const listItem = document.createElement('li');
+        listItem.classList.add('post-item');
+        listItem.innerHTML = `
+          <h2>${post.title}</h2>
+          <p>${post.body}</p>
+        `;
+        postList.appendChild(listItem);
+      });
+    }
+
+    function handleLoadMore() {
+      currentPage++;
+      fetchData(currentPage);
+    }
+
+    document.getElementById('loadMoreBtn').addEventListener('click', handleLoadMore);
+
+    // Initial data fetch when the page loads
+    window.onload = () => {
+      fetchData(currentPage);
+    };
+  </script>
+</body>
+</html>
+```
+
+In this example:
+- We have an unordered list (`<ul>`) with the id `postList` where we'll dynamically append post items.
+- Each post item is created dynamically in the `displayDataOnUI` function and appended to the list.
+- The `fetchData` function fetches data from JSONPlaceholder API and then calls `displayDataOnUI` to display the fetched data.
+- When the "Load More" button is clicked, it triggers the `handleLoadMore` function, which increments the `currentPage` variable and fetches the next page of data.
+- The fetched data is then dynamically displayed on the webpage.
+
+This setup allows you to dynamically load and display data on your website as the user interacts with it, providing a seamless and dynamic user experience.
+
+---
+
