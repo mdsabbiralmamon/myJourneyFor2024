@@ -46,3 +46,26 @@ Overall, the V8 JavaScript engine employs a combination of interpretation, profi
 
 ---
 
+## 35-3 JavaScript Execution Context And Call Stack
+
+JavaScript execution context and call stack are fundamental concepts that play a crucial role in understanding how JavaScript code is executed. Let's break down each concept:
+
+1. **Execution Context:**
+   An execution context is a fundamental concept in JavaScript that determines how code is executed. Each time a function is invoked, a new execution context is created. It consists of three main components:
+   - **Variable Environment:** This component stores variables, function declarations, and arguments provided to the function.
+   - **Scope Chain:** It contains references to variables and functions in the lexical scope chain.
+   - **This Binding:** It references the value of the `this` keyword within the function.
+
+2. **Call Stack:**
+   The call stack is a data structure used by JavaScript engines to manage the execution context of functions. Whenever a function is invoked, a new frame representing its execution context is pushed onto the call stack. When the function completes execution, its frame is popped off the call stack.
+   
+Here's how the call stack works:
+   - When the JavaScript engine encounters a function invocation, it creates an execution context for that function and pushes it onto the call stack.
+   - While the function is executing, additional functions may be invoked, resulting in the creation of new execution contexts that are also pushed onto the call stack.
+   - When a function completes execution, its execution context is popped off the call stack, and control returns to the context below it.
+   - This process continues until the call stack is empty, indicating that the main thread of execution has completed.
+
+Understanding execution context and the call stack is essential for understanding JavaScript's synchronous, single-threaded nature and how it handles function calls and manages the flow of execution. These concepts are foundational for understanding asynchronous programming patterns and debugging JavaScript code.
+
+---
+
