@@ -167,3 +167,43 @@ Both Promises and async/await are powerful tools for managing asynchronous opera
 
 ---
 
+## 35-6 Settimeout, SetInterval And ClearInterval
+
+`setTimeout`, `setInterval`, and `clearInterval` are functions in JavaScript used for scheduling the execution of code at specified intervals. Let's delve into each:
+
+1. **setTimeout:**
+   - `setTimeout` is a function used to execute a specified function or piece of code once after a specified delay.
+   - It takes two parameters: a function (or a string representing code) to execute and a delay time in milliseconds.
+   - After the specified delay, the function is added to the event queue and executed when the call stack is empty.
+   - Example:
+     ```javascript
+     setTimeout(() => {
+         console.log('This message will be printed after 2 seconds.');
+     }, 2000); // 2000 milliseconds = 2 seconds
+     ```
+
+2. **setInterval:**
+   - `setInterval` is a function used to repeatedly execute a specified function or piece of code at a specified interval.
+   - It takes two parameters: a function (or a string representing code) to execute and a time interval in milliseconds.
+   - The function is executed first after the specified interval and then repeatedly executed at the specified interval until `clearInterval` is called.
+   - Example:
+     ```javascript
+     let counter = 0;
+     const intervalId = setInterval(() => {
+         console.log('Counter:', counter);
+         counter++;
+     }, 1000); // Repeat every 1000 milliseconds = 1 second
+     ```
+
+3. **clearInterval:**
+   - `clearInterval` is a function used to stop the repeated execution of code specified by `setInterval`.
+   - It takes one parameter: the ID value returned by `setInterval`.
+   - Calling `clearInterval` with the ID stops the execution of the specified interval function.
+   - Example:
+     ```javascript
+     clearInterval(intervalId); // Stop the interval
+     ```
+
+These functions are commonly used in web development for tasks like creating animations, updating UI components, polling for data from servers, and implementing timers. However, it's essential to use them judiciously, considering performance implications, especially when dealing with frequent interval executions. Additionally, remember to clear intervals when they are no longer needed to prevent memory leaks and unnecessary CPU usage.
+
+---
