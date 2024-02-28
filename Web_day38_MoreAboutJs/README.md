@@ -69,3 +69,45 @@ Understanding execution context and the call stack is essential for understandin
 
 ---
 
+## 35-4 Single-Threaded, Asynchronous Vs Synchronous
+
+Certainly! `setTimeout` and `fetch` are both key features in JavaScript, often used for different purposes:
+
+1. **setTimeout:**
+   - `setTimeout` is a function provided by the browser's JavaScript environment that allows you to schedule a function to be executed after a specified delay, measured in milliseconds.
+   - It takes two parameters: a function to execute and a delay (in milliseconds) before executing that function.
+   - It's commonly used for tasks like delaying the execution of a function, creating animations, or implementing time-based behavior in web applications.
+   - Example usage:
+     ```javascript
+     setTimeout(() => {
+         console.log('This message will be printed after 3 seconds.');
+     }, 3000); // 3000 milliseconds = 3 seconds
+     ```
+
+2. **fetch:**
+   - `fetch` is a modern API for making network requests in JavaScript, primarily used for fetching resources (like JSON data, HTML, images, etc.) from servers.
+   - It is a promise-based API, which means it returns a Promise that resolves to the response of the request.
+   - It provides a more powerful and flexible alternative to the older XMLHttpRequest (XHR) object.
+   - Example usage:
+     ```javascript
+     fetch('https://api.example.com/data')
+         .then(response => response.json())
+         .then(data => console.log(data))
+         .catch(error => console.error('Error fetching data:', error));
+     ```
+
+Combining `setTimeout` with `fetch`, you could create scenarios where you delay the execution of a network request:
+
+```javascript
+setTimeout(() => {
+    fetch('https://api.example.com/data')
+        .then(response => response.json())
+        .then(data => console.log(data))
+        .catch(error => console.error('Error fetching data:', error));
+}, 5000); // Fetch data after 5 seconds
+```
+
+This code snippet demonstrates how you can delay the execution of a fetch request using `setTimeout`, executing the fetch operation five seconds after the script runs.
+
+---
+
