@@ -111,3 +111,59 @@ This code snippet demonstrates how you can delay the execution of a fetch reques
 
 ---
 
+## Promises and `async`/`await` are modern JavaScript features used for handling asynchronous operations in a more readable and manageable way:
+
+1. **Promises:**
+   - Promises represent the eventual completion (or failure) of an asynchronous operation and allow you to handle its result asynchronously.
+   - A promise can be in one of three states: pending, fulfilled, or rejected.
+   - Promises provide `.then()` and `.catch()` methods for handling successful and failed outcomes, respectively.
+   - They help avoid "callback hell" by chaining multiple asynchronous operations.
+   - Example usage:
+     ```javascript
+     function fetchData() {
+         return new Promise((resolve, reject) => {
+             // Simulating asynchronous operation (e.g., fetching data from an API)
+             setTimeout(() => {
+                 if (/* data is successfully fetched */) {
+                     resolve('Data fetched successfully');
+                 } else {
+                     reject('Failed to fetch data');
+                 }
+             }, 2000); // Simulate delay of 2 seconds
+         });
+     }
+
+     fetchData()
+         .then(result => console.log(result))
+         .catch(error => console.error(error));
+     ```
+
+2. **Async/Await:**
+   - `async`/`await` is syntactic sugar built on top of promises, making asynchronous code look and behave more like synchronous code.
+   - The `async` keyword is used to define a function that returns a promise. Within an async function, you can use the `await` keyword to pause execution until a promise is resolved.
+   - This makes asynchronous code easier to read and write, especially when dealing with multiple asynchronous operations or error handling.
+   - Example usage:
+     ```javascript
+     async function fetchData() {
+         try {
+             // Simulating asynchronous operation (e.g., fetching data from an API)
+             const response = await fetch('https://api.example.com/data');
+             const data = await response.json();
+             return data;
+         } catch (error) {
+             console.error('Error fetching data:', error);
+             throw error; // Re-throw the error for the caller to handle
+         }
+     }
+
+     fetchData()
+         .then(data => console.log(data))
+         .catch(error => console.error('Error:', error));
+     ```
+
+In the async/await example, the `fetchData` function is declared as async, allowing the use of the `await` keyword within it to wait for the resolution of the `fetch` request. This results in cleaner and more readable asynchronous code compared to chaining `.then()` calls.
+
+Both Promises and async/await are powerful tools for managing asynchronous operations in JavaScript, offering better control flow and error handling compared to traditional callback-based approaches.
+
+---
+
