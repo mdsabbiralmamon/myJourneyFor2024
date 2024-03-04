@@ -48,3 +48,99 @@ console.log(retrievedObject.city); // Output: New York
 
 Remember that when you store an object in local storage, it's converted to a string representation using `JSON.stringify()`, and when you retrieve it, you need to convert it back to an object using `JSON.parse()`.
 
+## 36_5-3 A Simple Shopping Cart To Add Product And Quantity
+
+Here's a simple example of a shopping cart in JavaScript where you can add products along with their quantities:
+
+```html
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Simple Shopping Cart</title>
+</head>
+<body>
+  <h1>Simple Shopping Cart</h1>
+  
+  <div id="products">
+    <h2>Products</h2>
+    <ul id="product-list">
+      <!-- Product items will be dynamically added here -->
+    </ul>
+  </div>
+
+  <div id="cart">
+    <h2>Cart</h2>
+    <ul id="cart-items">
+      <!-- Cart items will be dynamically added here -->
+    </ul>
+    <button onclick="checkout()">Checkout</button>
+  </div>
+
+  <script>
+    // Sample products
+    const products = [
+      { id: 1, name: 'Product 1', price: 10 },
+      { id: 2, name: 'Product 2', price: 20 },
+      { id: 3, name: 'Product 3', price: 30 }
+    ];
+
+    // Initialize cart
+    let cart = [];
+
+    // Function to add a product to the cart
+    function addToCart(productId) {
+      const product = products.find(p => p.id === productId);
+      if (product) {
+        const cartItem = cart.find(item => item.id === productId);
+        if (cartItem) {
+          cartItem.quantity++;
+        } else {
+          cart.push({ id: product.id, name: product.name, price: product.price, quantity: 1 });
+        }
+        renderCart();
+      }
+    }
+
+    // Function to render products
+    function renderProducts() {
+      const productList = document.getElementById('product-list');
+      productList.innerHTML = '';
+      products.forEach(product => {
+        const li = document.createElement('li');
+        li.textContent = `${product.name} - $${product.price}`;
+        const button = document.createElement('button');
+        button.textContent = 'Add to Cart';
+        button.onclick = () => addToCart(product.id);
+        li.appendChild(button);
+        productList.appendChild(li);
+      });
+    }
+
+    // Function to render cart
+    function renderCart() {
+      const cartItems = document.getElementById('cart-items');
+      cartItems.innerHTML = '';
+      cart.forEach(item => {
+        const li = document.createElement('li');
+        li.textContent = `${item.name} - Quantity: ${item.quantity} - Total: $${item.price * item.quantity}`;
+        cartItems.appendChild(li);
+      });
+    }
+
+    // Function to checkout
+    function checkout() {
+      alert('Checkout complete!');
+    }
+
+    // Initialize the page
+    renderProducts();
+    renderCart();
+  </script>
+</body>
+</html>
+```
+
+This example consists of a list of products with "Add to Cart" buttons next to each product. Clicking the "Add to Cart" button will add the respective product to the shopping cart. The shopping cart will display the added items along with their quantities and total prices.
+
