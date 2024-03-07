@@ -334,3 +334,108 @@ Both approaches achieve conditional rendering in React, and the choice between t
 
 ---
 
+## 38-7 Six Ways To Do Conditional Rendering: If, Ternary And AND OR
+
+Conditional rendering in React allows you to display different components or elements based on certain conditions. There are several ways to achieve conditional rendering in React, including using traditional if statements, ternary expressions, logical AND (&&), logical OR (||), switch statements, and inline if with logical && operator. Let's explore each method:
+
+**1. If Statements:**
+
+```jsx
+import React from 'react';
+
+function Greeting(props) {
+  if (props.isLoggedIn) {
+    return <h1>Welcome back, {props.name}!</h1>;
+  } else {
+    return <h1>Please log in.</h1>;
+  }
+}
+
+export default Greeting;
+```
+
+**2. Ternary Operator:**
+
+```jsx
+import React from 'react';
+
+function Greeting(props) {
+  return (
+    <div>
+      {props.isLoggedIn ? <h1>Welcome back, {props.name}!</h1> : <h1>Please log in.</h1>}
+    </div>
+  );
+}
+
+export default Greeting;
+```
+
+**3. Logical AND (&&):**
+
+```jsx
+import React from 'react';
+
+function Greeting(props) {
+  return (
+    <div>
+      {props.isLoggedIn && <h1>Welcome back, {props.name}!</h1>}
+    </div>
+  );
+}
+
+export default Greeting;
+```
+
+**4. Logical OR (||):**
+
+```jsx
+import React from 'react';
+
+function Greeting(props) {
+  return (
+    <div>
+      {props.isLoggedIn || <h1>Please log in.</h1>}
+    </div>
+  );
+}
+
+export default Greeting;
+```
+
+**5. Switch Statement:**
+
+```jsx
+import React from 'react';
+
+function Greeting(props) {
+  switch (props.status) {
+    case 'logged-in':
+      return <h1>Welcome back, {props.name}!</h1>;
+    case 'logged-out':
+      return <h1>Please log in.</h1>;
+    default:
+      return null;
+  }
+}
+
+export default Greeting;
+```
+
+**6. Inline If with Logical && Operator:**
+
+```jsx
+import React from 'react';
+
+function Greeting(props) {
+  return (
+    <div>
+      {props.isLoggedIn && <h1>Welcome back, {props.name}!</h1>}
+      {!props.isLoggedIn && <h1>Please log in.</h1>}
+    </div>
+  );
+}
+
+export default Greeting;
+```
+
+These are six common ways to perform conditional rendering in React. The choice between them often depends on personal preference, readability, and the specific requirements of your application. Each method has its own advantages and use cases.
