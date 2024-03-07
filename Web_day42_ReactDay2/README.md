@@ -124,3 +124,47 @@ Now, when you render `App`, it will also render `MyComponent` within it.
 
 ---
 
+## 38-3 JSX, Its Rules And Add Dynamic Content To JSX In Your First Component
+
+JSX (JavaScript XML) is a syntax extension for JavaScript that allows developers to write HTML-like code within JavaScript. JSX makes it easier to create and manipulate the structure of user interfaces in React applications. JSX code is transformed into standard JavaScript code by a transpiler like Babel before it's rendered in the browser.
+
+Here are some key rules for writing JSX:
+
+1. **Use HTML-Like Syntax**: JSX syntax resembles HTML, allowing you to write tags such as `<div>`, `<h1>`, `<p>`, etc., directly in your JavaScript code.
+
+2. **Single Root Element**: JSX expressions must have a single root element. You cannot return multiple adjacent elements at the top level without wrapping them in a parent container.
+
+3. **Use CamelCase for Attribute Names**: In JSX, attribute names follow camelCase convention (e.g., `className` instead of `class`, `onClick` instead of `onclick`).
+
+4. **JavaScript Expressions in Curly Braces**: You can embed JavaScript expressions inside curly braces `{}` within JSX. This allows you to add dynamic content, evaluate expressions, or reference variables.
+
+5. **Self-Closing Tags**: Self-closing tags should be used for elements without children, such as `<img>` or `<input>`. In JSX, you can use `/` before the closing `>` to self-close the tag.
+
+Now, let's add dynamic content to our first component using JSX:
+
+```jsx
+import React from 'react';
+
+function Greeting(props) {
+  const name = props.name;
+
+  return (
+    <div>
+      <h1>Welcome to MyComponent, {name}!</h1>
+      <p>This is a simple functional component.</p>
+    </div>
+  );
+}
+
+export default Greeting;
+```
+
+In this modified example:
+
+- We pass a `name` prop to the `Greeting` component.
+- Inside the component, we declare a `const` variable `name` to store the value of the `name` prop.
+- We use curly braces `{}` to embed the JavaScript expression `{name}` within the JSX code. This allows us to dynamically display the `name` prop's value.
+- When the component is rendered, it will display the personalized greeting message based on the value of the `name` prop. For example, if `name` is "John", it will display "Welcome to MyComponent, John!"
+
+---
+
