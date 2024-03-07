@@ -276,3 +276,61 @@ Remember, PropTypes are only checked in development mode. They are not checked i
 
 ---
 
+## 38-6 Read Only Props Two Way Of Conditional Rendering
+
+In React, props are read-only, meaning that a component cannot modify the props it receives from its parent component. However, a component can conditionally render different content based on the props it receives. There are multiple ways to conditionally render content in React, and I'll explain two common approaches: using the ternary operator and using the logical AND operator.
+
+**1. Ternary Operator:**
+The ternary operator is a concise way to conditionally render content based on a condition. It has the following syntax:
+
+```jsx
+{condition ? trueCase : falseCase}
+```
+
+Here's an example of using the ternary operator to conditionally render content based on a prop:
+
+```jsx
+import React from 'react';
+
+function Greeting(props) {
+  return (
+    <div>
+      {props.isMorning ? <h1>Good Morning, {props.name}!</h1> : <h1>Good Evening, {props.name}!</h1>}
+    </div>
+  );
+}
+
+export default Greeting;
+```
+
+In this example, the `Greeting` component renders "Good Morning" if the `isMorning` prop is true, and "Good Evening" otherwise.
+
+**2. Logical AND Operator:**
+You can also use the logical AND operator (`&&`) to conditionally render content. It has the following syntax:
+
+```jsx
+{condition && content}
+```
+
+Here's an example of using the logical AND operator for conditional rendering:
+
+```jsx
+import React from 'react';
+
+function Greeting(props) {
+  return (
+    <div>
+      {props.isLoggedIn && <h1>Welcome back, {props.name}!</h1>}
+    </div>
+  );
+}
+
+export default Greeting;
+```
+
+In this example, the `Greeting` component renders the welcome message only if the `isLoggedIn` prop is true.
+
+Both approaches achieve conditional rendering in React, and the choice between them often depends on personal preference and readability. The ternary operator is useful when you have multiple conditions or want to render different content based on different conditions. On the other hand, the logical AND operator is more concise and works well for simple conditions.
+
+---
+
