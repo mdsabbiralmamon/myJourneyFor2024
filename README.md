@@ -30,15 +30,4 @@
 
 ---
 
-## 🧨What I have learned this year:
-
-### <a href="https://github.com/mdsabbiralmamon/myJourneyFor2024/blob/main/Web_day1%20_html/README.md#-what-i-have-learned-and-did-1st-january">✨ What I have Learned and did 1st January?</a>
-### <a href="https://github.com/mdsabbiralmamon/myJourneyFor2024/blob/main/Web_day2_css/README.md#-what-i-have-learned-and-did-2nd-january">✨ What I have Learned and did 2nd January?</a>
-### <a href="https://github.com/mdsabbiralmamon/myJourneyFor2024/blob/main/Web_day3_vcs/README.md">✨ What I have Learned and did 3nd January?</a>
-### <a href="https://github.com/mdsabbiralmamon/myJourneyFor2024/blob/main/Web_day4_css_positioning/README.md#-what-i-have-learned-and-did-4th-january">✨ What I have Learned and did 4th January?</a>
-### <a href="https://github.com/mdsabbiralmamon/myJourneyFor2024/blob/main/Web_day5_MoreAboutHTML/README.md#-what-i-have-learned-and-did-5th-january">✨ What I have Learned and did 5th January?</a>
-### <a href="https://github.com/mdsabbiralmamon/myJourneyFor2024/tree/main/Web_day6_Portfolio#-what-i-have-learned-and-did-6th-january">✨ What I have Learned and did 6th January?</a>
-### <a href="https://github.com/mdsabbiralmamon/myJourneyFor2024/tree/main/Web_day7_FlowerShop#-what-i-have-learned-and-did-7th-january">✨ What I have Learned and did 7th January?</a>
-### <a href="https://github.com/mdsabbiralmamon/myJourneyFor2024/tree/main/Web_day8_PsudoCSS/README.md">✨ What I have Learned and did 8th January?</a>
-### <a href="https://github.com/mdsabbiralmamon/myJourneyFor2024/tree/main/Web_day9_ResponsiveLayout/README.md">✨ What I have Learned and did 9th January?</a>
 
