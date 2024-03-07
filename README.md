@@ -1,5 +1,5 @@
 <p align="center">
-  <a href="#"><img src="https://cdn.discordapp.com/attachments/1117616249984258109/1191351722514321428/web-logo.png"></a>
+  <a href="#"><img src="https://raw.githubusercontent.com/mdsabbiralmamon/myJourneyFor2024/main/My_Practice_Projects/src/images/web-logo.png"></a>
 </p>
 
 ---
