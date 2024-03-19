@@ -431,3 +431,72 @@ Remember to handle loading states and error states appropriately, especially whe
 
 ---
 
+## 45-5 Dynamic Route With Params And Load Single User Data
+
+To load single user data based on dynamic route parameters in React Router, you can combine dynamic route parameters with data loading techniques. Here's how you can achieve this:
+
+### Dynamic Route with Params:
+
+In React Router, you can define dynamic route parameters by placing a colon (`:`) before the parameter name in the route path. For example:
+
+```jsx
+<Route path="/users/:userId" component={UserDetail} />
+```
+
+### Load Single User Data:
+
+You can create a loader function that fetches data for a specific user based on the `userId` parameter provided in the route. Here's an example loader function:
+
+```jsx
+async function loadUserData(params) {
+  const response = await fetch(`https://api.example.com/users/${params.userId}`);
+  if (!response.ok) {
+    throw new Error('Failed to fetch user data');
+  }
+  return await response.json();
+}
+```
+
+### Use `useLoaderData` Hook:
+
+Inside your `UserDetail` component, you can use the `useLoaderData` hook provided by React Router to access the loaded user data.
+
+```jsx
+import { useLoaderData } from 'react-router-dom';
+
+function UserDetail() {
+  const userData = useLoaderData();
+  
+  return (
+    <div>
+      <h2>User Detail</h2>
+      <p>Name: {userData.name}</p>
+      <p>Email: {userData.email}</p>
+      {/* Render other user details */}
+    </div>
+  );
+}
+```
+
+### Integration:
+
+Finally, you can integrate the loader function and the dynamic route by using the `Loader` component provided by React Router. Here's how you can do it:
+
+```jsx
+import { Loader } from 'react-router-dom';
+
+function UserDetailRoute() {
+  return (
+    <Loader load={(params) => loadUserData(params)}>
+      {(userData) => <UserDetail userData={userData} />}
+    </Loader>
+  );
+}
+```
+
+In this example, the `Loader` component loads the user data by calling the `loadUserData` function with the `userId` parameter extracted from the route. Once the data is loaded, it's passed to the `UserDetail` component as a prop.
+
+This approach ensures that user data is loaded dynamically based on the route parameters and is available for rendering in the `UserDetail` component. Make sure to handle loading states and error states appropriately in your components.
+
+---
+
