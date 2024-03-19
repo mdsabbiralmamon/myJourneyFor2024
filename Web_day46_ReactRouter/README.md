@@ -581,4 +581,90 @@ This approach provides a robust mechanism for handling dynamic routes and loadin
 ---
 
 
+## 45-7 Navigate On Click, UseNavigate, Not Found And UseParams
+
+Certainly! Let's recap the concepts of navigating on click, using `useNavigate`, handling not found routes, and accessing route parameters with `useParams` in React Router:
+
+### Navigate On Click:
+
+In React Router, you can navigate programmatically by using the `useNavigate` hook, which provides a function to navigate to different routes.
+
+```jsx
+import { useNavigate } from 'react-router-dom';
+
+function MyComponent() {
+  const navigate = useNavigate();
+
+  function handleClick() {
+    // Navigate to a different route
+    navigate('/destination-route');
+  }
+
+  return (
+    <button onClick={handleClick}>Navigate</button>
+  );
+}
+```
+
+### useNavigate Hook:
+
+The `useNavigate` hook provides a function to navigate to different routes programmatically within your React components.
+
+```jsx
+import { useNavigate } from 'react-router-dom';
+
+function MyComponent() {
+  const navigate = useNavigate();
+
+  function handleClick() {
+    navigate('/destination-route');
+  }
+
+  return (
+    <button onClick={handleClick}>Navigate</button>
+  );
+}
+```
+
+### Not Found Route:
+
+React Router allows you to define a fallback or not found route to handle cases where no matching route is found for the current URL.
+
+```jsx
+<Route path="*" element={<NotFound />} />
+```
+
+### useParams Hook:
+
+The `useParams` hook allows you to access the parameters from the current route's URL.
+
+```jsx
+import { useParams } from 'react-router-dom';
+
+function UserProfile() {
+  const { userId } = useParams();
+
+  return (
+    <div>
+      <h1>User Profile</h1>
+      <p>User ID: {userId}</p>
+    </div>
+  );
+}
+```
+
+### Recap:
+
+- **Navigate On Click:** Use the `useNavigate` hook to programmatically navigate to different routes in response to user actions, such as button clicks.
+  
+- **useNavigate Hook:** Provides a function to navigate to different routes programmatically within React components.
+
+- **Not Found Route:** Define a not found route using a wildcard (`*`) path to handle cases where no matching route is found for the current URL.
+
+- **useParams Hook:** Allows access to parameters from the current route's URL, making it easy to access dynamic route parameters and use them within your components.
+
+These features provided by React Router enable seamless navigation, handling of not found routes, and accessing dynamic route parameters, enhancing the user experience and flexibility of your React applications.
+
+---
+
 ## 
