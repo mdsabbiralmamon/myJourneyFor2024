@@ -667,4 +667,103 @@ These features provided by React Router enable seamless navigation, handling of 
 
 ---
 
+## 45-8 Active Route, Loading Spinner, UseLocation, UseNavigation
+
+Certainly! Let's recap the concepts of active route highlighting, displaying a loading spinner, and using the `useLocation` and `useNavigation` hooks in React Router:
+
+### Active Route:
+
+In React Router, you can highlight the active route in your navigation by using the `NavLink` component and providing it an `activeClassName` or `activeStyle` prop.
+
+```jsx
+import { NavLink } from 'react-router-dom';
+
+function Navbar() {
+  return (
+    <nav>
+      <ul>
+        <li><NavLink to="/" exact activeClassName="active">Home</NavLink></li>
+        <li><NavLink to="/about" activeClassName="active">About</NavLink></li>
+        <li><NavLink to="/contact" activeClassName="active">Contact</NavLink></li>
+      </ul>
+    </nav>
+  );
+}
+```
+
+### Loading Spinner:
+
+You can display a loading spinner while data is being fetched or while waiting for a route to load by conditionally rendering a spinner component based on a loading state.
+
+```jsx
+import Spinner from './Spinner';
+
+function MyComponent() {
+  const [loading, setLoading] = useState(true);
+
+  useEffect(() => {
+    // Fetch data or perform async operation
+    setLoading(false); // Set loading to false when data is loaded
+  }, []);
+
+  return (
+    <div>
+      {loading ? <Spinner /> : <Content />}
+    </div>
+  );
+}
+```
+
+### useLocation Hook:
+
+The `useLocation` hook provides access to the current location (URL) in your React components.
+
+```jsx
+import { useLocation } from 'react-router-dom';
+
+function MyComponent() {
+  const location = useLocation();
+  
+  return (
+    <div>
+      Current URL: {location.pathname}
+    </div>
+  );
+}
+```
+
+### useNavigate Hook:
+
+The `useNavigate` hook provides a function to navigate to different routes programmatically within React components.
+
+```jsx
+import { useNavigate } from 'react-router-dom';
+
+function MyComponent() {
+  const navigate = useNavigate();
+
+  function handleClick() {
+    navigate('/destination-route');
+  }
+
+  return (
+    <button onClick={handleClick}>Navigate</button>
+  );
+}
+```
+
+### Recap:
+
+- **Active Route:** Use the `NavLink` component to highlight the active route in your navigation by providing it an `activeClassName` or `activeStyle` prop.
+  
+- **Loading Spinner:** Display a loading spinner while data is being fetched or while waiting for a route to load by conditionally rendering a spinner component based on a loading state.
+
+- **useLocation Hook:** Provides access to the current location (URL) in your React components.
+
+- **useNavigate Hook:** Provides a function to navigate to different routes programmatically within React components.
+
+These features provided by React Router help enhance the user experience by highlighting the active route, displaying loading indicators, and navigating programmatically within your application.
+
+---
+
 ## 
