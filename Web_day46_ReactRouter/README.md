@@ -500,3 +500,85 @@ This approach ensures that user data is loaded dynamically based on the route pa
 
 ---
 
+## 45-6 (Recap) Dynamic Route, Params And Load Dynamic Data
+
+Sure, let's recap the process of creating a dynamic route with parameters and loading dynamic data based on those parameters in React Router:
+
+### Dynamic Route with Params:
+
+1. **Route Definition:**
+   - Define a dynamic route with parameters in your React Router setup. Use a colon (`:`) followed by the parameter name in the route path.
+
+   ```jsx
+   <Route path="/users/:userId" component={UserDetail} />
+   ```
+
+2. **Accessing Params:**
+   - Access the parameters from the route within your component using the `useParams` hook provided by React Router.
+
+   ```jsx
+   import { useParams } from 'react-router-dom';
+
+   function UserDetail() {
+     const { userId } = useParams();
+     // Use userId to fetch user data
+   }
+   ```
+
+### Load Dynamic Data:
+
+1. **Loader Function:**
+   - Define a loader function that fetches data based on the dynamic parameter from the route.
+
+   ```jsx
+   async function loadUserData(userId) {
+     const response = await fetch(`https://api.example.com/users/${userId}`);
+     if (!response.ok) {
+       throw new Error('Failed to fetch user data');
+     }
+     return await response.json();
+   }
+   ```
+
+2. **UseLoaderData Hook:**
+   - Use the `useLoaderData` hook provided by React Router to access the loaded data within your component.
+
+   ```jsx
+   import { useLoaderData } from 'react-router-dom';
+
+   function UserDetail() {
+     const { userId } = useParams();
+     const userData = useLoaderData();
+     // Use userData to render user details
+   }
+   ```
+
+3. **Integration:**
+   - Integrate the loader function and dynamic route parameters using the `Loader` component provided by React Router.
+
+   ```jsx
+   import { Loader } from 'react-router-dom';
+
+   function UserDetailRoute() {
+     return (
+       <Loader load={() => loadUserData(userId)}>
+         {(userData) => <UserDetail userData={userData} />}
+       </Loader>
+     );
+   }
+   ```
+
+### Recap:
+
+- **Dynamic routing with parameters** allows your application to render different components based on the URL.
+- **UseParams** hook enables access to the dynamic parameters from the route.
+- **Loader functions** fetch dynamic data based on the parameters.
+- **UseLoaderData** hook allows components to access the dynamically loaded data.
+- **Loader** component integrates dynamic data loading with React Router, ensuring that data is fetched before rendering the component.
+
+This approach provides a robust mechanism for handling dynamic routes and loading dynamic data in your React Router-based application.
+
+---
+
+
+## 
