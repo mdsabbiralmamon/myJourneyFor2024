@@ -73,3 +73,64 @@ With this setup, you have a form component in a Vite React project that handles 
 
 ---
 
+## 46-2 Form With State To Get Value And Set Default Value
+
+To create a form with state in React to get field values and set default values, you can use the useState hook to manage the form state. Here's an example of how you can achieve this:
+
+```jsx
+import React, { useState } from 'react';
+
+function FormWithState() {
+  // Define state variables for form fields
+  const [formData, setFormData] = useState({
+    name: '',
+    email: ''
+  });
+
+  // Function to handle changes in form fields
+  const handleChange = (e) => {
+    const { name, value } = e.target;
+    setFormData({ ...formData, [name]: value });
+  };
+
+  // Function to handle form submission
+  const handleSubmit = (e) => {
+    e.preventDefault();
+    console.log("Form submitted:", formData);
+    // You can perform additional actions here, such as sending data to a server
+  };
+
+  return (
+    <form onSubmit={handleSubmit}>
+      <label htmlFor="name">Name:</label><br />
+      <input type="text" id="name" name="name" value={formData.name} onChange={handleChange} /><br />
+      <label htmlFor="email">Email:</label><br />
+      <input type="email" id="email" name="email" value={formData.email} onChange={handleChange} /><br /><br />
+      <button type="submit">Submit</button>
+    </form>
+  );
+}
+
+export default FormWithState;
+```
+
+In this example:
+
+- We use the `useState` hook to define state variables `formData`, which holds the values of the form fields.
+- The `handleChange` function updates the `formData` state whenever a user types into the input fields.
+- The `handleSubmit` function is called when the form is submitted, preventing the default form submission behavior and logging the form data.
+
+To set default values for the form fields, you can initialize the state with the default values:
+
+```jsx
+const [formData, setFormData] = useState({
+  name: 'John Doe',
+  email: 'john@example.com'
+});
+```
+
+With this setup, the form will render with the default values provided. Users can then modify these values, and the form state will update accordingly. When the form is submitted, you can access the submitted values from the `formData` state.
+
+---
+
+## 
