@@ -280,4 +280,85 @@ Each approach has its use cases, and the choice between controlled and uncontrol
 ---
 
 
+## 46-4 Custom Hook And Create Your First Custom Hook
+
+Creating custom hooks in React allows you to encapsulate logic and reuse it across different components. Let's create a simple custom hook that manages the state of a form input:
+
+```jsx
+import { useState } from 'react';
+
+// Custom hook for managing form input state
+function useFormInput(initialValue) {
+  const [value, setValue] = useState(initialValue);
+
+  // Function to handle changes in input value
+  const handleChange = (event) => {
+    setValue(event.target.value);
+  };
+
+  // Function to reset the input value
+  const reset = () => {
+    setValue(initialValue);
+  };
+
+  // Return value and change handler
+  return {
+    value,
+    onChange: handleChange,
+    reset
+  };
+}
+
+export default useFormInput;
+```
+
+Now, let's use this custom hook in a component:
+
+```jsx
+import React from 'react';
+import useFormInput from './useFormInput';
+
+function MyComponent() {
+  // Using the custom hook to manage input state
+  const nameInput = useFormInput('');
+  const emailInput = useFormInput('');
+
+  // Function to handle form submission
+  const handleSubmit = (e) => {
+    e.preventDefault();
+    console.log("Name:", nameInput.value);
+    console.log("Email:", emailInput.value);
+    // You can perform additional actions here, such as sending data to a server
+
+    // Reset form inputs after submission
+    nameInput.reset();
+    emailInput.reset();
+  };
+
+  return (
+    <form onSubmit={handleSubmit}>
+      <label htmlFor="name">Name:</label><br />
+      <input type="text" id="name" {...nameInput} /><br />
+      <label htmlFor="email">Email:</label><br />
+      <input type="email" id="email" {...emailInput} /><br /><br />
+      <button type="submit">Submit</button>
+    </form>
+  );
+}
+
+export default MyComponent;
+```
+
+In this example:
+
+- We define a custom hook `useFormInput` that manages the state of a form input.
+- The custom hook returns an object containing the input value, a change handler (`onChange`), and a reset function.
+- We use the `useFormInput` hook in the `MyComponent` component to manage the state of the name and email inputs.
+- We spread the returned object (`nameInput` and `emailInput`) onto the respective input elements, which binds the input value and change handler.
+- When the form is submitted, we access the input values from the custom hook's state, and after submission, we reset the input values using the `reset` function provided by the custom hook.
+
+This is a basic example of how you can create and use a custom hook in React to manage form input state. Custom hooks allow you to encapsulate reusable logic and keep your components clean and focused on rendering UI.
+
+---
+
 ## 
