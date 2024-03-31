@@ -1,4 +1,11 @@
+import { useContext } from "react";
+import { AuthContext } from "../../../providers/AuthProvider";
+import { useNavigate } from "react-router-dom";
+
 const SignIn = () => {
+    const { signInUser, googleSignIn } = useContext(AuthContext);
+    const navigate = useNavigate();
+
     const handleSubmit = e => {
         e.preventDefault();
 
@@ -6,8 +13,38 @@ const SignIn = () => {
         const email = e.target.email.value;
         const password = e.target.password.value;
 
-        console.log('submitted', email, password);
+        //sign in user
+        signInUser(email, password)
+            .then((userCredential) => {
+                // Signed in 
+                const user = userCredential.user;
+                e.target.reset();
+                navigate("/");
+                console.log(user);
+            })
+            .catch((error) => {
+                const errorCode = error.code;
+                const errorMessage = error.message;
+                console.log(errorCode, errorMessage);
+            });
     }
+
+    const handleGoogleSignIn = () =>{
+        //sign in with google
+        googleSignIn()
+        .then((userCredential) => {
+            // Signed in 
+            const user = userCredential.user;
+            navigate("/");
+            console.log(user);
+        })
+        .catch((error) => {
+            const errorCode = error.code;
+            const errorMessage = error.message;
+            console.log(errorCode, errorMessage);
+        });
+    }
+
     return (
         <div>
             <div className="hero min-h-screen bg-base-200">
@@ -38,6 +75,7 @@ const SignIn = () => {
                                 <p className="text-center mt-4">New to site ? <a className="underline" href="/signUp">SignUp</a> now.</p>
                             </div>
                         </form>
+                        <button onClick={handleGoogleSignIn} className="btn btn-neutral mx-8 mb-8">Sign in with Google</button>
                     </div>
                 </div>
             </div>

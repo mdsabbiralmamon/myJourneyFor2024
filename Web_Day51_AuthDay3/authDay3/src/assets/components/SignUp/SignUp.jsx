@@ -1,4 +1,9 @@
+import { useContext } from "react";
+import { AuthContext } from "../../../providers/AuthProvider";
+
 const SignUp = () => {
+    const { createUser } = useContext(AuthContext);
+
     const handleSubmit = e => {
         e.preventDefault();
 
@@ -6,6 +11,19 @@ const SignUp = () => {
         const name = e.target.name.value;
         const email = e.target.email.value;
         const password = e.target.password.value;
+
+        //create user
+        createUser(email, password)
+            .then((userCredential) => {
+                // Signed up 
+                const user = userCredential.user;
+                console.log(user);
+            })
+            .catch((error) => {
+                const errorCode = error.code;
+                const errorMessage = error.message;
+                console.log(errorCode, errorMessage);
+            });
 
         console.log('submitted', name, email, password);
     }
